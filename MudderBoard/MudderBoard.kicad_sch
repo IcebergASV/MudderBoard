@@ -1,5 +1,19 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cdf98bf7-80ce-4b13-b655-e6c7c589c122")
+	(paper "A4")
+	(title_block
+		(title "MudderBoard")
+		(date "2024-02-28")
+		(rev "1")
+		(company "Iceberg ASV")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
