@@ -34,6 +34,17 @@
 		)
 		(uuid "6bf402af-2a3a-4712-8567-db739247f354")
 	)
+	(label "woohoo me and ty got it"
+		(at 40.64 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cda0686e-5d1f-47f4-baea-557839981b5c")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
