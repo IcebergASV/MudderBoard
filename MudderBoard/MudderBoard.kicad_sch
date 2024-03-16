@@ -14147,27 +14147,43 @@
 			"AAAAAAAAAAAAAAAAAAAAAGdq1Gq1Zv+Pr2MAAAAASUVORK5CYII="
 		)
 	)
-	(label "Ben"
-		(at 20.32 24.13 0)
+	(sheet
+		(at 68.58 39.37)
+		(size 63.5 36.83)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+		(stroke
+			(width 0.1524)
+			(type solid)
 		)
-		(uuid "6bf402af-2a3a-4712-8567-db739247f354")
-	)
-	(label "Ty"
-		(at 20.32 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+		(fill
+			(color 0 0 0 0.0000)
 		)
-		(uuid "cda0686e-5d1f-47f4-baea-557839981b5c")
+		(uuid "86bd7edb-9c3d-421e-84f7-984954447f61")
+		(property "Sheetname" "LiDar"
+			(at 68.58 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 68.58 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "2")
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"

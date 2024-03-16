@@ -385,6 +385,10 @@
     [
       "cdf98bf7-80ce-4b13-b655-e6c7c589c122",
       "Root"
+    ],
+    [
+      "86bd7edb-9c3d-421e-84f7-984954447f61",
+      "LiDar"
     ]
   ],
   "text_variables": {}
