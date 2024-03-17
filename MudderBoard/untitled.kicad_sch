@@ -5,6 +5,120 @@
 	(uuid "67e25081-74d1-4b4d-b96c-459a67b7d556")
 	(paper "A4")
 	(lib_symbols
+		(symbol "GCM188R71C274KA37D:GCM188R71C274KA37D"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 3.8109 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GCM188R71C274KA37D"
+				(at 0 -5.0885 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "GCM188R71C274KA37D:CAPC1608X90N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GCM188R71C274KA37D_0_0"
+				(rectangle
+					(start 0 -1.9069)
+					(end 0.635 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.9069 -1.9069)
+					(end 2.54 1.905)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "GRM188R6YA225MA12D:GRM188R6YA225MA12D"
 			(pin_names
 				(offset 1.016)
@@ -127,7 +241,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U1"
-				(at 30.48 10.16 0)
+				(at 29.972 -17.78 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -135,7 +249,7 @@
 				)
 			)
 			(property "Value" "LM51231QRGRRQ1"
-				(at 30.48 7.62 0)
+				(at 29.972 -20.828 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -153,7 +267,7 @@
 				)
 			)
 			(property "Datasheet" "LM51231QRGRRQ1"
-				(at 0 0 0)
+				(at 2.286 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -301,7 +415,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -15.24 0)
+					(at 0 -24.13 0)
 					(length 5.08)
 					(name "MODE"
 						(effects
@@ -319,7 +433,7 @@
 					)
 				)
 				(pin input line
-					(at 0 -7.62 0)
+					(at 0 -17.78 0)
 					(length 5.08)
 					(name "UVLO_EN"
 						(effects
@@ -355,7 +469,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -22.86 0)
+					(at 1.27 -3.81 0)
 					(length 5.08)
 					(name "RT"
 						(effects
@@ -589,7 +703,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 0 0)
+					(at 30.48 5.08 90)
 					(length 5.08)
 					(name "BIAS"
 						(effects
@@ -607,7 +721,7 @@
 					)
 				)
 				(pin power_in line
-					(at 60.96 -48.26 180)
+					(at 0 1.27 0)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -620,6 +734,206 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RLP73M2BR043JTD:RLP73M2BR043JTD"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -7.6244 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RLP73M2BR043JTD"
+				(at -7.63 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "RLP73M2BR043JTD:RESC3115X65N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RLP73M2BR043JTD_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.445 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 1.905) (xy -3.175 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.905) (xy -1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 1.905 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.905) (xy 3.175 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -1.905) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1999,13 +2313,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 58.42) (xy 172.72 58.42)
+			(xy 214.63 39.37) (xy 171.45 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "42626209-54c8-488c-b85a-d02d93051e0e")
+	)
+	(wire
+		(pts
+			(xy 214.63 59.69) (xy 214.63 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462fcc25-4c68-439d-ba99-714e7d8f3d47")
 	)
 	(wire
 		(pts
@@ -2016,6 +2340,16 @@
 			(type default)
 		)
 		(uuid "4681be25-c7ae-462a-a0cd-ae888870a5b5")
+	)
+	(wire
+		(pts
+			(xy 172.72 66.04) (xy 187.96 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54648ecd-64e1-4467-a25a-e91065e1fbfa")
 	)
 	(wire
 		(pts
@@ -2318,6 +2652,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 187.96 73.66 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3694fc66-6425-4e68-af9f-e0a9c26485ea")
+		(property "Reference" "#PWR08"
+			(at 187.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79a238f8-d60a-46ee-8d7f-a7338df7d59a")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GRM188R6YA225MA12D:GRM188R6YA225MA12D")
 		(at 38.1 27.94 270)
 		(unit 1)
@@ -2383,6 +2784,75 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RLP73M2BR043JTD:RLP73M2BR043JTD")
+		(at 48.26 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48b200ca-2852-45fb-a0e8-0974b5383c3c")
+		(property "Reference" "R2"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "43m"
+			(at 48.26 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RLP73M2BR043JTD:RESC3115X65N"
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db9eab2a-0f58-44d0-906c-4b813b386bf4")
+		)
+		(pin "2"
+			(uuid "9fda2d23-6a3a-4360-927c-3cdf06f9ab8a")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2533,7 +3003,7 @@
 		(dnp no)
 		(uuid "6ac4184e-31ba-4c59-b065-18b3c32234a8")
 		(property "Reference" "U1"
-			(at 142.24 25.4 0)
+			(at 142.748 53.34 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2541,7 +3011,7 @@
 			)
 		)
 		(property "Value" "LM51231QRGRRQ1"
-			(at 142.24 27.94 0)
+			(at 142.748 56.388 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2559,7 +3029,7 @@
 			)
 		)
 		(property "Datasheet" "LM51231QRGRRQ1"
-			(at 172.72 35.56 0)
+			(at 170.434 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +3121,7 @@
 	)
 	(symbol
 		(lib_id "RT0603DRE0749K3L:RT0603DRE0749K3L")
-		(at 195.58 68.58 90)
+		(at 214.63 49.53 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2661,7 +3131,7 @@
 		(fields_autoplaced yes)
 		(uuid "84a84b9e-e48b-4e15-ab75-363e687ceae0")
 		(property "Reference" "R1"
-			(at 191.77 67.3099 90)
+			(at 210.82 48.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +3140,7 @@
 			)
 		)
 		(property "Value" "49.3k"
-			(at 191.77 69.8499 90)
+			(at 210.82 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +3149,7 @@
 			)
 		)
 		(property "Footprint" "RT0603DRE0749K3L:RESC1608X55N"
-			(at 195.58 68.58 0)
+			(at 214.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +3159,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 68.58 0)
+			(at 214.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +3168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 68.58 0)
+			(at 214.63 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,6 +3323,77 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GCM188R71C274KA37D:GCM188R71C274KA37D")
+		(at 187.96 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97ffbd1e-cfd8-4b49-a35f-a3bbfb204967")
+		(property "Reference" "C5"
+			(at 191.77 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GCM188R71C274KA37D"
+			(at 191.77 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GCM188R71C274KA37D:CAPC1608X90N"
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfbbc85f-a0d9-4e05-8a0a-cad5362d7c05")
+		)
+		(pin "1"
+			(uuid "5c3db90b-846e-4a54-b27d-c0cd82bc0d6a")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3064,78 +3605,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RT0603DRE0749K3L:RT0603DRE0749K3L")
-		(at 48.26 58.42 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4f7e587-e1ba-47a6-a702-ed9bdfc1febc")
-		(property "Reference" "R2"
-			(at 48.26 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "49.3k"
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RT0603DRE0749K3L:RESC1608X55N"
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "322e7745-7335-445b-9abc-af7fe6de0a6d")
-		)
-		(pin "1"
-			(uuid "35a91a64-6e2f-4fa1-8d73-d4dbb56b995a")
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 195.58 78.74 0)
+		(at 214.63 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3145,7 +3616,7 @@
 		(fields_autoplaced yes)
 		(uuid "f483f33c-734c-4119-b54e-516c20fff1e7")
 		(property "Reference" "#PWR01"
-			(at 195.58 85.09 0)
+			(at 214.63 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3625,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 83.82 0)
+			(at 214.63 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 78.74 0)
+			(at 214.63 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 78.74 0)
+			(at 214.63 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,7 +3651,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 78.74 0)
+			(at 214.63 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
