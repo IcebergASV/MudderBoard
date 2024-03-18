@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LM51231QRGRRQ1")(type "KiCad")(uri "${KIPRJMOD}/Components/LM51231QRGRRQ1/LM51231QRGRRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "RT0603DRE0749K3L")(type "KiCad")(uri "${KIPRJMOD}/Components/RT0603DRE0749K3L/RT0603DRE0749K3L.kicad_sym")(options "")(descr ""))
+  (lib (name "SD6030_270_R")(type "KiCad")(uri "${KIPRJMOD}/Components/SD6030_270_R/KiCADv6/SD6030_270_R.kicad_sym")(options "")(descr ""))
+  (lib (name "TAJB475K035RNJ")(type "KiCad")(uri "${KIPRJMOD}/Components/TAJB475K035RNJ/KiCADv6/TAJB475K035RNJ.kicad_sym")(options "")(descr ""))
+  (lib (name "GRM188R6YA225MA12D")(type "KiCad")(uri "${KIPRJMOD}/Components/GRM188R6YA225MA12D/GRM188R6YA225MA12D.kicad_sym")(options "")(descr ""))
+  (lib (name "RLP73M2BR043JTD")(type "KiCad")(uri "${KIPRJMOD}/Components/RLP73M2BR043JTD/RLP73M2BR043JTD.kicad_sym")(options "")(descr ""))
+  (lib (name "GCM188R71C274KA37D")(type "KiCad")(uri "${KIPRJMOD}/Components/GCM188R71C274KA37D/GCM188R71C274KA37D.kicad_sym")(options "")(descr ""))
+)
