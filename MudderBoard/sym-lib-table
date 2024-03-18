@@ -7,4 +7,5 @@
   (lib (name "GRM188R6YA225MA12D")(type "KiCad")(uri "${KIPRJMOD}/Components/GRM188R6YA225MA12D/GRM188R6YA225MA12D.kicad_sym")(options "")(descr ""))
   (lib (name "RLP73M2BR043JTD")(type "KiCad")(uri "${KIPRJMOD}/Components/RLP73M2BR043JTD/RLP73M2BR043JTD.kicad_sym")(options "")(descr ""))
   (lib (name "GCM188R71C274KA37D")(type "KiCad")(uri "${KIPRJMOD}/Components/GCM188R71C274KA37D/GCM188R71C274KA37D.kicad_sym")(options "")(descr ""))
+  (lib (name "RC0603FR_077K5L")(type "KiCad")(uri "${KIPRJMOD}/Components/RC0603FR_077K5L/KiCADv6/RC0603FR_077K5L.kicad_sym")(options "")(descr ""))
 )
