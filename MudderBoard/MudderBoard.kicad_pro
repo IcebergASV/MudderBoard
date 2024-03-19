@@ -389,6 +389,30 @@
     [
       "86bd7edb-9c3d-421e-84f7-984954447f61",
       "LiDar"
+    ],
+    [
+      "61ae400d-8955-4780-b949-ad242836be57",
+      "Wifi Bullet"
+    ],
+    [
+      "41561d6f-b1f1-479e-8870-aabcff3c96a6",
+      "ESC"
+    ],
+    [
+      "0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c",
+      "Pixhawk"
+    ],
+    [
+      "674dd553-7765-4ece-a996-68b5361f64e2",
+      "Jetson"
+    ],
+    [
+      "2faaa147-dd96-42bc-9368-d8d5a5d683de",
+      "PWM-DC"
+    ],
+    [
+      "aec07e03-6c5f-42d9-8ce1-11e014a87aac",
+      "Battery Monitor"
     ]
   ],
   "text_variables": {}

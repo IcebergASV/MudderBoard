@@ -10,6 +10,295 @@
 		(rev "1")
 	)
 	(lib_symbols)
+	(polyline
+		(pts
+			(xy 93.98 74.93) (xy 109.22 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "005f8b4b-b77c-4c32-8b35-ae24d827c078")
+	)
+	(polyline
+		(pts
+			(xy 72.39 58.42) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020da1b2-34f9-49fb-aae6-ccb7e2808dcc")
+	)
+	(polyline
+		(pts
+			(xy 167.64 49.53) (xy 167.64 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03570110-f0a4-478a-a78d-d2c096786816")
+	)
+	(polyline
+		(pts
+			(xy 72.39 29.21) (xy 157.48 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07003e74-554a-4762-8b87-7c7ffcb7ac6c")
+	)
+	(polyline
+		(pts
+			(xy 101.6 69.85) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0906a562-60d6-4407-8704-10dfde24b2ed")
+	)
+	(polyline
+		(pts
+			(xy 109.22 74.93) (xy 109.22 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0cdfac30-3074-418c-bd97-346c1b4adbf0")
+	)
+	(polyline
+		(pts
+			(xy 83.82 151.13) (xy 127 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1b27f690-a6e9-4571-8623-deeba2921e34")
+	)
+	(polyline
+		(pts
+			(xy 109.22 64.77) (xy 144.78 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "26378bf2-36bc-4e39-bd73-8795f6e7ba40")
+	)
+	(polyline
+		(pts
+			(xy 157.48 29.21) (xy 157.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "281b5844-9cd5-4d87-8f02-710fbf8e59ab")
+	)
+	(polyline
+		(pts
+			(xy 144.78 57.15) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9ec99f-6a33-457a-8d56-2924256f7a51")
+	)
+	(polyline
+		(pts
+			(xy 90.17 90.17) (xy 90.17 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2e10595d-4474-4aef-96bc-09a66aabd3f4")
+	)
+	(polyline
+		(pts
+			(xy 93.98 78.74) (xy 144.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3429ba8d-c38a-4bc6-b767-e45b24869a76")
+	)
+	(polyline
+		(pts
+			(xy 134.62 134.62) (xy 144.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4e28c3b3-fcee-49de-a262-14f99b9d3b87")
+	)
+	(polyline
+		(pts
+			(xy 90.17 134.62) (xy 134.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5c20b02e-8d99-43b3-8d74-12ea7b0d7751")
+	)
+	(polyline
+		(pts
+			(xy 234.95 93.98) (xy 234.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845dd796-4132-458f-8039-51c5d3c6d19e")
+	)
+	(polyline
+		(pts
+			(xy 144.78 115.57) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "99ae7dc5-7414-41b2-999e-c3ab048b15b1")
+	)
+	(polyline
+		(pts
+			(xy 102.87 115.57) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9ec0f936-cde3-4cbc-8a87-d809d13f8b5d")
+	)
+	(polyline
+		(pts
+			(xy 127 151.13) (xy 144.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a64773ae-58ca-4180-b557-2325985adfee")
+	)
+	(polyline
+		(pts
+			(xy 166.37 19.05) (xy 166.37 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa430e1d-9757-4d2d-be32-087cdcc79ff0")
+	)
+	(polyline
+		(pts
+			(xy 72.39 19.05) (xy 166.37 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20184bc-a4ba-4392-9202-7d98f3546185")
+	)
+	(polyline
+		(pts
+			(xy 83.82 90.17) (xy 83.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "bf8221fe-c991-4d77-820f-687116a28dba")
+	)
+	(polyline
+		(pts
+			(xy 93.98 87.63) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "cac7708f-058e-4730-a204-f5c17d294bf2")
+	)
+	(polyline
+		(pts
+			(xy 144.78 99.06) (xy 109.22 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "cb5736cd-4a98-4cc9-90ed-cbc9897cb0f0")
+	)
+	(polyline
+		(pts
+			(xy 109.22 99.06) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ccd61200-f8ae-4fff-8877-87f1ae19673d")
+	)
+	(polyline
+		(pts
+			(xy 93.98 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "d0e31d2d-14d7-40ba-925e-74d4241543ab")
+	)
+	(polyline
+		(pts
+			(xy 101.6 43.18) (xy 144.78 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e23304fd-d71f-44c3-a611-d88e1c0fedef")
+	)
+	(polyline
+		(pts
+			(xy 93.98 83.82) (xy 109.22 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e581e350-3cc6-4f1a-904c-0b0f08c5bb0d")
+	)
 	(image
 		(at 185.42 173.99)
 		(scale 0.0139581)
@@ -14147,9 +14436,451 @@
 			"AAAAAAAAAAAAAAAAAAAAAGdq1Gq1Zv+Pr2MAAAAASUVORK5CYII="
 		)
 	)
+	(text_box "PWM CH2"
+		(exclude_from_sim no)
+		(at 31.75 16.51 0)
+		(size 40.64 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "3ab9ff28-17e6-436d-a81b-0043696915f1")
+	)
+	(text_box "PWM CH5"
+		(exclude_from_sim no)
+		(at 31.75 54.61 0)
+		(size 40.64 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "44be8f68-039f-4e78-ac10-5084519f8fca")
+	)
+	(text_box "Pixhawk (5V)"
+		(exclude_from_sim no)
+		(at 144.78 129.54 0)
+		(size 52.07 12.7)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4.445 4.445)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "47f18d48-3197-4435-a052-930e71df2ecd")
+	)
+	(text_box "Jetson (12V)"
+		(exclude_from_sim no)
+		(at 144.78 91.44 0)
+		(size 50.8 12.7)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4.445 4.445)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4bb62830-adc5-42a5-aebc-d993d138f8bf")
+	)
+	(text_box "LiDar (24V)"
+		(exclude_from_sim no)
+		(at 144.78 72.39 0)
+		(size 45.72 12.7)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4.445 4.445)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5bb6a5ea-d0e4-4b82-995b-da80d952b9a0")
+	)
+	(text_box "PWM-DC"
+		(exclude_from_sim no)
+		(at 144.78 55.88 0)
+		(size 44.45 12.7)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4.445 4.445)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "65ff8c00-9715-48e8-a577-07dac02c53bd")
+	)
+	(text_box "Battery Monitor"
+		(exclude_from_sim no)
+		(at 144.78 147.32 0)
+		(size 59.69 12.7)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4.445 4.445)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "72d1a19a-4785-4864-8131-fa67b6c3068a")
+	)
+	(text_box "ESC (20V)"
+		(exclude_from_sim no)
+		(at 144.78 36.83 0)
+		(size 44.45 12.7)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4.445 4.445)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "80507e40-30e2-4506-b87f-35a433b97675")
+	)
+	(text_box "Battery Supply (14.8V Nominal)"
+		(exclude_from_sim no)
+		(at 22.86 67.31 0)
+		(size 71.12 22.86)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify top)
+		)
+		(uuid "8405a6ad-27de-4d7d-81ba-9ef1554f7faf")
+	)
+	(text_box "PWM CH3"
+		(exclude_from_sim no)
+		(at 31.75 26.67 0)
+		(size 40.64 6.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify top)
+		)
+		(uuid "b7eada89-80bd-46bf-87bc-b671ad80c09a")
+	)
+	(text_box "Wifi (22-24V)"
+		(exclude_from_sim no)
+		(at 144.78 110.49 0)
+		(size 57.15 12.7)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 4.445 4.445)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "d449a5cb-0854-441d-9893-ff0705888fbf")
+	)
+	(text "Schematic:"
+		(exclude_from_sim no)
+		(at 247.65 20.574 0)
+		(effects
+			(font
+				(size 4.445 4.445)
+				(bold yes)
+			)
+		)
+		(uuid "b2699f73-a4c5-44b1-a1dd-2a48642c5d90")
+	)
 	(sheet
-		(at 68.58 39.37)
-		(size 63.5 36.83)
+		(at 234.95 113.03)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c")
+		(property "Sheetname" "Pixhawk"
+			(at 234.95 111.6834 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pixhawk.kicad_sch"
+			(at 234.95 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 147.32)
+		(size 25.4 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2faaa147-dd96-42bc-9368-d8d5a5d683de")
+		(property "Sheetname" "PWM-DC"
+			(at 234.95 145.9734 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm-dc.kicad_sch"
+			(at 234.95 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 36.83)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "41561d6f-b1f1-479e-8870-aabcff3c96a6")
+		(property "Sheetname" "ESC"
+			(at 234.95 35.4834 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESC.kicad_sch"
+			(at 234.95 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 92.71)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61ae400d-8955-4780-b949-ad242836be57")
+		(property "Sheetname" "Wifi Bullet"
+			(at 234.95 91.3634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wifibullet.kicad_sch"
+			(at 234.95 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 73.66)
+		(size 25.4 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "674dd553-7765-4ece-a996-68b5361f64e2")
+		(property "Sheetname" "Jetson"
+			(at 234.95 72.3134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jetson.kicad_sch"
+			(at 234.95 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 54.61)
+		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -14160,16 +14891,17 @@
 		)
 		(uuid "86bd7edb-9c3d-421e-84f7-984954447f61")
 		(property "Sheetname" "LiDar"
-			(at 68.58 38.6584 0)
+			(at 234.95 53.2634 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 68.58 76.7846 0)
+		(property "Sheetfile" "lidar.kicad_sch"
+			(at 234.95 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14181,6 +14913,45 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 130.81)
+		(size 25.4 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aec07e03-6c5f-42d9-8ce1-11e014a87aac")
+		(property "Sheetname" "Battery Monitor"
+			(at 234.95 129.4634 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battmon.kicad_sch"
+			(at 234.95 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "8")
 				)
 			)
 		)

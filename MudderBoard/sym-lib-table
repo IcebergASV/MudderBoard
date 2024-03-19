@@ -8,4 +8,7 @@
   (lib (name "RLP73M2BR043JTD")(type "KiCad")(uri "${KIPRJMOD}/Components/RLP73M2BR043JTD/RLP73M2BR043JTD.kicad_sym")(options "")(descr ""))
   (lib (name "GCM188R71C274KA37D")(type "KiCad")(uri "${KIPRJMOD}/Components/GCM188R71C274KA37D/GCM188R71C274KA37D.kicad_sym")(options "")(descr ""))
   (lib (name "RC0603FR_077K5L")(type "KiCad")(uri "${KIPRJMOD}/Components/RC0603FR_077K5L/KiCADv6/RC0603FR_077K5L.kicad_sym")(options "")(descr ""))
+  (lib (name "RC0402FR-0714KL")(type "KiCad")(uri "${KIPRJMOD}/Components/RC0402FR_0714KL/KiCADv6/RC0402FR-0714KL.kicad_sym")(options "")(descr ""))
+  (lib (name "RMCF0402FT21K0")(type "KiCad")(uri "${KIPRJMOD}/Components/RMCF0402FT21K0/RMCF0402FT21K0.kicad_sym")(options "")(descr ""))
+  (lib (name "CL21B474KAFNNNG")(type "KiCad")(uri "${KIPRJMOD}/Components/CL21B474KAFNNNG/KiCADv6/CL21B474KAFNNNG.kicad_sym")(options "")(descr ""))
 )
