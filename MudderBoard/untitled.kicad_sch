@@ -18193,6 +18193,10 @@
 					(reference "#PWR013")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "#PWR013")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -18256,6 +18260,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -18331,6 +18339,10 @@
 					(reference "R4")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "R4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -18402,6 +18414,10 @@
 					(reference "C1")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "C1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -18465,6 +18481,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -18536,6 +18556,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "R3")
 					(unit 1)
 				)
@@ -18611,6 +18635,10 @@
 					(reference "C7")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "C7")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -18683,6 +18711,10 @@
 					(reference "C3")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "C3")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -18750,6 +18782,10 @@
 					(reference "#PWR04")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "#PWR04")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -18814,6 +18850,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -18888,6 +18928,10 @@
 					(reference "C2")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "C2")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -18954,6 +18998,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "R2")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "R2")
 					(unit 1)
 				)
@@ -19024,6 +19072,10 @@
 					(reference "#PWR05")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "#PWR05")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19087,6 +19139,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR012")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "#PWR012")
 					(unit 1)
 				)
@@ -19154,6 +19210,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -19283,6 +19343,10 @@
 					(reference "U1")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "U1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19352,6 +19416,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "R6")
 					(unit 1)
 				)
@@ -19427,6 +19495,10 @@
 					(reference "C6")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "C6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19498,6 +19570,10 @@
 					(reference "R1")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "R1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19561,6 +19637,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR03")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -19635,6 +19715,10 @@
 					(reference "L1")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "L1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19705,6 +19789,10 @@
 					(reference "C5")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "C5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19772,6 +19860,10 @@
 					(reference "#PWR07")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "#PWR07")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19836,6 +19928,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -19911,6 +20007,10 @@
 					(reference "C4")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "C4")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -19974,6 +20074,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR02")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -20048,6 +20152,10 @@
 					(reference "R5")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "R5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -20115,6 +20223,10 @@
 					(reference "#PWR01")
 					(unit 1)
 				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
+					(reference "#PWR01")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -20179,6 +20291,10 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/a1ca3195-7768-4c5a-be97-145a347407f6"
 					(reference "#PWR014")
 					(unit 1)
 				)

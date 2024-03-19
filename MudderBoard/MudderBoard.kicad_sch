@@ -14918,6 +14918,44 @@
 		)
 	)
 	(sheet
+		(at 29.21 157.48)
+		(size 40.64 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a1ca3195-7768-4c5a-be97-145a347407f6")
+		(property "Sheetname" "Untitled Sheet"
+			(at 29.21 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 29.21 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 234.95 130.81)
 		(size 25.4 7.62)
 		(fields_autoplaced yes)
