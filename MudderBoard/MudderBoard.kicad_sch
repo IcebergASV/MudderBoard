@@ -161,7 +161,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.95 93.98) (xy 234.95 95.25)
+			(xy 234.95 111.76) (xy 234.95 113.03)
 		)
 		(stroke
 			(width 0)
@@ -14804,7 +14804,7 @@
 		(uuid "ef822169-6cb5-4d18-b470-23aefb8f7b16")
 	)
 	(sheet
-		(at 234.95 113.03)
+		(at 234.95 130.81)
 		(size 25.4 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -14816,7 +14816,7 @@
 		)
 		(uuid "0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c")
 		(property "Sheetname" "Pixhawk"
-			(at 234.95 111.6834 0)
+			(at 234.95 129.4634 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14826,7 +14826,7 @@
 			)
 		)
 		(property "Sheetfile" "pixhawk.kicad_sch"
-			(at 234.95 121.2346 0)
+			(at 234.95 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14843,7 +14843,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 147.32)
+		(at 234.95 55.88)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -14855,7 +14855,7 @@
 		)
 		(uuid "2faaa147-dd96-42bc-9368-d8d5a5d683de")
 		(property "Sheetname" "PWM-DC"
-			(at 234.95 145.9734 0)
+			(at 234.95 54.5334 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14865,7 +14865,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm-dc.kicad_sch"
-			(at 234.95 156.7946 0)
+			(at 234.95 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14921,7 +14921,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 92.71)
+		(at 234.95 110.49)
 		(size 25.4 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -14933,7 +14933,7 @@
 		)
 		(uuid "61ae400d-8955-4780-b949-ad242836be57")
 		(property "Sheetname" "Wifi Bullet"
-			(at 234.95 91.3634 0)
+			(at 234.95 109.1434 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14943,7 +14943,7 @@
 			)
 		)
 		(property "Sheetfile" "wifibullet.kicad_sch"
-			(at 234.95 100.9146 0)
+			(at 234.95 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14960,7 +14960,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 73.66)
+		(at 234.95 91.44)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -14972,7 +14972,7 @@
 		)
 		(uuid "674dd553-7765-4ece-a996-68b5361f64e2")
 		(property "Sheetname" "Jetson"
-			(at 234.95 72.3134 0)
+			(at 234.95 90.0934 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14982,7 +14982,7 @@
 			)
 		)
 		(property "Sheetfile" "jetson.kicad_sch"
-			(at 234.95 83.1346 0)
+			(at 234.95 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14999,7 +14999,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 54.61)
+		(at 234.95 72.39)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -15011,7 +15011,7 @@
 		)
 		(uuid "86bd7edb-9c3d-421e-84f7-984954447f61")
 		(property "Sheetname" "LiDar"
-			(at 234.95 53.2634 0)
+			(at 234.95 71.0434 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -15021,7 +15021,7 @@
 			)
 		)
 		(property "Sheetfile" "lidar.kicad_sch"
-			(at 234.95 64.0846 0)
+			(at 234.95 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15038,7 +15038,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 130.81)
+		(at 233.68 149.86)
 		(size 25.4 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -15050,7 +15050,7 @@
 		)
 		(uuid "aec07e03-6c5f-42d9-8ce1-11e014a87aac")
 		(property "Sheetname" "Battery Monitor"
-			(at 234.95 129.4634 0)
+			(at 233.68 148.5134 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -15060,7 +15060,7 @@
 			)
 		)
 		(property "Sheetfile" "battmon.kicad_sch"
-			(at 234.95 139.0146 0)
+			(at 233.68 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
