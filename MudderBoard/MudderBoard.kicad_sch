@@ -14672,6 +14672,102 @@
 		)
 		(uuid "d449a5cb-0854-441d-9893-ff0705888fbf")
 	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 115.57 63.246 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "0060a443-ef90-413d-be9e-92b1d8efc07f")
+	)
+	(text "PWM_CH3"
+		(exclude_from_sim no)
+		(at 86.106 27.686 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "298820a5-588b-4b04-9fb7-3258477c7983")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 115.316 77.47 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "3e20060a-c002-4fa4-b0de-8d636749e60f")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 110.998 113.792 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "4f2161b2-80b3-44c9-b97c-f4dc52d0012a")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 92.456 149.352 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "5f44a522-76af-41f0-a9d2-27774a7e2277")
+	)
+	(text "PWM_CH2"
+		(exclude_from_sim no)
+		(at 86.868 17.018 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "8bca3bef-0454-4f78-9bca-c84bfa108f1c")
+	)
+	(text "PWM_CH5"
+		(exclude_from_sim no)
+		(at 85.344 56.896 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "8c42d7f6-7270-4404-b4c2-58b4514a8d7e")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 115.57 97.282 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a50312e7-4c46-46cf-b5e9-b2daa2d3db14")
+	)
 	(text "Schematic:"
 		(exclude_from_sim no)
 		(at 247.65 20.574 0)
@@ -14682,6 +14778,30 @@
 			)
 		)
 		(uuid "b2699f73-a4c5-44b1-a1dd-2a48642c5d90")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 113.538 41.656 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ddb69310-7901-4a4f-8c35-77156a8ac76c")
+	)
+	(text "VCC"
+		(exclude_from_sim no)
+		(at 96.774 133.096 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ef822169-6cb5-4d18-b470-23aefb8f7b16")
 	)
 	(sheet
 		(at 234.95 113.03)
@@ -14913,44 +15033,6 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 29.21 157.48)
-		(size 40.64 17.78)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a1ca3195-7768-4c5a-be97-145a347407f6")
-		(property "Sheetname" "Untitled Sheet"
-			(at 29.21 156.7684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 29.21 175.8446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
-					(page "9")
 				)
 			)
 		)
