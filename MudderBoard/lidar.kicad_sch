@@ -5879,6 +5879,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 134.62 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e195cca-908e-479f-89fe-beaf7237e30e")
+		(property "Reference" "#PWR020"
+			(at 134.62 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "329a7de1-6ec4-4440-9ff8-6eb053925cf4")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 227.33 95.25 0)
 		(mirror y)
 		(unit 1)
@@ -7463,16 +7530,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "13c2f447-9108-4326-8108-4ee3c8508cb0")
+			(uuid "13c2f447-9108-4326-8108-4ee3c8508cb1")
 		)
 		(pin "5"
-			(uuid "8efc8c43-ee5b-4a72-85d0-c5aaf463e925")
+			(uuid "8efc8c43-ee5b-4a72-85d0-c5aaf463e926")
 		)
 		(pin "1"
 			(uuid "2b0fa091-78a7-4f2f-bbc6-c9bcccc9efac")
 		)
 		(pin "3"
-			(uuid "59e7772d-74e3-458e-87d8-3234f2ccec0d")
+			(uuid "59e7772d-74e3-458e-87d8-3234f2ccec0e")
 		)
 		(pin "3"
 			(uuid "6c13ea17-e0e1-465b-860e-a3fd05232c86")
