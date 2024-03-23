@@ -5002,6 +5002,16 @@
 		)
 		(uuid "f2ffd194-994b-4e55-b1ae-959a0a07ad19")
 	)
+	(text "INPUT CAP"
+		(exclude_from_sim no)
+		(at 17.526 68.072 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "718b563f-f447-4855-a378-556a4bb42f4e")
+	)
 	(symbol
 		(lib_id "power:VCC")
 		(at 151.13 35.56 0)
