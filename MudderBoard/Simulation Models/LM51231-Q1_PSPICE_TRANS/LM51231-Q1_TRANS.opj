@@ -1,0 +1,78 @@
+(ExpressProject "LM51231-Q1_TRANS"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S019 (3960720)  [7/14/2021]-[10/21/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lm51231-q1_trans.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\lm51231-q1_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File
+       ".\lm51231-q1_trans-pspicefiles\lm51231-q1_start-up\lm51231-q1_start-up.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\lm51231-q1_trans-pspicefiles\lm51231-q1_start-up\lm51231-q1_start-up.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm51231-q1_trans-pspicefiles\lm51231-q1_start-up\lm51231-q1_start-up.sim"
+        (DisplayName "LM51231-Q1_Start-up-LM51231-Q1_Start-up")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lm51231-q1_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\lm51231-q1_trans.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (LM51231-Q1_TRANS
+      (FullPartName "LM51231-Q1_TRANS.Normal")
+      (LibraryName
+         "C:\USERS\A0235201\DESKTOP\LM51231-Q1_PSPICE_TRANS\LM51231-Q1_TRANS.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "a0235201")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\a0235201\Desktop\LM51231-Q1_PSPICE_TRANS\lm51231-q1_trans.dsn")
+      (Path "Design Resources"
+         "C:\Users\a0235201\Desktop\LM51231-Q1_PSPICE_TRANS\lm51231-q1_trans.dsn"
+         "LM51231-Q1_Start-up")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\a0235201\Desktop\LM51231-Q1_PSPICE_TRANS\lm51231-q1_trans.olb")
+      (Path "Outputs")
+      (Path "PSpice Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 755"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1639 24 773")
+        (Scroll "-301 0")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\A0235201\DESKTOP\LM51231-Q1_PSPICE_TRANS\LM51231-Q1_TRANS.DSN")
+      (Schematic "LM51231-Q1_Start-up")
+      (Page "PAGE1"))))
