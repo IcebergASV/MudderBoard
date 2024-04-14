@@ -75,17 +75,6 @@
 	)
 	(polyline
 		(pts
-			(xy 83.82 151.13) (xy 127 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "1b27f690-a6e9-4571-8623-deeba2921e34")
-	)
-	(polyline
-		(pts
 			(xy 109.22 64.77) (xy 144.78 64.77)
 		)
 		(stroke
@@ -193,17 +182,6 @@
 	)
 	(polyline
 		(pts
-			(xy 127 151.13) (xy 144.78 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "a64773ae-58ca-4180-b557-2325985adfee")
-	)
-	(polyline
-		(pts
 			(xy 166.37 19.05) (xy 166.37 36.83)
 		)
 		(stroke
@@ -221,17 +199,6 @@
 			(type default)
 		)
 		(uuid "b20184bc-a4ba-4392-9202-7d98f3546185")
-	)
-	(polyline
-		(pts
-			(xy 83.82 90.17) (xy 83.82 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "bf8221fe-c991-4d77-820f-687116a28dba")
 	)
 	(polyline
 		(pts
@@ -14564,28 +14531,6 @@
 		)
 		(uuid "65ff8c00-9715-48e8-a577-07dac02c53bd")
 	)
-	(text_box "Battery Monitor"
-		(exclude_from_sim no)
-		(at 144.78 147.32 0)
-		(size 59.69 12.7)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 4.445 4.445)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "72d1a19a-4785-4864-8131-fa67b6c3068a")
-	)
 	(text_box "ESC (20V)"
 		(exclude_from_sim no)
 		(at 144.78 36.83 0)
@@ -14719,18 +14664,6 @@
 			)
 		)
 		(uuid "4f2161b2-80b3-44c9-b97c-f4dc52d0012a")
-	)
-	(text "VCC"
-		(exclude_from_sim no)
-		(at 92.456 149.352 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "5f44a522-76af-41f0-a9d2-27774a7e2277")
 	)
 	(text "PWM_CH2"
 		(exclude_from_sim no)
@@ -15033,45 +14966,6 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 233.68 149.86)
-		(size 25.4 7.62)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "aec07e03-6c5f-42d9-8ce1-11e014a87aac")
-		(property "Sheetname" "Battery Monitor"
-			(at 233.68 148.5134 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "battmon.kicad_sch"
-			(at 233.68 158.0646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
-					(page "8")
 				)
 			)
 		)
