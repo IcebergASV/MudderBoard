@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IXTH50P10
+D MOSFET -50 Amps -100V 0.055 Rds
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/discrete_mosfets/littelfuse_discrete_mosfets_p-channel_ixt_50p10_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDS4470
+D ON SEMICONDUCTOR - FDS4470 - MOSFET, N-CH, 40V, 12.5A, SOIC-8
+K
+F https://componentsearchengine.com/Datasheets/1/FDS4470.pdf
+$ENDCMP
+#
+#End Doc Library

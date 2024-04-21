@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEU-FC1E390
+D Aluminium Electrolytic Capacitor, Radial Lead, AEC-Q200, 105?C 25V,39UF
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1209.pdf
+$ENDCMP
+#
+#End Doc Library

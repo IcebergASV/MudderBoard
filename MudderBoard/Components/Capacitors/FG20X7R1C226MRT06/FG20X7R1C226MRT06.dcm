@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FG20X7R1C226MRT06
+D MLCC with Dipped Radial Lead, Capacitance=22?F, LxWxT:5.5x7x4mm, Lead pitch:5mm
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/lead-mlcc/catalog/leadmlcc_halogenfree_fg_en.pdf
+$ENDCMP
+#
+#End Doc Library
