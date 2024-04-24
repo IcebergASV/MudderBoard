@@ -9484,10 +9484,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d1d936f1-b181-4225-a2e1-b02c095b64b1")
+			(uuid "d1d936f1-b181-4225-a2e1-b02c095b64b2")
 		)
 		(pin "1"
-			(uuid "1f9298b1-947c-44be-b397-5d354b52022b")
+			(uuid "1f9298b1-947c-44be-b397-5d354b52022c")
 		)
 		(instances
 			(project "MudderBoard"
@@ -9606,10 +9606,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d4ba72d-07ef-4059-a6f7-743d6475e971")
+			(uuid "1d4ba72d-07ef-4059-a6f7-743d6475e972")
 		)
 		(pin "1"
-			(uuid "1ec61879-647b-446f-ae3e-f837e779ba3c")
+			(uuid "1ec61879-647b-446f-ae3e-f837e779ba3d")
 		)
 		(instances
 			(project "MudderBoard"
@@ -10798,10 +10798,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d1d936f1-b181-4225-a2e1-b02c095b64b1")
+			(uuid "d1d936f1-b181-4225-a2e1-b02c095b64b3")
 		)
 		(pin "1"
-			(uuid "1f9298b1-947c-44be-b397-5d354b52022b")
+			(uuid "1f9298b1-947c-44be-b397-5d354b52022d")
 		)
 		(instances
 			(project "MudderBoard"

@@ -106,7 +106,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 90.17) (xy 90.17 134.62)
+			(xy 90.17 90.17) (xy 90.17 116.84)
 		)
 		(stroke
 			(width 0)
@@ -128,7 +128,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.62 134.62) (xy 144.78 134.62)
+			(xy 134.62 116.84) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0)
@@ -139,7 +139,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 134.62) (xy 134.62 134.62)
+			(xy 90.17 116.84) (xy 134.62 116.84)
 		)
 		(stroke
 			(width 0)
@@ -147,38 +147,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "5c20b02e-8d99-43b3-8d74-12ea7b0d7751")
-	)
-	(polyline
-		(pts
-			(xy 234.95 111.76) (xy 234.95 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "845dd796-4132-458f-8039-51c5d3c6d19e")
-	)
-	(polyline
-		(pts
-			(xy 144.78 115.57) (xy 102.87 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "99ae7dc5-7414-41b2-999e-c3ab048b15b1")
-	)
-	(polyline
-		(pts
-			(xy 102.87 115.57) (xy 102.87 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "9ec0f936-cde3-4cbc-8a87-d809d13f8b5d")
 	)
 	(polyline
 		(pts
@@ -199,17 +167,6 @@
 			(type default)
 		)
 		(uuid "b20184bc-a4ba-4392-9202-7d98f3546185")
-	)
-	(polyline
-		(pts
-			(xy 93.98 87.63) (xy 102.87 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "cac7708f-058e-4730-a204-f5c17d294bf2")
 	)
 	(polyline
 		(pts
@@ -14445,7 +14402,7 @@
 	)
 	(text_box "Pixhawk (5V)"
 		(exclude_from_sim no)
-		(at 144.78 129.54 0)
+		(at 144.78 111.76 0)
 		(size 52.07 12.7)
 		(stroke
 			(width 0)
@@ -14487,10 +14444,10 @@
 		)
 		(uuid "4bb62830-adc5-42a5-aebc-d993d138f8bf")
 	)
-	(text_box "LiDar (24V)"
+	(text_box "LiDar + Wifi(24V)"
 		(exclude_from_sim no)
 		(at 144.78 72.39 0)
-		(size 45.72 12.7)
+		(size 72.39 12.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -14595,28 +14552,6 @@
 		)
 		(uuid "b7eada89-80bd-46bf-87bc-b671ad80c09a")
 	)
-	(text_box "Wifi (22-24V)"
-		(exclude_from_sim no)
-		(at 144.78 110.49 0)
-		(size 57.15 12.7)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 4.445 4.445)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "d449a5cb-0854-441d-9893-ff0705888fbf")
-	)
 	(text "VCC"
 		(exclude_from_sim no)
 		(at 115.57 63.246 0)
@@ -14652,18 +14587,6 @@
 			)
 		)
 		(uuid "3e20060a-c002-4fa4-b0de-8d636749e60f")
-	)
-	(text "VCC"
-		(exclude_from_sim no)
-		(at 110.998 113.792 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "4f2161b2-80b3-44c9-b97c-f4dc52d0012a")
 	)
 	(text "PWM_CH2"
 		(exclude_from_sim no)
@@ -14726,7 +14649,7 @@
 	)
 	(text "VCC"
 		(exclude_from_sim no)
-		(at 96.774 133.096 0)
+		(at 96.774 115.316 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14737,7 +14660,7 @@
 		(uuid "ef822169-6cb5-4d18-b470-23aefb8f7b16")
 	)
 	(sheet
-		(at 234.95 130.81)
+		(at 234.95 114.3)
 		(size 25.4 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -14749,7 +14672,7 @@
 		)
 		(uuid "0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c")
 		(property "Sheetname" "Pixhawk"
-			(at 234.95 129.4634 0)
+			(at 234.95 112.9534 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14759,7 +14682,7 @@
 			)
 		)
 		(property "Sheetfile" "pixhawk.kicad_sch"
-			(at 234.95 139.0146 0)
+			(at 234.95 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14770,7 +14693,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -14809,7 +14732,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -14838,45 +14761,6 @@
 		)
 		(property "Sheetfile" "ESC.kicad_sch"
 			(at 234.95 45.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 234.95 110.49)
-		(size 25.4 7.62)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "61ae400d-8955-4780-b949-ad242836be57")
-		(property "Sheetname" "Wifi Bullet"
-			(at 234.95 109.1434 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "wifibullet.kicad_sch"
-			(at 234.95 118.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14926,7 +14810,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
