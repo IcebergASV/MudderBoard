@@ -14699,6 +14699,45 @@
 		)
 	)
 	(sheet
+		(at 234.95 133.35)
+		(size 26.67 8.89)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "156878a8-0263-42d4-a037-3f42ee3dc0ef")
+		(property "Sheetname" "ESC ThroughHole"
+			(at 234.95 132.0034 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESCTHT.kicad_sch"
+			(at 234.95 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 234.95 55.88)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)

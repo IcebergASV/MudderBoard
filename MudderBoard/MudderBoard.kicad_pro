@@ -449,6 +449,10 @@
     [
       "2faaa147-dd96-42bc-9368-d8d5a5d683de",
       "PWM-DC"
+    ],
+    [
+      "156878a8-0263-42d4-a037-3f42ee3dc0ef",
+      "ESC ThroughHole"
     ]
   ],
   "text_variables": {}
