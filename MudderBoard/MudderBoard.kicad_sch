@@ -14738,7 +14738,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 55.88)
+		(at 234.95 54.61)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -14750,7 +14750,7 @@
 		)
 		(uuid "2faaa147-dd96-42bc-9368-d8d5a5d683de")
 		(property "Sheetname" "PWM-DC"
-			(at 234.95 54.5334 0)
+			(at 234.95 53.2634 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14760,7 +14760,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm-dc.kicad_sch"
-			(at 234.95 65.3546 0)
+			(at 234.95 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

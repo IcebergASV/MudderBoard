@@ -5807,10 +5807,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a52d71e6-2076-4999-87d2-875705cf6304")
+			(uuid "a52d71e6-2076-4999-87d2-875705cf6305")
 		)
 		(pin "2"
-			(uuid "a2a914f4-4162-43e8-9991-22f631830718")
+			(uuid "a2a914f4-4162-43e8-9991-22f631830719")
 		)
 		(instances
 			(project "MudderBoard"
@@ -6850,13 +6850,13 @@
 			(uuid "1ec82b35-8958-423f-bfd3-3e984ee6f2cb")
 		)
 		(pin "1"
-			(uuid "e5776b03-5bb8-4fa1-a5f7-94d9e5ed02c0")
+			(uuid "e5776b03-5bb8-4fa1-a5f7-94d9e5ed02c1")
 		)
 		(pin "3"
-			(uuid "7eaa33cd-4d3e-42af-aa19-39dceb7f22d6")
+			(uuid "7eaa33cd-4d3e-42af-aa19-39dceb7f22d7")
 		)
 		(pin "2"
-			(uuid "86466225-c5c6-4bc7-81e6-f3133fec8142")
+			(uuid "86466225-c5c6-4bc7-81e6-f3133fec8143")
 		)
 		(pin "4"
 			(uuid "2533d78d-c40b-4a71-8b7c-4bf981d83211")
@@ -8774,22 +8774,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "1ec82b35-8958-423f-bfd3-3e984ee6f2cb")
+			(uuid "1ec82b35-8958-423f-bfd3-3e984ee6f2cd")
 		)
 		(pin "1"
-			(uuid "e5776b03-5bb8-4fa1-a5f7-94d9e5ed02c0")
+			(uuid "e5776b03-5bb8-4fa1-a5f7-94d9e5ed02c2")
 		)
 		(pin "3"
-			(uuid "7eaa33cd-4d3e-42af-aa19-39dceb7f22d6")
+			(uuid "7eaa33cd-4d3e-42af-aa19-39dceb7f22d8")
 		)
 		(pin "2"
-			(uuid "86466225-c5c6-4bc7-81e6-f3133fec8142")
+			(uuid "86466225-c5c6-4bc7-81e6-f3133fec8144")
 		)
 		(pin "4"
-			(uuid "2533d78d-c40b-4a71-8b7c-4bf981d83211")
+			(uuid "2533d78d-c40b-4a71-8b7c-4bf981d83213")
 		)
 		(pin "3"
-			(uuid "693c87b9-55cd-481f-a124-28384a7c97b9")
+			(uuid "693c87b9-55cd-481f-a124-28384a7c97bb")
 		)
 		(instances
 			(project "MudderBoard"
