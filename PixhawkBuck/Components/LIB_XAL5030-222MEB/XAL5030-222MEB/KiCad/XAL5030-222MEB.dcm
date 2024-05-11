@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XAL5030-222MEB
+D Fixed Inductors 2.2uH 20% 9.7A 14.5mOhms AEC-Q200
+K
+F http://www.coilcraft.com/pdfs/xal50xx.pdf
+$ENDCMP
+#
+#End Doc Library
