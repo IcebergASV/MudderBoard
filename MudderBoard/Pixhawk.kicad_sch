@@ -3258,46 +3258,70 @@
 		)
 	)
 	(junction
-		(at 190.5 59.69)
+		(at 176.53 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "123ae50b-aa4c-4b75-9ac7-5f8002fc6346")
 	)
 	(junction
-		(at 97.79 39.37)
+		(at 83.82 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17e9ecc4-7484-4667-80cc-24d73c5259d7")
 	)
 	(junction
-		(at 190.5 44.45)
+		(at 62.23 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d559266-c304-4dba-8576-c02bbb50bf1c")
+	)
+	(junction
+		(at 176.53 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f94a432-e54a-492a-9144-90ad01222e18")
 	)
 	(junction
-		(at 204.47 80.01)
+		(at 259.08 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21ed6fb0-83ba-47be-b440-5721fd4c5d04")
+	)
+	(junction
+		(at 190.5 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "477c6878-3240-4842-9ec6-97061db5de9e")
 	)
 	(junction
-		(at 76.2 39.37)
+		(at 232.41 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48663525-5b05-4157-84af-e8b4ce9be25d")
+	)
+	(junction
+		(at 62.23 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "577785c4-0e5f-41e5-a7a8-bbacfee5fa95")
 	)
 	(junction
-		(at 97.79 80.01)
+		(at 83.82 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68405ab5-44fb-4df3-82ae-c8e2f44e8894")
 	)
 	(junction
-		(at 140.97 80.01)
+		(at 127 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b3bf225-76d3-40ab-9c74-917ec1fee4f6")
+	)
+	(junction
+		(at 220.98 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e797ab7-f933-4a1f-a371-256b3209e7f2")
 	)
 	(junction
 		(at 142.24 139.7)
@@ -3306,7 +3330,13 @@
 		(uuid "764544d7-8fcf-4a1d-93aa-391902bf3aec")
 	)
 	(junction
-		(at 161.29 80.01)
+		(at 232.41 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f8e186d-d69d-4fb2-8010-a6bf04f8fd35")
+	)
+	(junction
+		(at 147.32 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b0a3bbc-c6f7-44de-a85a-0ba65bf30b66")
@@ -3318,25 +3348,31 @@
 		(uuid "92144a54-d0f9-4014-8372-6a34cd1c751b")
 	)
 	(junction
-		(at 222.25 44.45)
+		(at 208.28 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "923608a4-8819-4016-b5f9-e2f688f81530")
 	)
 	(junction
-		(at 222.25 80.01)
+		(at 245.11 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6f6cc32-64ca-4731-b3c5-81ad93c41049")
+	)
+	(junction
+		(at 208.28 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4b29c07-030d-437f-a860-1cfed6ef9289")
 	)
 	(junction
-		(at 204.47 59.69)
+		(at 190.5 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b75f93d5-8848-4bfa-ae05-896077a5f139")
 	)
 	(junction
-		(at 120.65 80.01)
+		(at 106.68 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d99402df-22a2-45ca-9306-3d421f1066b2")
@@ -3354,10 +3390,28 @@
 		(uuid "da9f49c6-d07f-4657-9544-4c986175c8d2")
 	)
 	(junction
-		(at 204.47 44.45)
+		(at 190.5 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "daf64361-9629-4786-a189-75e14aafca34")
+	)
+	(junction
+		(at 245.11 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebe82fe4-69c1-4e74-9fe1-ad88157d0c91")
+	)
+	(junction
+		(at 49.53 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0f75c67-2f3f-4f33-aad9-7878d2a51e8d")
+	)
+	(junction
+		(at 220.98 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5912280-5fc2-4e3a-9c4a-0a2fa15b6a71")
 	)
 	(junction
 		(at 40.64 128.27)
@@ -3367,7 +3421,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 39.37) (xy 120.65 44.45)
+			(xy 106.68 39.37) (xy 106.68 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3377,7 +3431,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 80.01) (xy 222.25 80.01)
+			(xy 232.41 80.01) (xy 245.11 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3387,7 +3441,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 54.61) (xy 222.25 80.01)
+			(xy 208.28 54.61) (xy 208.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3397,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 44.45) (xy 165.1 44.45)
+			(xy 147.32 44.45) (xy 151.13 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3407,13 +3461,43 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 49.53) (xy 120.65 80.01)
+			(xy 220.98 80.01) (xy 208.28 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15dbb572-c9fb-44b9-aba6-c35a0ef0f8eb")
+	)
+	(wire
+		(pts
+			(xy 220.98 44.45) (xy 232.41 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175bb66c-4bf1-401e-b4fb-88e68d3d597d")
+	)
+	(wire
+		(pts
+			(xy 106.68 49.53) (xy 106.68 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1d40189e-929f-4c3d-b497-49508ecd9e62")
+	)
+	(wire
+		(pts
+			(xy 130.81 129.54) (xy 130.81 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ffd5a89-4c09-4e49-b4a1-3a3e94c47e37")
 	)
 	(wire
 		(pts
@@ -3427,7 +3511,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 80.01) (xy 222.25 80.01)
+			(xy 190.5 80.01) (xy 208.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3447,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 165.1 46.99)
+			(xy 151.13 59.69) (xy 151.13 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3467,7 +3551,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 161.29 46.99)
+			(xy 245.11 44.45) (xy 259.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee70353-cd9d-409e-85fb-21333b550d93")
+	)
+	(wire
+		(pts
+			(xy 151.13 46.99) (xy 147.32 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3477,13 +3571,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 44.45) (xy 245.11 46.99)
+			(xy 259.08 44.45) (xy 259.08 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "311ae93f-cd0e-40d8-8087-55f98b4c9f32")
+	)
+	(wire
+		(pts
+			(xy 220.98 46.99) (xy 220.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bd68aa-efd2-40b2-ae3c-674912851970")
 	)
 	(wire
 		(pts
@@ -3497,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 80.01) (xy 161.29 49.53)
+			(xy 147.32 80.01) (xy 147.32 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3517,7 +3621,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 39.37) (xy 76.2 46.99)
+			(xy 62.23 39.37) (xy 62.23 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3527,7 +3631,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 44.45) (xy 190.5 44.45)
+			(xy 171.45 44.45) (xy 176.53 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3537,7 +3641,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 39.37) (xy 97.79 39.37)
+			(xy 62.23 39.37) (xy 83.82 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3547,7 +3651,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 39.37) (xy 120.65 39.37)
+			(xy 83.82 39.37) (xy 106.68 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3557,7 +3661,27 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 59.69) (xy 204.47 59.69)
+			(xy 232.41 44.45) (xy 245.11 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561931e6-24fb-485b-93d0-5852dcc303de")
+	)
+	(wire
+		(pts
+			(xy 49.53 39.37) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b97869-4d0c-4f75-a5e8-7c9355b5889f")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 190.5 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3567,7 +3691,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 54.61) (xy 245.11 80.01)
+			(xy 259.08 54.61) (xy 259.08 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3577,7 +3701,27 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 140.97 80.01)
+			(xy 232.41 46.99) (xy 232.41 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6123f264-dabf-4bd1-8057-eafac64489b4")
+	)
+	(wire
+		(pts
+			(xy 232.41 54.61) (xy 232.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d88974-806f-4b16-b863-994d95363776")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 44.45) (xy 245.11 44.45)
+			(xy 208.28 44.45) (xy 220.98 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3597,7 +3741,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 80.01) (xy 161.29 80.01)
+			(xy 49.53 54.61) (xy 49.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c2724e-38e8-4da9-8bad-ba22a0dfa493")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 147.32 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3607,7 +3761,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 44.45) (xy 190.5 48.26)
+			(xy 176.53 44.45) (xy 176.53 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3617,7 +3771,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 44.45) (xy 204.47 44.45)
+			(xy 49.53 39.37) (xy 49.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a51adab-0851-429d-b114-4d43520fc893")
+	)
+	(wire
+		(pts
+			(xy 176.53 44.45) (xy 190.5 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 139.7) (xy 130.81 133.35)
+			(xy 130.81 139.7) (xy 130.81 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3637,13 +3801,33 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 74.93) (xy 204.47 80.01)
+			(xy 190.5 74.93) (xy 190.5 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "966f878b-d984-44c3-b5e1-d7e854960d43")
+	)
+	(wire
+		(pts
+			(xy 245.11 80.01) (xy 259.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973768d6-2599-4388-99c6-a981239e51f9")
+	)
+	(wire
+		(pts
+			(xy 259.08 44.45) (xy 269.24 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9738ee35-12c6-4f02-8f74-d7792a94e7d3")
 	)
 	(wire
 		(pts
@@ -3657,13 +3841,33 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 59.69) (xy 204.47 62.23)
+			(xy 190.5 59.69) (xy 190.5 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a6e4757-7e5d-48c0-a766-03ad9bb38d45")
+	)
+	(wire
+		(pts
+			(xy 232.41 80.01) (xy 220.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6e725a-6511-47d6-889e-8f643039f2f1")
+	)
+	(wire
+		(pts
+			(xy 49.53 80.01) (xy 62.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a024deae-601e-4bd4-ade4-c3a4398b7db0")
 	)
 	(wire
 		(pts
@@ -3674,6 +3878,16 @@
 			(type default)
 		)
 		(uuid "a1fcb979-98cb-400d-a028-d122404e3870")
+	)
+	(wire
+		(pts
+			(xy 220.98 54.61) (xy 220.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a261095a-deef-4c7d-9cb8-e1fcd18b1cef")
 	)
 	(wire
 		(pts
@@ -3697,7 +3911,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 44.45) (xy 222.25 44.45)
+			(xy 190.5 44.45) (xy 208.28 44.45)
 		)
 		(stroke
 			(width 0)
@@ -3717,7 +3931,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 55.88) (xy 190.5 59.69)
+			(xy 176.53 55.88) (xy 176.53 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3737,7 +3951,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 59.69) (xy 165.1 59.69)
+			(xy 245.11 54.61) (xy 245.11 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca31f876-12a1-409f-90be-129acdc09f1f")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 151.13 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3747,7 +3971,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 80.01) (xy 204.47 80.01)
+			(xy 147.32 80.01) (xy 190.5 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3777,7 +4001,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 46.99) (xy 97.79 39.37)
+			(xy 83.82 46.99) (xy 83.82 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3787,7 +4011,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 54.61) (xy 97.79 80.01)
+			(xy 83.82 54.61) (xy 83.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3807,7 +4031,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 39.37) (xy 76.2 39.37)
+			(xy 39.37 39.37) (xy 49.53 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3817,7 +4041,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 54.61) (xy 76.2 80.01)
+			(xy 245.11 46.99) (xy 245.11 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ac7acc-02c3-4d22-8950-10ea01d038f9")
+	)
+	(wire
+		(pts
+			(xy 62.23 54.61) (xy 62.23 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3827,7 +4061,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 44.45) (xy 222.25 46.99)
+			(xy 208.28 44.45) (xy 208.28 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3837,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 80.01) (xy 120.65 80.01)
+			(xy 83.82 80.01) (xy 106.68 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3847,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 80.01) (xy 97.79 80.01)
+			(xy 62.23 80.01) (xy 83.82 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3923,7 +4157,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 120.65 46.99 180)
+		(at 106.68 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3933,7 +4167,7 @@
 		)
 		(uuid "b8a18d58-56e3-44e4-9426-0ea7735928a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.1853 46.99 0)
+			(at 101.2153 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,9 +4177,31 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 269.24 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bfdba9a4-e605-4268-9541-3656ff999baf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.5233 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "L1:XAL5030-222MEB")
-		(at 165.1 44.45 0)
+		(at 151.13 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3953,7 +4209,7 @@
 		(dnp no)
 		(uuid "119ee655-26c8-42f4-b437-56afa159e0dc")
 		(property "Reference" "L1"
-			(at 175.26 38.1 0)
+			(at 161.29 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3961,7 +4217,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 175.26 40.64 0)
+			(at 161.29 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +4225,7 @@
 			)
 		)
 		(property "Footprint" "XAL5030"
-			(at 181.61 140.64 0)
+			(at 167.64 140.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +4235,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.coilcraft.com/pdfs/xal50xx.pdf"
-			(at 181.61 240.64 0)
+			(at 167.64 240.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4245,7 @@
 			)
 		)
 		(property "Description" "Fixed Inductors 2.2uH 20% 9.7A 14.5mOhms AEC-Q200"
-			(at 165.1 44.45 0)
+			(at 151.13 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +4254,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 181.61 440.64 0)
+			(at 167.64 440.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4264,7 @@
 			)
 		)
 		(property "Mouser Part Number" "994-XAL5030-222MEB"
-			(at 181.61 540.64 0)
+			(at 167.64 540.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4274,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Coilcraft/XAL5030-222MEB?qs=VJjuEbE9QBMC5tG7aGluNw%3D%3D"
-			(at 181.61 640.64 0)
+			(at 167.64 640.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4284,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "COILCRAFT"
-			(at 181.61 740.64 0)
+			(at 167.64 740.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +4294,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XAL5030-222MEB"
-			(at 181.61 840.64 0)
+			(at 167.64 840.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4320,7 @@
 	)
 	(symbol
 		(lib_id "Cout:LMK212BJ226MG-T")
-		(at 222.25 49.53 270)
+		(at 208.28 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4072,7 +4328,7 @@
 		(dnp no)
 		(uuid "15a37775-6325-4379-a302-549fa01e7419")
 		(property "Reference" "Cout"
-			(at 226.06 50.7999 90)
+			(at 212.09 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4337,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 226.568 53.086 90)
+			(at 212.598 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4346,7 @@
 			)
 		)
 		(property "Footprint" "LMK212BJ226MG-T:CAPC2012X135N"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4374,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4384,7 @@
 			)
 		)
 		(property "Description_1" "\n22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +4394,7 @@
 			)
 		)
 		(property "Package" "2012 Taiyo Yuden"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4404,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4414,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=snap"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4424,7 @@
 			)
 		)
 		(property "MP" "LMK212BJ226MG-T"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +4434,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225286&manufacturer=Taiyo Yuden&part_name=LMK212BJ226MG-T&search_term=lmk212bj226mg-t"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4444,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4454,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=eda"
-			(at 222.25 49.53 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4480,7 @@
 	)
 	(symbol
 		(lib_id "Cff:GRM1555C1E330JA01D")
-		(at 190.5 50.8 270)
+		(at 176.53 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4232,7 +4488,7 @@
 		(dnp no)
 		(uuid "2438af55-62af-44b0-8b5a-6811bfc32abd")
 		(property "Reference" "Cff"
-			(at 194.31 50.7999 90)
+			(at 180.34 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4497,7 @@
 			)
 		)
 		(property "Value" "33p"
-			(at 194.31 53.3399 90)
+			(at 180.34 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4506,7 @@
 			)
 		)
 		(property "Footprint" "GRM1555C1E330JA01D:CAPC1005X55N"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4534,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4544,7 @@
 			)
 		)
 		(property "Description_1" "\nSMD Capacitor C0G(EIA) with Capacitance: 33pF Tol. 5%. Rated Voltage: 25Vdc\n"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4554,7 @@
 			)
 		)
 		(property "Package" "1005 Taiyo Yuden"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4564,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4574,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM1555C1E330JA01D/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4584,7 @@
 			)
 		)
 		(property "MP" "GRM1555C1E330JA01D"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +4594,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=524136&manufacturer=Murata&part_name=GRM1555C1E330JA01D&search_term=grm1555c1e330ja01d"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4348,7 +4604,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4614,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM1555C1E330JA01D/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 190.5 50.8 0)
+			(at 176.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,8 +4639,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Cout:LMK212BJ226MG-T")
+		(at 232.41 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2913e9d1-0eaa-48df-9751-a3fc3657df10")
+		(property "Reference" "Cout"
+			(at 236.22 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 236.728 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LMK212BJ226MG-T:CAPC2012X135N"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012 Taiyo Yuden"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LMK212BJ226MG-T"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225286&manufacturer=Taiyo Yuden&part_name=LMK212BJ226MG-T&search_term=lmk212bj226mg-t"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 232.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c266e97-6ee3-457a-8682-3e8983aff4ce")
+		)
+		(pin "2"
+			(uuid "1d69ea41-e752-47fa-839f-a408c1630610")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
+					(reference "Cout")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Rfb2:RC0603FR-0730KL")
-		(at 204.47 62.23 270)
+		(at 190.5 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4392,7 +4808,7 @@
 		(dnp no)
 		(uuid "43047f5c-eed5-4614-a045-eca08e29c0f6")
 		(property "Reference" "Rfbb"
-			(at 207.01 67.3099 90)
+			(at 193.04 67.3099 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4401,7 +4817,7 @@
 			)
 		)
 		(property "Value" "30K"
-			(at 207.264 70.104 90)
+			(at 193.294 70.104 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4410,7 +4826,7 @@
 			)
 		)
 		(property "Footprint" "RES_RC0603_YAG"
-			(at 204.47 62.23 0)
+			(at 190.5 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4836,7 @@
 			)
 		)
 		(property "Datasheet" "RC0603FR-0730KL"
-			(at 204.47 62.23 0)
+			(at 190.5 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +4846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 62.23 0)
+			(at 190.5 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,7 +4937,7 @@
 	)
 	(symbol
 		(lib_id "Cinx:GRM188R71H104KA93D")
-		(at 97.79 49.53 270)
+		(at 83.82 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4529,7 +4945,7 @@
 		(dnp no)
 		(uuid "57adff31-3032-445c-911a-6608dbb475fe")
 		(property "Reference" "Cinx"
-			(at 101.6 50.7999 90)
+			(at 87.63 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4954,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 101.6 53.848 90)
+			(at 87.63 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4963,7 @@
 			)
 		)
 		(property "Footprint" "GRM188R71H104KA93D:CAPC1608X90N"
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +4991,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +5001,7 @@
 			)
 		)
 		(property "Description_1" "\nSMD Capacitor X7R(EIA) with Capacitance: 0.10uF Tol. 10%. Rated Voltage: 50Vdc\n"
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +5011,7 @@
 			)
 		)
 		(property "Package" "1608 Murata"
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +5021,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +5031,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM188R71H104KA93D/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +5041,7 @@
 			)
 		)
 		(property "MP" "GRM188R71H104KA93D"
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,7 +5051,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4645,7 +5061,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM188R71H104KA93D/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 97.79 49.53 0)
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +5224,7 @@
 	)
 	(symbol
 		(lib_id "Cin:GRM21BR61E106MA73L")
-		(at 76.2 49.53 270)
+		(at 62.23 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4816,7 +5232,7 @@
 		(dnp no)
 		(uuid "777150a2-c9c5-4032-a782-f35490ca5d44")
 		(property "Reference" "Cin"
-			(at 72.39 52.0701 90)
+			(at 58.42 52.0701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +5241,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 72.39 54.356 90)
+			(at 58.42 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +5250,7 @@
 			)
 		)
 		(property "Footprint" "GRM21BR61E106MA73L:CAPC2012X140N"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +5260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +5278,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +5288,7 @@
 			)
 		)
 		(property "Description_1" "\n10 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5298,7 @@
 			)
 		)
 		(property "Package" "2012 Murata"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4892,7 +5308,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +5318,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM21BR61E106MA73L/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +5328,7 @@
 			)
 		)
 		(property "MP" "GRM21BR61E106MA73L"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +5338,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1356584&manufacturer=Murata&part_name=GRM21BR61E106MA73L&search_term=grm21br61e106ma73l"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4932,7 +5348,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5358,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM21BR61E106MA73L/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 76.2 49.53 0)
+			(at 62.23 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5457,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 66.04 39.37 0)
+		(at 39.37 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5050,7 +5466,7 @@
 		(fields_autoplaced yes)
 		(uuid "945d5675-f7e9-4cce-9cd3-294642f9b494")
 		(property "Reference" "#PWR03"
-			(at 66.04 43.18 0)
+			(at 39.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5475,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 66.04 34.29 0)
+			(at 39.37 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 39.37 0)
+			(at 39.37 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 39.37 0)
+			(at 39.37 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 66.04 39.37 0)
+			(at 39.37 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,34 +5522,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Rfb1:RC0603FR-07220KL")
-		(at 204.47 52.07 270)
+		(lib_id "Cin:GRM21BR61E106MA73L")
+		(at 49.53 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a0785e9b-8938-4164-a358-bcb91b4ab4bd")
-		(property "Reference" "Rfbt"
-			(at 207.01 52.0699 90)
+		(uuid "9e2e2da9-1415-42bd-a29f-5e8fc29480c8")
+		(property "Reference" "Cin"
+			(at 45.72 52.0701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "220K"
-			(at 206.756 53.848 90)
+		(property "Value" "10u"
+			(at 45.72 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "RC0603FR-07220KL:RESC1607X60N"
-			(at 204.47 52.07 0)
+		(property "Footprint" "GRM21BR61E106MA73L:CAPC2012X140N"
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 52.07 0)
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 52.07 0)
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,18 +5576,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
-			(at 204.47 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n220 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film\n"
-			(at 204.47 52.07 0)
+		(property "MF" "Murata"
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,8 +5586,18 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "0603 Yageo"
-			(at 204.47 52.07 0)
+		(property "Description_1" "\n10 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012 Murata"
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5607,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 204.47 52.07 0)
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,8 +5616,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-07220KL/Yageo/view-part/?ref=snap"
-			(at 204.47 52.07 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM21BR61E106MA73L/Murata+Electronics+North+America/view-part/?ref=snap"
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,8 +5626,8 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-07220KL"
-			(at 204.47 52.07 0)
+		(property "MP" "GRM21BR61E106MA73L"
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,8 +5636,8 @@
 				(hide yes)
 			)
 		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=53553&manufacturer=Yageo&part_name=RC0603FR-07220KL&search_term=rc0603fr-07220kl"
-			(at 204.47 52.07 0)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1356584&manufacturer=Murata&part_name=GRM21BR61E106MA73L&search_term=grm21br61e106ma73l"
+			(at 49.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5647,167 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 204.47 52.07 0)
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/GRM21BR61E106MA73L/Murata+Electronics+North+America/view-part/?ref=eda"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7716eb74-289a-4439-abf3-61d1867eed80")
+		)
+		(pin "1"
+			(uuid "f45479ea-1d69-4f6a-a196-1e25c54ee384")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
+					(reference "Cin")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Rfb1:RC0603FR-07220KL")
+		(at 190.5 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0785e9b-8938-4164-a358-bcb91b4ab4bd")
+		(property "Reference" "Rfbt"
+			(at 193.04 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220K"
+			(at 192.786 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RC0603FR-07220KL:RESC1607X60N"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Yageo"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n220 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film\n"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Yageo"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-07220KL/Yageo/view-part/?ref=snap"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-07220KL"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=53553&manufacturer=Yageo&part_name=RC0603FR-07220KL&search_term=rc0603fr-07220kl"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 190.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +5817,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-07220KL/Yageo/view-part/?ref=eda"
-			(at 204.47 52.07 0)
+			(at 190.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +5909,7 @@
 	)
 	(symbol
 		(lib_id "U1:TPS566242DRLR")
-		(at 73.66 17.78 0)
+		(at 59.69 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5342,7 +5918,7 @@
 		(fields_autoplaced yes)
 		(uuid "bff2450b-d360-4238-81af-a4a7b11748ad")
 		(property "Reference" "U1"
-			(at 140.97 34.29 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5350,7 +5926,7 @@
 			)
 		)
 		(property "Value" "TPS566242DRLR"
-			(at 140.97 36.83 0)
+			(at 127 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5358,7 +5934,7 @@
 			)
 		)
 		(property "Footprint" "SOT5x3_DRL_TEX"
-			(at 118.618 35.814 0)
+			(at 104.648 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5944,7 @@
 			)
 		)
 		(property "Datasheet" "TPS566242DRLR"
-			(at 118.364 32.004 0)
+			(at 104.394 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 44.45 0)
+			(at 106.68 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +6142,7 @@
 	)
 	(symbol
 		(lib_id "Coutx:GRM188R71E104KA01D")
-		(at 245.11 49.53 270)
+		(at 259.08 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5574,7 +6150,7 @@
 		(dnp no)
 		(uuid "cb075611-0f51-416b-8ce5-b2f96d7c5b2f")
 		(property "Reference" "Coutx"
-			(at 248.92 50.7999 90)
+			(at 262.89 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +6159,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 249.174 53.594 90)
+			(at 263.144 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +6168,7 @@
 			)
 		)
 		(property "Footprint" "GRM188R71E104KA01D:CAPC1608X90N"
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +6178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +6187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +6196,7 @@
 			)
 		)
 		(property "MF" "Murata Electronics"
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +6206,7 @@
 			)
 		)
 		(property "Description_1" "\nSMD Capacitor X7R(EIA) with Capacitance: 0.10uF Tol. 10%. Rated Voltage: 25Vdc\n"
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +6216,7 @@
 			)
 		)
 		(property "Package" "1608 Murata"
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +6226,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +6236,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM188R71E104KA01D/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +6246,7 @@
 			)
 		)
 		(property "MP" "GRM188R71E104KA01D"
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +6256,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +6266,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM188R71E104KA01D/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 245.11 49.53 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,8 +6291,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Cout:LMK212BJ226MG-T")
+		(at 220.98 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb4f8d4b-1105-461f-a70c-a1259f9597a2")
+		(property "Reference" "Cout"
+			(at 224.79 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 225.298 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LMK212BJ226MG-T:CAPC2012X135N"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012 Taiyo Yuden"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LMK212BJ226MG-T"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225286&manufacturer=Taiyo Yuden&part_name=LMK212BJ226MG-T&search_term=lmk212bj226mg-t"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 220.98 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7152262c-c7ae-48a4-9ba7-80c4b4cf4eff")
+		)
+		(pin "2"
+			(uuid "dc7f9802-0c4d-41fb-a5e3-48d2f9147407")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
+					(reference "Cout")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CfLDO:C0603C105K8RACTU")
-		(at 130.81 125.73 270)
+		(at 130.81 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5724,7 +6460,7 @@
 		(dnp no)
 		(uuid "d3eb8836-661e-41b2-b996-5f5701256711")
 		(property "Reference" "CinLDO"
-			(at 133.35 129.54 90)
+			(at 133.35 133.35 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5733,7 +6469,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 134.62 132.334 90)
+			(at 134.62 136.144 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5742,7 +6478,7 @@
 			)
 		)
 		(property "Footprint" "CAPC17595_90N_KEM"
-			(at 130.81 125.73 0)
+			(at 130.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +6488,7 @@
 			)
 		)
 		(property "Datasheet" "C0603C105K8RACTU"
-			(at 130.81 125.73 0)
+			(at 130.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +6498,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 125.73 0)
+			(at 130.81 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,8 +6672,168 @@
 		)
 	)
 	(symbol
+		(lib_id "Cout:LMK212BJ226MG-T")
+		(at 245.11 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1d2e012-ab14-459e-b779-20ef306048aa")
+		(property "Reference" "Cout"
+			(at 248.92 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 249.428 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LMK212BJ226MG-T:CAPC2012X135N"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "2012 Taiyo Yuden"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LMK212BJ226MG-T"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225286&manufacturer=Taiyo Yuden&part_name=LMK212BJ226MG-T&search_term=lmk212bj226mg-t"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb57812c-a0a9-49d1-9d7c-7e22929915f2")
+		)
+		(pin "2"
+			(uuid "f7362bed-f93b-4161-ba7b-fc010a56da22")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
+					(reference "Cout")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
-		(at 140.97 80.01 0)
+		(at 127 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5946,7 +6842,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe21dd97-e607-4f34-b9f5-69d2e7df29b3")
 		(property "Reference" "#PWR04"
-			(at 140.97 86.36 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +6851,7 @@
 			)
 		)
 		(property "Value" "GND1"
-			(at 140.97 85.09 0)
+			(at 127 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +6859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 80.01 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5972,7 +6868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 80.01 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +6877,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 140.97 80.01 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
