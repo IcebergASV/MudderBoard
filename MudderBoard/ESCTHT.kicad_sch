@@ -512,6 +512,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "DI110N04PQ-AQ:nMOS"
 			(pin_numbers hide)
 			(pin_names
@@ -1463,6 +1565,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1802,16 +2073,46 @@
 		)
 	)
 	(junction
+		(at 187.96 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0207c4f6-30a1-4485-8ae1-d753d5ef949e")
+	)
+	(junction
+		(at 240.03 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03107f6f-4df7-45d6-8b2e-288756a2e71e")
+	)
+	(junction
 		(at 218.44 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "036fb031-793d-4042-965d-9e61b33b835b")
 	)
 	(junction
+		(at 114.3 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09c486a6-7215-4543-bca8-21130cd880c9")
+	)
+	(junction
+		(at 66.04 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a7efe83-8b82-44d0-bbe2-10470ce45eed")
+	)
+	(junction
 		(at 91.44 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f35c7bd-0b40-4fd7-9b9a-b76003d89859")
+	)
+	(junction
+		(at 50.8 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10e2808f-a4c2-4f08-a813-ec9b53daf9e1")
 	)
 	(junction
 		(at 179.07 45.72)
@@ -1824,6 +2125,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "174a66c6-18a3-4148-a363-57cb87395436")
+	)
+	(junction
+		(at 251.46 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a7b89da-d974-4617-a41f-2ca898eeda73")
+	)
+	(junction
+		(at 185.42 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1caf6cd4-2bb8-4adf-9b64-38d1d1e1408b")
 	)
 	(junction
 		(at 116.84 88.9)
@@ -1844,10 +2157,34 @@
 		(uuid "224ec2c0-38eb-48eb-812b-86c5cc37c400")
 	)
 	(junction
+		(at 233.68 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22dfb43a-401a-4095-9322-3a793c509338")
+	)
+	(junction
 		(at 72.39 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24883350-497d-4c2b-bf10-4d39932a5441")
+	)
+	(junction
+		(at 176.53 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "255f2da0-b68e-410f-8643-68e5ba3ee142")
+	)
+	(junction
+		(at 240.03 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267af23a-563e-44bf-a51c-813ee8d6759a")
+	)
+	(junction
+		(at 165.1 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f0f2085-a413-4101-a409-54fb57a077f2")
 	)
 	(junction
 		(at 30.48 73.66)
@@ -1856,10 +2193,22 @@
 		(uuid "3338be77-4eec-4e5a-8cf0-fecea88a729d")
 	)
 	(junction
+		(at 200.66 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34069612-60a4-4534-8a99-df33aa36c771")
+	)
+	(junction
 		(at 30.48 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34793f9f-baf0-4740-963a-c8188d57a1b2")
+	)
+	(junction
+		(at 248.92 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a34a7a1-edc9-40d7-87cc-cbf0b902daa4")
 	)
 	(junction
 		(at 91.44 26.67)
@@ -1872,6 +2221,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cc53e7a-8d07-49f2-a7b8-05595c9ea21e")
+	)
+	(junction
+		(at 102.87 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d0ca338-d915-4b64-ab3f-feaec0d2b044")
 	)
 	(junction
 		(at 58.42 57.15)
@@ -1904,6 +2259,18 @@
 		(uuid "50e92e6f-9715-474a-a5e1-404d6ca133ce")
 	)
 	(junction
+		(at 90.17 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "579ac2c9-343c-4922-b30c-7c0d9fad8fc5")
+	)
+	(junction
+		(at 212.09 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e1f2cb3-efb1-4de6-bda8-c37d82cafd2d")
+	)
+	(junction
 		(at 90.17 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1914,6 +2281,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fe2e9c4-bf13-40ac-a338-6542faf0a724")
+	)
+	(junction
+		(at 237.49 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "616dc29f-39b9-4e58-b068-d0e7cfce4f87")
 	)
 	(junction
 		(at 207.01 74.93)
@@ -1934,10 +2307,34 @@
 		(uuid "6b717b31-e16b-40f0-b3bb-43dcf2c0bc29")
 	)
 	(junction
+		(at 175.26 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c09bf4d-5521-409f-9a89-62b3ff39beaa")
+	)
+	(junction
 		(at 118.11 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c56e4c3-ab33-4ae1-bcf8-e4c12c57c536")
+	)
+	(junction
+		(at 114.3 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "716ba480-c72f-415f-be89-630e8f942e9d")
+	)
+	(junction
+		(at 220.98 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72c48d79-e2e7-4bf8-8e1f-860b4b163efc")
+	)
+	(junction
+		(at 260.35 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73670436-3414-4992-9fdb-0b35e4dbdd2c")
 	)
 	(junction
 		(at 78.74 26.67)
@@ -1946,16 +2343,22 @@
 		(uuid "73b693d1-339b-46e5-b88c-6821202d28e5")
 	)
 	(junction
+		(at 173.99 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75598020-de5e-4d16-b2ab-ed6f06a2c692")
+	)
+	(junction
 		(at 260.35 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75d54d35-1d29-41a8-b2d2-072b3d48cc88")
 	)
 	(junction
-		(at 243.84 26.67)
+		(at 166.37 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80bb2189-4fff-4c91-81e5-0ccb803e83a6")
+		(uuid "7bc24ab1-71a1-490d-b2c2-8a06fd505ace")
 	)
 	(junction
 		(at 73.66 149.86)
@@ -1988,16 +2391,22 @@
 		(uuid "8ffe2cab-1e9c-44a0-ac56-0edab048256b")
 	)
 	(junction
+		(at 186.69 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94548f17-ab39-42b8-8e97-061ebd1c0126")
+	)
+	(junction
 		(at 200.66 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "947301cd-7690-41ea-882a-96e74fd8eb89")
 	)
 	(junction
-		(at 245.11 146.05)
+		(at 248.92 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9578a13f-ddf5-4746-8574-0c0d0cfd0ee3")
+		(uuid "95cb58b3-85ec-44b6-a0eb-5d53761f536b")
 	)
 	(junction
 		(at 187.96 74.93)
@@ -2010,6 +2419,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6889586-9ad7-4a95-bb27-3ef98e4b8732")
+	)
+	(junction
+		(at 91.44 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e6114c-d62c-45b7-a6b5-913a605a3690")
+	)
+	(junction
+		(at 201.93 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aac6946d-87c0-4bfc-b776-bc90b58a84d6")
 	)
 	(junction
 		(at 43.18 78.74)
@@ -2030,22 +2451,28 @@
 		(uuid "b157f754-0187-4eda-9278-99fbeed99c91")
 	)
 	(junction
+		(at 176.53 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1d4d36c-a7a5-4e34-bdd7-46fd072f50fe")
+	)
+	(junction
 		(at 201.93 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b77f6ff9-13ea-4f55-9338-968679db00b2")
 	)
 	(junction
+		(at 101.6 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b887731e-9338-49cf-b953-71fc86cf24a1")
+	)
+	(junction
 		(at 179.07 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd2e78f8-64c7-4f5d-a562-4aa60ec946d8")
-	)
-	(junction
-		(at 245.11 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdbf6b4a-94cc-404b-8f67-75914663cd8c")
 	)
 	(junction
 		(at 208.28 146.05)
@@ -2066,22 +2493,40 @@
 		(uuid "c211a464-a23f-48a6-a393-e723b94f3267")
 	)
 	(junction
+		(at 213.36 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4141c8c-d582-4ecb-b28d-abdb814269b8")
+	)
+	(junction
 		(at 31.75 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca970917-8ece-4b45-aaf4-f676d663db51")
 	)
 	(junction
-		(at 259.08 26.67)
+		(at 251.46 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cacbcde8-58fe-406b-9898-8850bad2e589")
+		(uuid "ce9e5d13-847f-48c6-8c1e-7471866f2490")
+	)
+	(junction
+		(at 250.19 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cec9c28a-eb92-4418-82d4-537f2a45efb1")
 	)
 	(junction
 		(at 58.42 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfa93d44-72d5-4003-b5d1-6e4a2268d5b9")
+	)
+	(junction
+		(at 191.77 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2b5fef0-fca1-49e2-94b9-c79fc788bd90")
 	)
 	(junction
 		(at 73.66 124.46)
@@ -2120,12 +2565,6 @@
 		(uuid "deb226db-50d8-4f63-a742-34a1984e496c")
 	)
 	(junction
-		(at 243.84 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3801b17-6382-445b-ac6a-dc3abe499cbe")
-	)
-	(junction
 		(at 204.47 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2144,12 +2583,6 @@
 		(uuid "ee19ebcf-8073-4a77-bffb-efca674eaf8d")
 	)
 	(junction
-		(at 219.71 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef5eb4e7-0e62-4472-98cc-13d527097c2d")
-	)
-	(junction
 		(at 246.38 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2160,6 +2593,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6a6887a-9a83-4212-871c-55f006592788")
+	)
+	(junction
+		(at 252.73 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf9aa91-8c7b-4167-b024-f98dab3d8985")
+	)
+	(junction
+		(at 237.49 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe4eebb3-35fd-4ec2-863d-fff8acafeb45")
 	)
 	(wire
 		(pts
@@ -2183,6 +2628,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 118.11) (xy 215.9 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021573ae-56a1-4f7c-a187-0e2693b0ba4d")
+	)
+	(wire
+		(pts
 			(xy 30.48 22.86) (xy 30.48 26.67)
 		)
 		(stroke
@@ -2193,7 +2648,17 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 63.5) (xy 259.08 74.93)
+			(xy 220.98 100.33) (xy 228.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041f407d-c3c1-4635-ba7f-ce31ec6f0b61")
+	)
+	(wire
+		(pts
+			(xy 260.35 59.69) (xy 260.35 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2223,26 +2688,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 146.05) (xy 245.11 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "083bd930-0fa8-4eab-973d-64b5b7840874")
-	)
-	(wire
-		(pts
-			(xy 237.49 26.67) (xy 243.84 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09091d5f-ae54-4683-921f-abb0eb1c6652")
-	)
-	(wire
-		(pts
 			(xy 118.11 148.59) (xy 118.11 160.02)
 		)
 		(stroke
@@ -2263,7 +2708,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 45.72) (xy 200.66 45.72)
+			(xy 102.87 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abdb1fa-1ce3-4a87-8481-07555f655e54")
+	)
+	(wire
+		(pts
+			(xy 179.07 45.72) (xy 186.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2283,13 +2738,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 100.33) (xy 143.51 100.33)
+			(xy 92.71 100.33) (xy 114.3 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0eb50f70-dc15-4ebf-9003-dfc6cf6ca38a")
+	)
+	(wire
+		(pts
+			(xy 240.03 146.05) (xy 208.28 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104873a1-45b9-41a5-a1c0-90e8bd6b1689")
 	)
 	(wire
 		(pts
@@ -2300,6 +2765,26 @@
 			(type default)
 		)
 		(uuid "12c45a0b-9eef-44ce-9003-9ab6342620d1")
+	)
+	(wire
+		(pts
+			(xy 165.1 80.01) (xy 165.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13473342-1871-4b00-b474-3e881c732024")
+	)
+	(wire
+		(pts
+			(xy 251.46 119.38) (xy 251.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a77e5c-c3e5-464c-aa43-bb22bbcf737b")
 	)
 	(wire
 		(pts
@@ -2323,6 +2808,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 57.15) (xy 200.66 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1767d1a0-ff65-450a-a687-e42c893d7e02")
+	)
+	(wire
+		(pts
 			(xy 25.4 140.97) (xy 31.75 140.97)
 		)
 		(stroke
@@ -2333,7 +2828,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 63.5) (xy 243.84 74.93)
+			(xy 237.49 59.69) (xy 237.49 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2353,6 +2848,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 107.95) (xy 233.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ebb6c5-55bf-4722-9ac1-fe4fa6c514a5")
+	)
+	(wire
+		(pts
 			(xy 59.69 128.27) (xy 59.69 138.43)
 		)
 		(stroke
@@ -2360,6 +2865,16 @@
 			(type default)
 		)
 		(uuid "1c4520f0-3118-4f8c-aa60-e3965dfef206")
+	)
+	(wire
+		(pts
+			(xy 213.36 114.3) (xy 213.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e26495f-c9d7-4aad-9c1e-b43701b7259f")
 	)
 	(wire
 		(pts
@@ -2403,6 +2918,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 124.46) (xy 73.66 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "233a2bd9-87d0-4f11-8617-ace5f75fe7fe")
+	)
+	(wire
+		(pts
 			(xy 78.74 50.8) (xy 78.74 26.67)
 		)
 		(stroke
@@ -2423,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 125.73) (xy 214.63 125.73)
+			(xy 212.09 118.11) (xy 213.36 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2958,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 26.67) (xy 243.84 55.88)
+			(xy 237.49 26.67) (xy 237.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2453,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 26.67) (xy 58.42 43.18)
+			(xy 58.42 26.67) (xy 58.42 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +2988,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 100.33) (xy 205.74 100.33)
+			(xy 151.13 100.33) (xy 173.99 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2480,6 +3005,16 @@
 			(type default)
 		)
 		(uuid "27cd4815-8016-445e-9b55-a67328b1b645")
+	)
+	(wire
+		(pts
+			(xy 260.35 26.67) (xy 262.89 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a3fc2f-842b-4733-b0d7-294e27503835")
 	)
 	(wire
 		(pts
@@ -2523,16 +3058,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 124.46) (xy 73.66 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30299e2c-e1d3-45db-a0dc-cb11ec17a004")
-	)
-	(wire
-		(pts
 			(xy 165.1 92.71) (xy 177.8 92.71)
 		)
 		(stroke
@@ -2563,6 +3088,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 100.33) (xy 252.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341b163a-1ee8-4db4-a855-4a8bd3a85833")
+	)
+	(wire
+		(pts
 			(xy 80.01 121.92) (xy 80.01 100.33)
 		)
 		(stroke
@@ -2570,6 +3105,16 @@
 			(type default)
 		)
 		(uuid "34f9efe5-005c-4d2b-a773-e9a49d70621b")
+	)
+	(wire
+		(pts
+			(xy 201.93 129.54) (xy 201.93 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ab7949-f6d0-4b8a-9613-0647679d08f4")
 	)
 	(wire
 		(pts
@@ -2583,7 +3128,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 134.62) (xy 245.11 146.05)
+			(xy 240.03 133.35) (xy 240.03 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2593,7 +3138,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 132.08) (xy 189.23 132.08)
+			(xy 172.72 132.08) (xy 187.96 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2613,6 +3158,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 120.65) (xy 220.98 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c57038a-6ef4-4fa6-873f-d9b77b168a71")
+	)
+	(wire
+		(pts
 			(xy 59.69 149.86) (xy 73.66 149.86)
 		)
 		(stroke
@@ -2623,7 +3178,27 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 72.39 53.34)
+			(xy 248.92 74.93) (xy 260.35 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd4307c-2fd2-4d2a-995d-6d8caacdd342")
+	)
+	(wire
+		(pts
+			(xy 173.99 100.33) (xy 205.74 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6895df-ad90-4fd7-881e-40b567ca56d8")
+	)
+	(wire
+		(pts
+			(xy 72.39 45.72) (xy 72.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2633,7 +3208,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 121.92) (xy 59.69 128.27)
+			(xy 59.69 116.84) (xy 59.69 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2673,16 +3248,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 74.93) (xy 243.84 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44729c2e-3434-4c6b-a91a-ec8bac8b8584")
-	)
-	(wire
-		(pts
 			(xy 207.01 74.93) (xy 207.01 76.2)
 		)
 		(stroke
@@ -2700,6 +3265,16 @@
 			(type default)
 		)
 		(uuid "45598cf2-863d-4322-85e2-b10768058e79")
+	)
+	(wire
+		(pts
+			(xy 212.09 40.64) (xy 213.36 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e37b98-9364-429f-b3f7-93c7e6583216")
 	)
 	(wire
 		(pts
@@ -2723,7 +3298,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 53.34) (xy 200.66 60.96)
+			(xy 58.42 128.27) (xy 59.69 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a12e018-604a-4308-b062-a638e59524e8")
+	)
+	(wire
+		(pts
+			(xy 200.66 53.34) (xy 200.66 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2743,13 +3328,33 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 26.67) (xy 72.39 39.37)
+			(xy 251.46 132.08) (xy 251.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be13cf0-47a9-4d48-92e9-0fbbeb138860")
+	)
+	(wire
+		(pts
+			(xy 72.39 26.67) (xy 72.39 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4d68002b-fa02-4c74-969f-5fc1fbd881ff")
+	)
+	(wire
+		(pts
+			(xy 237.49 74.93) (xy 207.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8d5dfb-6654-4278-92b4-78624a774089")
 	)
 	(wire
 		(pts
@@ -2773,6 +3378,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 45.72) (xy 200.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501af37e-3459-436f-b308-fa57e568987b")
+	)
+	(wire
+		(pts
 			(xy 120.65 48.26) (xy 91.44 48.26)
 		)
 		(stroke
@@ -2783,7 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 100.33) (xy 59.69 114.3)
+			(xy 59.69 100.33) (xy 59.69 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2793,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 50.8) (xy 58.42 57.15)
+			(xy 58.42 45.72) (xy 58.42 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2820,6 +3435,16 @@
 			(type default)
 		)
 		(uuid "56bbd09b-79d3-4baf-833c-f865885764d3")
+	)
+	(wire
+		(pts
+			(xy 185.42 60.96) (xy 187.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fa33bd-6ad1-4bf2-9004-28142dafa198")
 	)
 	(wire
 		(pts
@@ -2850,16 +3475,6 @@
 			(type default)
 		)
 		(uuid "5a8256e2-1692-4ea3-b3de-7367e93f0501")
-	)
-	(wire
-		(pts
-			(xy 259.08 26.67) (xy 262.89 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a884980-e8ba-4e44-ab1c-f7abdbb5ff66")
 	)
 	(wire
 		(pts
@@ -2913,6 +3528,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 53.34) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5daf324d-5768-442d-8f1d-7e061dab4977")
+	)
+	(wire
+		(pts
 			(xy 120.65 58.42) (xy 90.17 58.42)
 		)
 		(stroke
@@ -2933,16 +3558,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 146.05) (xy 208.28 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604a6ddc-f613-4a0b-ae97-b6fdca880c34")
-	)
-	(wire
-		(pts
 			(xy 116.84 63.5) (xy 120.65 63.5)
 		)
 		(stroke
@@ -2960,6 +3575,16 @@
 			(type default)
 		)
 		(uuid "644f3826-220c-4a0d-9b60-594a45bc0cb5")
+	)
+	(wire
+		(pts
+			(xy 248.92 58.42) (xy 248.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649aa8ca-bd56-4290-b2e7-4d97c3a5329e")
 	)
 	(wire
 		(pts
@@ -2990,6 +3615,16 @@
 			(type default)
 		)
 		(uuid "6be15f59-298b-4191-bb9a-0e66db0b9359")
+	)
+	(wire
+		(pts
+			(xy 210.82 40.64) (xy 212.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfffe1f-6e0e-43bf-81e2-f94c6964305f")
 	)
 	(wire
 		(pts
@@ -3053,17 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 74.93) (xy 207.01 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "777b0dbe-4b4c-4529-9d16-fa522cf5e147")
-	)
-	(wire
-		(pts
-			(xy 149.86 26.67) (xy 204.47 26.67)
+			(xy 149.86 26.67) (xy 176.53 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3073,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 26.67) (xy 259.08 55.88)
+			(xy 260.35 26.67) (xy 260.35 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3113,26 +3738,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 132.08) (xy 102.87 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e5f967-0a3a-49d7-94fa-66db69a4cf97")
-	)
-	(wire
-		(pts
-			(xy 243.84 26.67) (xy 245.11 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c227389-5244-4e48-a8c8-4b8ebf04349b")
-	)
-	(wire
-		(pts
 			(xy 120.65 50.8) (xy 78.74 50.8)
 		)
 		(stroke
@@ -3153,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 100.33) (xy 73.66 100.33)
+			(xy 59.69 100.33) (xy 66.04 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3253,7 +3858,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 26.67) (xy 142.24 26.67)
+			(xy 91.44 26.67) (xy 114.3 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3273,23 +3878,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 26.67) (xy 259.08 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ba7fca7-63a4-4306-ab07-4e542477187b")
-	)
-	(wire
-		(pts
-			(xy 219.71 100.33) (xy 219.71 124.46)
+			(xy 220.98 100.33) (xy 220.98 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8bda6ea2-d184-4b08-b37e-3c65e10841f7")
+	)
+	(wire
+		(pts
+			(xy 248.92 44.45) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c623374-d263-4ac7-b314-19c39f1e86f2")
 	)
 	(wire
 		(pts
@@ -3303,13 +3908,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 125.73) (xy 214.63 127)
+			(xy 237.49 26.67) (xy 245.11 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9153d221-0ada-4cdf-b864-6059de420d6c")
+		(uuid "93131988-2c3b-44f9-bdb4-3f5219d0296f")
 	)
 	(wire
 		(pts
@@ -3333,23 +3938,23 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 100.33) (xy 228.6 100.33)
+			(xy 114.3 26.67) (xy 142.24 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98321398-e171-485c-bb8f-9100bbc361e7")
+		(uuid "9578a981-a33a-4e8a-a394-e2a4e67a6860")
 	)
 	(wire
 		(pts
-			(xy 72.39 53.34) (xy 72.39 54.61)
+			(xy 68.58 124.46) (xy 73.66 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c6e6db9-43b8-439d-901c-cd97425d2a02")
+		(uuid "9910e520-7722-405a-ae31-00d1b6633c5d")
 	)
 	(wire
 		(pts
@@ -3393,13 +3998,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 100.33) (xy 219.71 100.33)
+			(xy 205.74 100.33) (xy 220.98 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e45986d-8e2e-4026-8630-7cedf16a1c0b")
+	)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 72.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f1f693-c04d-49f1-b345-96adaf83b200")
 	)
 	(wire
 		(pts
@@ -3413,13 +4028,33 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 165.1 77.47)
+			(xy 165.1 81.28) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a273de1f-7c89-4fb7-b000-9c7cc7e06fa0")
+	)
+	(wire
+		(pts
+			(xy 245.11 26.67) (xy 248.92 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c456c5-9708-4303-b9aa-af11c01ba15b")
+	)
+	(wire
+		(pts
+			(xy 187.96 132.08) (xy 189.23 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a503d979-1999-429d-8a7e-05d6c2da7918")
 	)
 	(wire
 		(pts
@@ -3533,7 +4168,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 100.33) (xy 245.11 127)
+			(xy 240.03 100.33) (xy 240.03 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3543,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 116.84) (xy 201.93 116.84)
+			(xy 181.61 116.84) (xy 191.77 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3583,13 +4218,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 100.33) (xy 246.38 100.33)
+			(xy 114.3 100.33) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7521ce8-7f1e-4b79-8fb9-a28fed6efa46")
+		(uuid "b43214e9-af6b-4678-9d3b-400ce8fffdb3")
 	)
 	(wire
 		(pts
@@ -3603,6 +4238,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 146.05) (xy 260.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ec87d2-2958-415e-9611-91c06938de0d")
+	)
+	(wire
+		(pts
 			(xy 175.26 74.93) (xy 187.96 74.93)
 		)
 		(stroke
@@ -3613,13 +4258,43 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 100.33) (xy 260.35 100.33)
+			(xy 191.77 116.84) (xy 201.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf37e4bc-7dd6-43b6-99a8-9a57e8a6e20f")
+	)
+	(wire
+		(pts
+			(xy 246.38 100.33) (xy 251.46 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1c0f2f7-6256-4f26-93ec-ff75939452b3")
+	)
+	(wire
+		(pts
+			(xy 176.53 26.67) (xy 204.47 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fb0838-a8c2-467e-8be0-46813ac042f2")
+	)
+	(wire
+		(pts
+			(xy 250.19 26.67) (xy 260.35 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b0980d-288f-4960-9998-644cd50aee76")
 	)
 	(wire
 		(pts
@@ -3630,6 +4305,16 @@
 			(type default)
 		)
 		(uuid "c57690ac-d576-4e92-8067-34f246cfb02c")
+	)
+	(wire
+		(pts
+			(xy 66.04 100.33) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71399f6-de79-46ba-a873-b6e3a6bb4ce3")
 	)
 	(wire
 		(pts
@@ -3693,13 +4378,23 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 106.68) (xy 233.68 110.49)
+			(xy 233.68 106.68) (xy 233.68 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd055272-ad19-4c79-8c6e-e9e65fac0876")
+	)
+	(wire
+		(pts
+			(xy 248.92 26.67) (xy 250.19 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cda4a120-94fc-476d-836c-a2d97743d881")
 	)
 	(wire
 		(pts
@@ -3710,6 +4405,16 @@
 			(type default)
 		)
 		(uuid "cdbf235b-4bba-4ed5-a6bb-f03afcd7dd97")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33) (xy 246.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc6c66a-0448-4cf3-a0a7-c18d8754fffd")
 	)
 	(wire
 		(pts
@@ -3743,7 +4448,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 26.67) (xy 58.42 26.67)
+			(xy 43.18 26.67) (xy 50.8 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3753,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 100.33) (xy 245.11 100.33)
+			(xy 238.76 100.33) (xy 240.03 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3763,13 +4468,33 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 124.46) (xy 201.93 132.08)
+			(xy 251.46 100.33) (xy 251.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59ebb6e-b8ef-40fd-a7df-c9849d4ea2ca")
+	)
+	(wire
+		(pts
+			(xy 201.93 124.46) (xy 201.93 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da387402-686b-46dc-8f2b-8029c051c584")
+	)
+	(wire
+		(pts
+			(xy 240.03 146.05) (xy 251.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc444d11-14ee-4f67-aeff-8b3842512a9e")
 	)
 	(wire
 		(pts
@@ -3813,6 +4538,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 100.33) (xy 260.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e247ad75-d684-4191-b5da-9092a0d17efa")
+	)
+	(wire
+		(pts
 			(xy 200.66 74.93) (xy 207.01 74.93)
 		)
 		(stroke
@@ -3853,6 +4588,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 36.83) (xy 212.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b1d597-2534-43ff-a9f3-e6af9756ff66")
+	)
+	(wire
+		(pts
 			(xy 162.56 92.71) (xy 165.1 92.71)
 		)
 		(stroke
@@ -3860,6 +4605,16 @@
 			(type default)
 		)
 		(uuid "e7ee6a1a-1d36-4ea7-b61c-5e900a945012")
+	)
+	(wire
+		(pts
+			(xy 50.8 26.67) (xy 58.42 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb02915a-c61b-4ec1-b6c7-47d853647505")
 	)
 	(wire
 		(pts
@@ -3873,6 +4628,26 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 74.93) (xy 248.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7c65d2-b39b-4a60-b382-a147c7085be4")
+	)
+	(wire
+		(pts
+			(xy 248.92 26.67) (xy 248.92 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee280b1a-6299-45b8-8e3e-698c742be53a")
+	)
+	(wire
+		(pts
 			(xy 116.84 66.04) (xy 120.65 66.04)
 		)
 		(stroke
@@ -3883,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 60.96) (xy 187.96 60.96)
+			(xy 171.45 60.96) (xy 185.42 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4123,7 +4898,7 @@
 	)
 	(global_label "LO2"
 		(shape input)
-		(at 213.36 125.73 180)
+		(at 212.09 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4133,7 +4908,7 @@
 		)
 		(uuid "2cf4d3ec-98ca-4602-87a5-429ed00457b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.8067 125.73 0)
+			(at 205.5367 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4942,7 @@
 	)
 	(global_label "LO"
 		(shape input)
-		(at 213.36 40.64 180)
+		(at 210.82 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4177,7 +4952,7 @@
 		)
 		(uuid "4dad74be-c79a-4901-90dc-39b888bf03c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.0162 40.64 0)
+			(at 205.4762 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,6 +5623,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 252.73 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e1e099-40d6-419a-a876-a3b0cc040949")
+		(property "Reference" "TP18"
+			(at 255.27 95.7579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 255.27 98.2979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 252.73 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbdeb024-aceb-4a52-ae24-69b1fce088ab")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 232.41 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04b4d8a5-3f76-4df5-bf28-41105784ac78")
+		(property "Reference" "TP8"
+			(at 237.49 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 237.49 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 232.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16478560-0135-4ea7-a9b0-90cea441e7cb")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 59.69 142.24 180)
 		(unit 1)
@@ -4866,7 +5775,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "7.15kOhm"
+		(property "Value" "6.49kOhm"
 			(at 62.23 143.5099 0)
 			(effects
 				(font
@@ -4912,6 +5821,71 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08db2abc-5c32-4a0a-834d-ad169fce1b7d")
+		(property "Reference" "TP27"
+			(at 88.138 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 88.138 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "037a4b04-e497-4b08-bd3e-6a44dc41a1d8")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -4987,35 +5961,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 245.11 130.81 0)
+		(lib_id "Device:LED")
+		(at 251.46 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1153ce16-5153-48d4-9cb0-3956b0fce405")
-		(property "Reference" "C56"
-			(at 248.92 129.5399 0)
+		(uuid "0b4a4930-9767-4ca2-887d-b091fe3843ff")
+		(property "Reference" "D4"
+			(at 255.27 128.5874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "270uF"
-			(at 248.92 132.0799 0)
+		(property "Value" "LED"
+			(at 255.27 131.1274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 246.0752 134.62 0)
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+			(at 251.46 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5998,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 130.81 0)
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 251.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55322466-fb6e-40f1-b9cd-a30658d98b32")
+		)
+		(pin "2"
+			(uuid "9be60440-e8b9-4974-b93d-4213cacd2d5a")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 240.03 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1153ce16-5153-48d4-9cb0-3956b0fce405")
+		(property "Reference" "C56"
+			(at 243.84 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270uF"
+			(at 243.84 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.9952 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +6077,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 130.81 0)
+			(at 240.03 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,6 +6234,205 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c1d0271-46be-4db7-bd31-7d3b2913735f")
+		(property "Reference" "TP2"
+			(at 116.84 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.84 24.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 119.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84bcc9c7-7e9c-4866-b222-92e5029d36bf")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 200.66 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ca5a949-00bd-43aa-b195-cc1199aa341e")
+		(property "Reference" "TP6"
+			(at 205.74 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 205.74 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84bcc9c7-7e9c-4866-b222-92e5029d36bf")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 102.87 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cd6aa71-a533-4fa4-bbbd-192ff4e48378")
+		(property "Reference" "TP26"
+			(at 99.568 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 99.568 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 102.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05719561-18b0-4239-b0d6-3170061ee6ef")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 86.36 100.33 90)
 		(unit 1)
@@ -5207,7 +6450,7 @@
 				)
 			)
 		)
-		(property "Value" "1.336mOhm"
+		(property "Value" "1.5mOhm"
 			(at 86.36 96.52 90)
 			(effects
 				(font
@@ -5252,6 +6495,71 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ee24241-62e4-47ab-96d3-0b7eea460797")
+		(property "Reference" "TP31"
+			(at 65.278 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 65.278 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82b6a5fd-c1d9-4cca-b6db-eceb97098836")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -5345,7 +6653,7 @@
 				)
 			)
 		)
-		(property "Value" "1.336mOhm"
+		(property "Value" "1.5mOhm"
 			(at 85.09 22.86 90)
 			(effects
 				(font
@@ -5414,7 +6722,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "7.15kOhm"
+		(property "Value" "6.49kOhm"
 			(at 60.96 72.3899 0)
 			(effects
 				(font
@@ -5466,6 +6774,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 186.69 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "244209b5-4a7e-40e1-9bf7-2243d420d132")
+		(property "Reference" "TP5"
+			(at 189.23 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 189.23 43.6879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 191.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 186.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84bcc9c7-7e9c-4866-b222-92e5029d36bf")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 177.8 88.9 0)
 		(unit 1)
@@ -5484,7 +6859,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.1nF"
+		(property "Value" "4.7nF"
 			(at 181.61 90.1699 0)
 			(effects
 				(font
@@ -5554,7 +6929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.1nF"
+		(property "Value" "4.7nF"
 			(at 182.88 161.2899 0)
 			(effects
 				(font
@@ -5686,6 +7061,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 165.1 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31736d88-0873-4175-968f-ba421cfe5f63")
+		(property "Reference" "TP11"
+			(at 161.798 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 161.798 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 165.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfdf1933-e597-4ff2-b61c-0528dc99e629")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32d692c4-51f6-4212-82e0-7080b1a303de")
+		(property "Reference" "TP13"
+			(at 98.298 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 98.298 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e465039-6bc9-4675-a9e8-0faebd678590")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 147.32 0)
 		(unit 1)
@@ -5752,35 +7257,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 72.39 43.18 180)
+		(lib_id "Connector:TestPoint")
+		(at 187.96 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b95e3d7-03da-431e-a3b7-71cd9b9ccf2d")
-		(property "Reference" "R24"
-			(at 74.93 41.9099 0)
+		(uuid "3992deb6-71af-4f08-aec7-f5bbe17c70d4")
+		(property "Reference" "TP23"
+			(at 190.5 127.5079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "3.01Ohm"
-			(at 74.93 44.4499 0)
+		(property "Value" "TestPoint"
+			(at 190.5 130.0479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 74.168 43.18 90)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 193.04 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +7294,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 43.18 0)
+			(at 193.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2be3a795-f664-471d-9813-d9404e8de551")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 72.39 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b95e3d7-03da-431e-a3b7-71cd9b9ccf2d")
+		(property "Reference" "R24"
+			(at 74.93 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.01Ohm"
+			(at 74.93 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.168 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +7370,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 43.18 0)
+			(at 72.39 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,6 +7657,272 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "413705a1-91df-4105-9c29-9bc1dbd7a5ce")
+		(property "Reference" "TP19"
+			(at 238.76 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 238.76 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62d1a6b3-d571-47f3-8f5e-2facbb466684")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "430185a1-1e0f-47ce-9938-1fbd03906dbf")
+		(property "Reference" "TP20"
+			(at 215.9 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 215.9 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73934030-326f-4a7d-9219-c71c9be52dc2")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4362d2d3-ede9-46f6-83c3-a39cd154b2f0")
+		(property "Reference" "TP9"
+			(at 187.96 56.3879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 187.96 58.9279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fdf5174-2bff-4f34-bf0a-14a37a85001c")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "437b2ea3-e900-4709-9115-72d3c40516fc")
+		(property "Reference" "TP12"
+			(at 113.538 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.538 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed67e6d5-825d-41f4-9be9-1b21b767ed65")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 31.75 93.98 0)
 		(unit 1)
@@ -6168,7 +8006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180pF"
+		(property "Value" "100pF"
 			(at 170.18 157.4799 0)
 			(effects
 				(font
@@ -6238,7 +8076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180pF"
+		(property "Value" "100pF"
 			(at 168.91 86.3599 0)
 			(effects
 				(font
@@ -6354,6 +8192,138 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
 					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50661899-1842-4b85-9f6e-1169843895eb")
+		(property "Reference" "TP29"
+			(at 86.868 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 86.868 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab358678-8bdc-4b87-b678-848ba270bb98")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 176.53 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53b84e78-1de1-446a-b2cf-10d1711236bc")
+		(property "Reference" "TP28"
+			(at 181.61 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 181.61 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5396e393-94c2-4816-a085-0c354cdb0d80")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -6501,7 +8471,7 @@
 	)
 	(symbol
 		(lib_id "DI110N04PQ-AQ:nMOS")
-		(at 217.17 127 0)
+		(at 218.44 118.11 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6510,7 +8480,7 @@
 		(fields_autoplaced yes)
 		(uuid "57568e1d-758c-4953-b975-c4381b4e1383")
 		(property "Reference" "M2"
-			(at 223.52 125.7299 0)
+			(at 224.79 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +8489,7 @@
 			)
 		)
 		(property "Value" "N-MOSFET"
-			(at 223.52 128.2699 0)
+			(at 224.79 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,7 +8498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.252 130.556 0)
+			(at 239.522 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +8507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 244.856 132.842 0)
+			(at 246.126 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6546,7 +8516,7 @@
 			)
 		)
 		(property "Description" "N-Channel Power-MOSFET"
-			(at 217.17 127 0)
+			(at 218.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +8570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "180uF"
 			(at 48.26 130.8099 0)
 			(effects
 				(font
@@ -6670,7 +8640,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "28.7kOhm"
+		(property "Value" "44.2kOhm"
 			(at 181.61 153.6699 0)
 			(effects
 				(font
@@ -6740,7 +8710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "180uF"
 			(at 46.99 59.6899 0)
 			(effects
 				(font
@@ -6940,6 +8910,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 212.09 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62e81616-08a2-4a71-a7cc-fe8a0823e654")
+		(property "Reference" "TP7"
+			(at 214.63 32.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 214.63 34.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 212.09 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15dfdc37-eca4-4303-a01e-afb8d117704f")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c38fc3c-8922-4c1d-a1f2-dd323deb45a1")
+		(property "Reference" "TP32"
+			(at 55.118 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.118 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 58.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9047aac-3341-4694-8491-9f3ff4f0d517")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 101.6 66.04 180)
 		(unit 1)
@@ -6958,7 +9060,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "46.4kOhm"
+		(property "Value" "38.3kOhm"
 			(at 104.14 67.3099 0)
 			(effects
 				(font
@@ -7215,6 +9317,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 251.46 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85380373-eba5-4b09-8375-7f60bdd95004")
+		(property "Reference" "R50"
+			(at 254 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680"
+			(at 254 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 249.682 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e737373e-8dff-42bf-a0ec-d9a3e468df2a")
+		)
+		(pin "2"
+			(uuid "3bb0c09b-8379-4b6d-b471-2d24e6241f5e")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 146.05 26.67 90)
 		(unit 1)
@@ -7232,7 +9404,7 @@
 				)
 			)
 		)
-		(property "Value" "2.794uH"
+		(property "Value" "2.352uH"
 			(at 146.05 24.13 90)
 			(effects
 				(font
@@ -7354,7 +9526,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 129.54 0)
+		(at 220.98 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7363,7 +9535,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d09b2d9-4217-4622-a97d-a5685f9fec8b")
 		(property "Reference" "#PWR070"
-			(at 219.71 135.89 0)
+			(at 220.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +9544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 134.62 0)
+			(at 220.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +9552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 129.54 0)
+			(at 220.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +9561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 129.54 0)
+			(at 220.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,7 +9570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 129.54 0)
+			(at 220.98 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7765,6 +9937,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 248.92 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0ae00c-0bf0-490f-8045-f782a89de181")
+		(property "Reference" "D5"
+			(at 252.73 54.9274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 252.73 57.4674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe93e8f8-926e-4952-b4b6-f0ff0842b0dc")
+		)
+		(pin "2"
+			(uuid "29d96c5c-e4a9-4d77-ae45-c563143ca795")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1ce3a62-e4f1-4491-a388-08b95124457b")
+		(property "Reference" "TP25"
+			(at 114.808 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.808 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fafdb074-e119-47a7-988d-4a1631d6311a")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 175.26 69.85 180)
 		(unit 1)
@@ -7783,7 +10090,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "205kOhm"
+		(property "Value" "165kOhm"
 			(at 177.8 71.1199 0)
 			(effects
 				(font
@@ -7901,35 +10208,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 59.69 118.11 180)
+		(lib_id "Connector:TestPoint")
+		(at 176.53 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aa49c010-956b-46fb-9bc5-ab7cd681a48d")
-		(property "Reference" "R31"
-			(at 62.23 116.8399 0)
+		(uuid "a9bdcc61-2525-42c0-b377-7e66172f9051")
+		(property "Reference" "TP3"
+			(at 179.07 22.0979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "49.9kOhm"
-			(at 62.23 119.3799 0)
+		(property "Value" "TestPoint"
+			(at 179.07 24.6379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 61.468 118.11 90)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 181.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +10245,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 118.11 0)
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84bcc9c7-7e9c-4866-b222-92e5029d36bf")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 59.69 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa49c010-956b-46fb-9bc5-ab7cd681a48d")
+		(property "Reference" "R31"
+			(at 62.23 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9kOhm"
+			(at 62.23 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.468 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +10321,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 59.69 118.11 0)
+			(at 59.69 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +10432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120nF"
+		(property "Value" "100nF"
 			(at 181.61 49.5362 0)
 			(effects
 				(font
@@ -8128,7 +10502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120nF"
+		(property "Value" "100nF"
 			(at 184.15 120.6562 0)
 			(effects
 				(font
@@ -8180,6 +10554,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 173.99 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b39dc920-b024-4e87-b4a6-84750ff998b7")
+		(property "Reference" "TP17"
+			(at 176.53 95.7579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 176.53 98.2979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 173.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c18cae2f-8052-47c7-a250-508f88dd9479")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 147.32 100.33 90)
 		(unit 1)
@@ -8197,7 +10638,7 @@
 				)
 			)
 		)
-		(property "Value" "2.794uH"
+		(property "Value" "2.352uH"
 			(at 147.32 97.79 90)
 			(effects
 				(font
@@ -8242,6 +10683,73 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
 					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4e52a94-00ad-4f78-9a89-bc8003a69387")
+		(property "Reference" "TP21"
+			(at 194.31 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 194.31 114.8079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ecc7217-560c-4881-bcb7-3a09345bf52c")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -8318,7 +10826,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 259.08 59.69 0)
+		(at 260.35 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8327,7 +10835,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7c8de35-82fe-4658-b7c7-9b5761fb8c18")
 		(property "Reference" "C46"
-			(at 262.89 58.4199 0)
+			(at 264.16 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8336,7 +10844,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 262.89 60.9599 0)
+			(at 264.16 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +10853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.0452 63.5 0)
+			(at 261.3152 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8354,7 +10862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 59.69 0)
+			(at 260.35 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +10871,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 259.08 59.69 0)
+			(at 260.35 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8387,17 +10895,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 243.84 59.69 0)
+		(lib_id "Connector:TestPoint")
+		(at 201.93 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b91c8fea-332f-4335-b891-6c5850d857bf")
-		(property "Reference" "C45"
-			(at 247.65 58.4199 0)
+		(uuid "b8cd6893-bfd4-491d-a9ce-7d1445b1a863")
+		(property "Reference" "TP22"
+			(at 207.01 128.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8405,8 +10913,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270uF"
-			(at 247.65 60.9599 0)
+		(property "Value" "TestPoint"
+			(at 207.01 130.8099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,8 +10922,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 244.8052 63.5 0)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 201.93 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,7 +10932,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 59.69 0)
+			(at 201.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 201.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03a93370-b616-4437-8e3f-ea4440571e0e")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b91c8fea-332f-4335-b891-6c5850d857bf")
+		(property "Reference" "C45"
+			(at 241.3 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270uF"
+			(at 241.3 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.4552 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8433,7 +11008,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 243.84 59.69 0)
+			(at 237.49 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,35 +11032,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 58.42 46.99 180)
+		(lib_id "Connector:TestPoint")
+		(at 114.3 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd7d5a12-f49b-433d-9546-ece844b513f4")
-		(property "Reference" "R23"
-			(at 60.96 45.7199 0)
+		(uuid "bea6e07f-28c5-4fe0-af9c-c443af75570a")
+		(property "Reference" "TP16"
+			(at 116.84 95.7579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "49.9kOhm"
-			(at 60.96 48.2599 0)
+		(property "Value" "TestPoint"
+			(at 116.84 98.2979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 60.198 46.99 90)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 119.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8494,7 +11069,139 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 46.99 0)
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b5fe0d7-20d4-4230-94fe-e450e30f1e83")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 68.58 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c948680e-ea1b-4a41-a309-34fc7c1e39fa")
+		(property "Reference" "TP30"
+			(at 65.278 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 65.278 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "007eb5f5-35d6-4d23-9ae9-55526cce259a")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd7d5a12-f49b-433d-9546-ece844b513f4")
+		(property "Reference" "R23"
+			(at 60.96 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "49.9kOhm"
+			(at 60.96 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.198 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +11210,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 46.99 0)
+			(at 58.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,6 +11508,207 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 175.26 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd77aaf4-c39f-43cf-b558-e30e90c52833")
+		(property "Reference" "TP10"
+			(at 180.34 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 180.34 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cddc5eb2-d822-491b-807d-360e6819406d")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddbb4cc4-f215-4c43-8246-dce28946659e")
+		(property "Reference" "TP15"
+			(at 68.58 95.7579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 98.2979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23f384ad-be01-41fc-918d-0064e9bc1c6a")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de82b1c5-43ed-4fd6-9409-819b24a51165")
+		(property "Reference" "TP1"
+			(at 53.34 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 24.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84bcc9c7-7e9c-4866-b222-92e5029d36bf")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 102.87 137.16 180)
 		(unit 1)
@@ -8819,7 +11727,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "46.4kOhm"
+		(property "Value" "38.3kOhm"
 			(at 105.41 138.4299 0)
 			(effects
 				(font
@@ -8889,7 +11797,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "28.7kOhm"
+		(property "Value" "44.2kOhm"
 			(at 180.34 82.5499 0)
 			(effects
 				(font
@@ -8935,6 +11843,141 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 248.92 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e82021f6-0a68-421e-b7ab-6e89c239a373")
+		(property "Reference" "R49"
+			(at 251.46 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680"
+			(at 251.46 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.142 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 248.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e737373e-8dff-42bf-a0ec-d9a3e468df2a")
+		)
+		(pin "2"
+			(uuid "3bb0c09b-8379-4b6d-b471-2d24e6241f5e")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efbafcfd-f51c-453d-848b-fb4d4510fe00")
+		(property "Reference" "TP14"
+			(at 55.118 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 55.118 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dfdecca-b3f0-4c59-8f72-5210d3729ec0")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -9071,6 +12114,138 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 250.19 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f28905d2-af8b-4b6a-8fcd-80270d08b0c5")
+		(property "Reference" "TP4"
+			(at 252.73 22.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 252.73 24.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 255.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84bcc9c7-7e9c-4866-b222-92e5029d36bf")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8c734f4-e93a-4c3e-9ca9-4743ab9750cd")
+		(property "Reference" "TP24"
+			(at 163.068 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 163.068 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "187b9eb9-3436-43ae-b47b-44c10c337c48")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
