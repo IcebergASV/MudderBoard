@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/16214830/1399221/2.50/12/3/Relay or Contactor/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;Power Relay 12VDC 30A DPST-NO(52.6x34.8x30.7)mm THT&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="AZ28502A12DE">
+<description>&lt;b&gt;AZ2850-2A-12DE-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="A1" x="0.000" y="0.000" drill="1.8" diameter="2.700" shape="square"/>
+<pad name="A2" x="-38.610" y="-18.200" drill="1.8" diameter="2.700"/>
+<pad name="A3" x="0.000" y="-25.400" drill="1.8" diameter="2.700"/>
+<pad name="A4" x="-30.710" y="-18.200" drill="1.8" diameter="2.700"/>
+<pad name="A6" x="-38.610" y="-2.200" drill="1.8" diameter="2.700"/>
+<pad name="A8" x="-30.710" y="-2.200" drill="1.8" diameter="2.700"/>
+<pad name="B1" x="5.080" y="0.000" drill="1.8" diameter="2.700"/>
+<pad name="B2" x="-38.610" y="-23.280" drill="1.8" diameter="2.700"/>
+<pad name="B3" x="5.080" y="-25.400" drill="1.8" diameter="2.700"/>
+<pad name="B4" x="-30.710" y="-23.280" drill="1.8" diameter="2.700"/>
+<pad name="B6" x="-38.610" y="-7.280" drill="1.8" diameter="2.700"/>
+<pad name="B8" x="-30.710" y="-7.280" drill="1.8" diameter="2.700"/>
+<text x="-15.510" y="-12.780" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="-15.510" y="-12.780" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-41.81" y1="-30.18" x2="10.79" y2="-30.18" width="0.1" layer="51"/>
+<wire x1="10.79" y1="-30.18" x2="10.79" y2="4.62" width="0.1" layer="51"/>
+<wire x1="10.79" y1="4.62" x2="-41.81" y2="4.62" width="0.1" layer="51"/>
+<wire x1="-41.81" y1="4.62" x2="-41.81" y2="-30.18" width="0.1" layer="51"/>
+<wire x1="-41.81" y1="-30.18" x2="10.79" y2="-30.18" width="0.2" layer="21"/>
+<wire x1="10.79" y1="-30.18" x2="10.79" y2="4.62" width="0.2" layer="21"/>
+<wire x1="10.79" y1="4.62" x2="-41.81" y2="4.62" width="0.2" layer="21"/>
+<wire x1="-41.81" y1="4.62" x2="-41.81" y2="-30.18" width="0.2" layer="21"/>
+<wire x1="-42.81" y1="-31.18" x2="11.79" y2="-31.18" width="0.1" layer="51"/>
+<wire x1="11.79" y1="-31.18" x2="11.79" y2="5.62" width="0.1" layer="51"/>
+<wire x1="11.79" y1="5.62" x2="-42.81" y2="5.62" width="0.1" layer="51"/>
+<wire x1="-42.81" y1="5.62" x2="-42.81" y2="-31.18" width="0.1" layer="51"/>
+<wire x1="0" y1="5.2" x2="0" y2="5.2" width="0.1" layer="21"/>
+<wire x1="0.000" y1="5.200" x2="0.000" y2="5.100" width="0.1" layer="21" curve="180.0"/>
+<wire x1="0" y1="5.1" x2="0" y2="5.1" width="0.1" layer="21"/>
+<wire x1="0.000" y1="5.100" x2="0.000" y2="5.200" width="0.1" layer="21" curve="180.0"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AZ2850-2A-12DE">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-15.24" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="29.21" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="COIL_1" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="NO_1" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="COIL_2" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="COM_1" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="NO_2" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="COM_2" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="COIL_3" x="33.02" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="NO_3" x="33.02" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="COIL_4" x="33.02" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="COM_3" x="33.02" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="NO_4" x="33.02" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="COM_4" x="33.02" y="-12.7" length="middle" direction="io" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AZ2850-2A-12DE" prefix="K">
+<description>&lt;b&gt;Power Relay 12VDC 30A DPST-NO(52.6x34.8x30.7)mm THT&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.azettler.com/pdfs/az2850.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="AZ2850-2A-12DE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="AZ28502A12DE">
+<connects>
+<connect gate="G$1" pin="COIL_1" pad="A1"/>
+<connect gate="G$1" pin="NO_1" pad="A2"/>
+<connect gate="G$1" pin="COIL_2" pad="A3"/>
+<connect gate="G$1" pin="COM_1" pad="A4"/>
+<connect gate="G$1" pin="NO_2" pad="A6"/>
+<connect gate="G$1" pin="COM_2" pad="A8"/>
+<connect gate="G$1" pin="COIL_3" pad="B1"/>
+<connect gate="G$1" pin="NO_3" pad="B2"/>
+<connect gate="G$1" pin="COIL_4" pad="B3"/>
+<connect gate="G$1" pin="COM_3" pad="B4"/>
+<connect gate="G$1" pin="NO_4" pad="B6"/>
+<connect gate="G$1" pin="COM_4" pad="B8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="On_Line_Components_Part_Number" value="" constant="no"/>
+<attribute name="On_Line_Components_Price-Stock" value="" constant="no"/>
+<attribute name="Manufacturer_Name" value="American Zettler" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="AZ2850-2A-12DE" constant="no"/>
+<attribute name="Description" value="Power Relay 12VDC 30A DPST-NO(52.6x34.8x30.7)mm THT" constant="no"/>
+<attribute name="Height" value="30.7mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

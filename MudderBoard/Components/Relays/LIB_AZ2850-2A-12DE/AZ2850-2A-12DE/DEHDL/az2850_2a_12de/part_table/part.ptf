@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AZ2850_2A_12DE'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ON_LINE_COMPONENTS_PART_NUMBER", "ON_LINE_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "American Zettler", "AZ2850-2A-12DE" (!) = "", "AZ28502A12DE", "Other", "", "", "Power Relay 12VDC 30A DPST-NO(52.6x34.8x30.7)mm THT", "https://www.azettler.com/pdfs/az2850.pdf", "30.7 mm"
+END_PART
+
+END.

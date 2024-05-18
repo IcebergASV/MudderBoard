@@ -1,0 +1,17 @@
+.AZ2850-2A-12DE :1 ;Power Relay 12VDC 30A DPST-NO(52.6x34.8x30.7)mm THT
+AZ28502A12DE
+*STM K
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=A4 5=A6 6=A8 7=B1 8=B2 9=B3 10=B4 11=B6 12=B8
+*PLB 1="COIL_1" 2="NO_1" 3="COIL_2" 4="COM_1" 5="NO_2" 6="COM_2" 7="COIL_3" 8="NO_3" 9="COIL_4" 10="COM_3" 11="NO_4" 12="COM_4"
+*MXP 12
+*DFN AZ2850-2A-12DE
+~!On Line Components Part Number (-)
+~!On Line Components Price/Stock (-)
+~!Manufacturer_Name (American Zettler)
+~!Manufacturer_Part_Number (AZ2850-2A-12DE)
+~!Link Datasheet (https://www.azettler.com/pdfs/az2850.pdf)
+~!Height (30.7mm)
+~!3D_Model (AZ2850-2A-12DE)
+AZ2850-2A-12DE
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

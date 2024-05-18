@@ -1,0 +1,9 @@
+Manufacturer=American Zettler
+PartNumber=AZ2850-2A-12DE
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=12
+Version=1.2
+Released=2022-05-20 05:48:35
+Downloaded=2024-05-18 18:35:12
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ2850-2A-12DE
+D Power Relay 12VDC 30A DPST-NO(52.6x34.8x30.7)mm THT
+K
+F https://www.azettler.com/pdfs/az2850.pdf
+$ENDCMP
+#
+#End Doc Library

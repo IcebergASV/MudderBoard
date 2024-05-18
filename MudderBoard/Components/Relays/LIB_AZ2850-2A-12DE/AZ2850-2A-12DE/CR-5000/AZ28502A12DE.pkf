@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AZ28502A12DE"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AZ28502A12DE")
+        (spec "default")
+    )
+)
