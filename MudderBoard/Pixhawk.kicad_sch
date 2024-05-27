@@ -5523,7 +5523,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "945d5675-f7e9-4cce-9cd3-294642f9b494")
 		(property "Reference" "#PWR03"
 			(at 39.37 43.18 0)
@@ -5535,11 +5534,12 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 39.37 34.29 0)
+			(at 37.592 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

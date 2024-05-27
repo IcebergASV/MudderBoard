@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(polyline
 		(pts
-			(xy 93.98 74.93) (xy 109.22 74.93)
+			(xy 92.71 88.9) (xy 107.95 88.9)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +23,7 @@
 	)
 	(polyline
 		(pts
-			(xy 72.39 58.42) (xy 144.78 58.42)
+			(xy 71.12 72.39) (xy 143.51 72.39)
 		)
 		(stroke
 			(width 0)
@@ -33,7 +33,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.64 49.53) (xy 167.64 55.88)
+			(xy 166.37 63.5) (xy 166.37 69.85)
 		)
 		(stroke
 			(width 0)
@@ -43,7 +43,7 @@
 	)
 	(polyline
 		(pts
-			(xy 72.39 29.21) (xy 157.48 29.21)
+			(xy 71.12 43.18) (xy 156.21 43.18)
 		)
 		(stroke
 			(width 0)
@@ -53,7 +53,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 69.85) (xy 101.6 43.18)
+			(xy 100.33 83.82) (xy 100.33 57.15)
 		)
 		(stroke
 			(width 0)
@@ -64,7 +64,7 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 74.93) (xy 109.22 64.77)
+			(xy 107.95 88.9) (xy 107.95 78.74)
 		)
 		(stroke
 			(width 0)
@@ -75,7 +75,7 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 64.77) (xy 144.78 64.77)
+			(xy 107.95 78.74) (xy 143.51 78.74)
 		)
 		(stroke
 			(width 0)
@@ -86,7 +86,7 @@
 	)
 	(polyline
 		(pts
-			(xy 157.48 29.21) (xy 157.48 36.83)
+			(xy 156.21 43.18) (xy 156.21 50.8)
 		)
 		(stroke
 			(width 0)
@@ -96,7 +96,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.78 57.15) (xy 144.78 58.42)
+			(xy 143.51 71.12) (xy 143.51 72.39)
 		)
 		(stroke
 			(width 0)
@@ -106,7 +106,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 90.17) (xy 90.17 116.84)
+			(xy 88.9 104.14) (xy 88.9 130.81)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +117,7 @@
 	)
 	(polyline
 		(pts
-			(xy 93.98 78.74) (xy 144.78 78.74)
+			(xy 92.71 92.71) (xy 143.51 92.71)
 		)
 		(stroke
 			(width 0)
@@ -128,7 +128,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.62 116.84) (xy 144.78 116.84)
+			(xy 133.35 130.81) (xy 143.51 130.81)
 		)
 		(stroke
 			(width 0)
@@ -139,7 +139,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 116.84) (xy 134.62 116.84)
+			(xy 88.9 130.81) (xy 133.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -150,7 +150,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 19.05) (xy 166.37 36.83)
+			(xy 165.1 33.02) (xy 165.1 50.8)
 		)
 		(stroke
 			(width 0)
@@ -160,7 +160,7 @@
 	)
 	(polyline
 		(pts
-			(xy 72.39 19.05) (xy 166.37 19.05)
+			(xy 71.12 33.02) (xy 165.1 33.02)
 		)
 		(stroke
 			(width 0)
@@ -170,7 +170,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.78 99.06) (xy 109.22 99.06)
+			(xy 143.51 113.03) (xy 107.95 113.03)
 		)
 		(stroke
 			(width 0)
@@ -181,7 +181,7 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 99.06) (xy 109.22 83.82)
+			(xy 107.95 113.03) (xy 107.95 97.79)
 		)
 		(stroke
 			(width 0)
@@ -192,7 +192,7 @@
 	)
 	(polyline
 		(pts
-			(xy 93.98 69.85) (xy 101.6 69.85)
+			(xy 92.71 83.82) (xy 100.33 83.82)
 		)
 		(stroke
 			(width 0)
@@ -203,7 +203,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 43.18) (xy 144.78 43.18)
+			(xy 100.33 57.15) (xy 143.51 57.15)
 		)
 		(stroke
 			(width 0)
@@ -214,7 +214,7 @@
 	)
 	(polyline
 		(pts
-			(xy 93.98 83.82) (xy 109.22 83.82)
+			(xy 92.71 97.79) (xy 107.95 97.79)
 		)
 		(stroke
 			(width 0)
@@ -14362,7 +14362,7 @@
 	)
 	(text_box "PWM CH2"
 		(exclude_from_sim no)
-		(at 31.75 16.51 0)
+		(at 30.48 30.48 0)
 		(size 40.64 6.35)
 		(stroke
 			(width 0)
@@ -14382,7 +14382,7 @@
 	)
 	(text_box "PWM CH5"
 		(exclude_from_sim no)
-		(at 31.75 54.61 0)
+		(at 30.48 68.58 0)
 		(size 40.64 6.35)
 		(stroke
 			(width 0)
@@ -14402,7 +14402,7 @@
 	)
 	(text_box "Pixhawk (5V)"
 		(exclude_from_sim no)
-		(at 144.78 111.76 0)
+		(at 143.51 125.73 0)
 		(size 52.07 12.7)
 		(stroke
 			(width 0)
@@ -14424,7 +14424,7 @@
 	)
 	(text_box "Jetson (12V)"
 		(exclude_from_sim no)
-		(at 144.78 91.44 0)
+		(at 143.51 105.41 0)
 		(size 50.8 12.7)
 		(stroke
 			(width 0)
@@ -14446,7 +14446,7 @@
 	)
 	(text_box "LiDar + Wifi(24V)"
 		(exclude_from_sim no)
-		(at 144.78 72.39 0)
+		(at 143.51 86.36 0)
 		(size 72.39 12.7)
 		(stroke
 			(width 0)
@@ -14468,7 +14468,7 @@
 	)
 	(text_box "PWM-DC"
 		(exclude_from_sim no)
-		(at 144.78 55.88 0)
+		(at 143.51 69.85 0)
 		(size 44.45 12.7)
 		(stroke
 			(width 0)
@@ -14490,7 +14490,7 @@
 	)
 	(text_box "ESC (20V)"
 		(exclude_from_sim no)
-		(at 144.78 36.83 0)
+		(at 143.51 50.8 0)
 		(size 44.45 12.7)
 		(stroke
 			(width 0)
@@ -14512,7 +14512,7 @@
 	)
 	(text_box "Battery Supply (14.8V Nominal)"
 		(exclude_from_sim no)
-		(at 22.86 67.31 0)
+		(at 21.59 81.28 0)
 		(size 71.12 22.86)
 		(stroke
 			(width 0)
@@ -14534,7 +14534,7 @@
 	)
 	(text_box "PWM CH3"
 		(exclude_from_sim no)
-		(at 31.75 26.67 0)
+		(at 30.48 40.64 0)
 		(size 40.64 6.35)
 		(stroke
 			(width 0)
@@ -14554,7 +14554,7 @@
 	)
 	(text "VCC"
 		(exclude_from_sim no)
-		(at 115.57 63.246 0)
+		(at 114.3 77.216 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14566,7 +14566,7 @@
 	)
 	(text "PWM_CH3"
 		(exclude_from_sim no)
-		(at 86.106 27.686 0)
+		(at 84.836 41.656 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14578,7 +14578,7 @@
 	)
 	(text "VCC"
 		(exclude_from_sim no)
-		(at 115.316 77.47 0)
+		(at 114.046 91.44 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14590,7 +14590,7 @@
 	)
 	(text "PWM_CH2"
 		(exclude_from_sim no)
-		(at 86.868 17.018 0)
+		(at 85.598 30.988 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14602,7 +14602,7 @@
 	)
 	(text "PWM_CH5"
 		(exclude_from_sim no)
-		(at 85.344 56.896 0)
+		(at 84.074 70.866 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14614,7 +14614,7 @@
 	)
 	(text "VCC"
 		(exclude_from_sim no)
-		(at 115.57 97.282 0)
+		(at 114.3 111.252 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14626,7 +14626,7 @@
 	)
 	(text "Schematic:"
 		(exclude_from_sim no)
-		(at 247.65 20.574 0)
+		(at 246.38 21.844 0)
 		(effects
 			(font
 				(size 4.445 4.445)
@@ -14637,7 +14637,7 @@
 	)
 	(text "VCC"
 		(exclude_from_sim no)
-		(at 113.538 41.656 0)
+		(at 112.268 55.626 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14649,7 +14649,7 @@
 	)
 	(text "VCC"
 		(exclude_from_sim no)
-		(at 96.774 115.316 0)
+		(at 95.504 129.286 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -14660,9 +14660,8 @@
 		(uuid "ef822169-6cb5-4d18-b470-23aefb8f7b16")
 	)
 	(sheet
-		(at 234.95 114.3)
-		(size 25.4 7.62)
-		(fields_autoplaced yes)
+		(at 232.41 113.03)
+		(size 25.4 11.43)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -14672,7 +14671,7 @@
 		)
 		(uuid "0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c")
 		(property "Sheetname" "Pixhawk"
-			(at 234.95 112.9534 0)
+			(at 231.648 112.014 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14682,7 +14681,7 @@
 			)
 		)
 		(property "Sheetfile" "pixhawk.kicad_sch"
-			(at 234.95 122.5046 0)
+			(at 232.41 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14699,9 +14698,8 @@
 		)
 	)
 	(sheet
-		(at 234.95 133.35)
+		(at 232.41 135.89)
 		(size 26.67 8.89)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -14710,8 +14708,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "156878a8-0263-42d4-a037-3f42ee3dc0ef")
-		(property "Sheetname" "ESC ThroughHole"
-			(at 234.95 132.0034 0)
+		(property "Sheetname" "ESC"
+			(at 231.648 134.62 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14721,7 +14719,7 @@
 			)
 		)
 		(property "Sheetfile" "ESCTHT.kicad_sch"
-			(at 234.95 142.8246 0)
+			(at 232.41 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14738,7 +14736,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 54.61)
+		(at 232.41 57.15)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -14750,7 +14748,7 @@
 		)
 		(uuid "2faaa147-dd96-42bc-9368-d8d5a5d683de")
 		(property "Sheetname" "PWM-DC"
-			(at 234.95 53.2634 0)
+			(at 232.41 55.8034 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14760,7 +14758,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm-dc.kicad_sch"
-			(at 234.95 64.0846 0)
+			(at 232.41 66.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14777,46 +14775,7 @@
 		)
 	)
 	(sheet
-		(at 234.95 36.83)
-		(size 25.4 7.62)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "41561d6f-b1f1-479e-8870-aabcff3c96a6")
-		(property "Sheetname" "ESC"
-			(at 234.95 35.4834 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ESC.kicad_sch"
-			(at 234.95 45.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 234.95 91.44)
+		(at 232.41 93.98)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -14828,7 +14787,7 @@
 		)
 		(uuid "674dd553-7765-4ece-a996-68b5361f64e2")
 		(property "Sheetname" "Jetson"
-			(at 234.95 90.0934 0)
+			(at 232.41 92.6334 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14838,7 +14797,7 @@
 			)
 		)
 		(property "Sheetfile" "jetson.kicad_sch"
-			(at 234.95 100.9146 0)
+			(at 232.41 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14855,7 +14814,46 @@
 		)
 	)
 	(sheet
-		(at 234.95 72.39)
+		(at 232.41 35.56)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "737a32b6-2b47-4da2-aca9-5fe666ccf964")
+		(property "Sheetname" "Legend"
+			(at 232.41 34.2134 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "legend.kicad_sch"
+			(at 232.41 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 232.41 74.93)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -14867,7 +14865,7 @@
 		)
 		(uuid "86bd7edb-9c3d-421e-84f7-984954447f61")
 		(property "Sheetname" "LiDar"
-			(at 234.95 71.0434 0)
+			(at 232.41 73.5834 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14877,7 +14875,7 @@
 			)
 		)
 		(property "Sheetfile" "lidar.kicad_sch"
-			(at 234.95 81.8646 0)
+			(at 232.41 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

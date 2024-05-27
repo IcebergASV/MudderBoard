@@ -2314,6 +2314,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 60.96) (xy 195.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afda001-eab0-40e6-8bcc-80c24f2cdfb6")
+	)
+	(wire
+		(pts
 			(xy 106.68 106.68) (xy 106.68 109.22)
 		)
 		(stroke
@@ -2474,6 +2484,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 22.86) (xy 88.9 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728dd7ee-4d86-425a-9d4a-452af1088bbb")
+	)
+	(wire
+		(pts
 			(xy 87.63 85.09) (xy 90.17 85.09)
 		)
 		(stroke
@@ -2481,6 +2501,16 @@
 			(type default)
 		)
 		(uuid "72fc1c9e-d607-43a1-affe-459a2c8e92cc")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77a88633-1d1f-46b4-9c51-b6a58827e6b4")
 	)
 	(wire
 		(pts
@@ -2591,6 +2621,16 @@
 			(type default)
 		)
 		(uuid "9e1b8531-fde4-48fe-91a1-222f8c0cd8a0")
+	)
+	(wire
+		(pts
+			(xy 165.1 16.51) (xy 165.1 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a26c1990-d42b-4b06-b479-5cdf3030a97d")
 	)
 	(wire
 		(pts
@@ -2822,17 +2862,18 @@
 		)
 		(uuid "ffb95a30-8e21-404f-b684-5569299251cd")
 	)
-	(text "FIGURE OUT WHAT VOLTAGE WE WILL BE POWERING RELAYS WITH"
-		(exclude_from_sim no)
-		(at 206.502 16.51 0)
+	(label "+BATT"
+		(at 88.9 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(uuid "a44dadb0-bc25-4392-af61-d0a4e89d7749")
+		(uuid "2565cf40-70e8-4bb1-ab89-00bfbcfc6601")
 	)
-	(label "VCC"
+	(label "+BATT"
 		(at 106.68 106.68 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2876,6 +2917,17 @@
 		)
 		(uuid "6277ce44-5697-4e8d-a166-672f3b680ec6")
 	)
+	(label "+BATT"
+		(at 195.58 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74ff3b81-ed09-4dd1-ad59-2d5fe536f414")
+	)
 	(label "THRUST_2"
 		(at 194.31 123.19 0)
 		(fields_autoplaced yes)
@@ -2886,6 +2938,17 @@
 			(justify left bottom)
 		)
 		(uuid "7e492ee7-ca2e-41dc-8ed5-612f67b7b69e")
+	)
+	(label "+BATT"
+		(at 87.63 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85f47f4a-57ed-4415-ac0f-d82daf6544cd")
 	)
 	(label "COMP_VREF"
 		(at 132.08 67.31 0)
@@ -2908,6 +2971,17 @@
 			(justify left bottom)
 		)
 		(uuid "888c20a1-7d56-4006-bc99-4f3e3516e286")
+	)
+	(label "+BATT"
+		(at 165.1 16.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "903d4fba-217d-4974-a5dd-7e7de1c60480")
 	)
 	(label "RELAY_3"
 		(at 208.28 74.93 0)

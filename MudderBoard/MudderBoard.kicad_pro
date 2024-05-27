@@ -446,10 +446,6 @@
       "LiDar"
     ],
     [
-      "41561d6f-b1f1-479e-8870-aabcff3c96a6",
-      "ESC"
-    ],
-    [
       "0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c",
       "Pixhawk"
     ],
@@ -462,8 +458,12 @@
       "PWM-DC"
     ],
     [
+      "737a32b6-2b47-4da2-aca9-5fe666ccf964",
+      "Legend"
+    ],
+    [
       "156878a8-0263-42d4-a037-3f42ee3dc0ef",
-      "ESC ThroughHole"
+      "ESC"
     ]
   ],
   "text_variables": {}

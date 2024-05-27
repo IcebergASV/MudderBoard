@@ -2923,7 +2923,7 @@
 		)
 		(uuid "feb4fb13-e701-4d1c-8df7-7d78109fcba3")
 	)
-	(label "VCC"
+	(label "+BATT"
 		(at 21.59 44.45 0)
 		(fields_autoplaced yes)
 		(effects
