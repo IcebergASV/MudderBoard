@@ -14660,7 +14660,7 @@
 		(uuid "ef822169-6cb5-4d18-b470-23aefb8f7b16")
 	)
 	(sheet
-		(at 232.41 113.03)
+		(at 232.41 106.68)
 		(size 25.4 11.43)
 		(stroke
 			(width 0.1524)
@@ -14671,7 +14671,7 @@
 		)
 		(uuid "0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c")
 		(property "Sheetname" "Pixhawk"
-			(at 231.648 112.014 0)
+			(at 231.648 105.664 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14681,7 +14681,7 @@
 			)
 		)
 		(property "Sheetfile" "pixhawk.kicad_sch"
-			(at 232.41 125.222 0)
+			(at 232.41 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14698,7 +14698,7 @@
 		)
 	)
 	(sheet
-		(at 232.41 135.89)
+		(at 232.41 129.54)
 		(size 26.67 8.89)
 		(stroke
 			(width 0.1524)
@@ -14709,7 +14709,7 @@
 		)
 		(uuid "156878a8-0263-42d4-a037-3f42ee3dc0ef")
 		(property "Sheetname" "ESC"
-			(at 231.648 134.62 0)
+			(at 231.648 128.27 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14719,7 +14719,7 @@
 			)
 		)
 		(property "Sheetfile" "ESCTHT.kicad_sch"
-			(at 232.41 145.3646 0)
+			(at 232.41 139.0146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14736,7 +14736,7 @@
 		)
 	)
 	(sheet
-		(at 232.41 57.15)
+		(at 232.41 50.8)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -14748,7 +14748,7 @@
 		)
 		(uuid "2faaa147-dd96-42bc-9368-d8d5a5d683de")
 		(property "Sheetname" "PWM-DC"
-			(at 232.41 55.8034 0)
+			(at 232.41 49.4534 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14758,7 +14758,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm-dc.kicad_sch"
-			(at 232.41 66.6246 0)
+			(at 232.41 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +14775,7 @@
 		)
 	)
 	(sheet
-		(at 232.41 93.98)
+		(at 232.41 87.63)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -14787,7 +14787,7 @@
 		)
 		(uuid "674dd553-7765-4ece-a996-68b5361f64e2")
 		(property "Sheetname" "Jetson"
-			(at 232.41 92.6334 0)
+			(at 232.41 86.2834 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14797,7 +14797,7 @@
 			)
 		)
 		(property "Sheetfile" "jetson.kicad_sch"
-			(at 232.41 103.4546 0)
+			(at 232.41 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14814,46 +14814,7 @@
 		)
 	)
 	(sheet
-		(at 232.41 35.56)
-		(size 25.4 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "737a32b6-2b47-4da2-aca9-5fe666ccf964")
-		(property "Sheetname" "Legend"
-			(at 232.41 34.2134 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "legend.kicad_sch"
-			(at 232.41 48.8446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 232.41 74.93)
+		(at 232.41 68.58)
 		(size 25.4 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -14865,7 +14826,7 @@
 		)
 		(uuid "86bd7edb-9c3d-421e-84f7-984954447f61")
 		(property "Sheetname" "LiDar"
-			(at 232.41 73.5834 0)
+			(at 232.41 67.2334 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -14875,7 +14836,7 @@
 			)
 		)
 		(property "Sheetfile" "lidar.kicad_sch"
-			(at 232.41 84.4046 0)
+			(at 232.41 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2234,6 +2234,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 20.32) (xy 147.32 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30814694-0cdb-42a9-8156-6580687fa8bf")
+	)
+	(wire
+		(pts
 			(xy 45.72 74.93) (xy 58.42 74.93)
 		)
 		(stroke
@@ -3038,6 +3048,17 @@
 		)
 		(uuid "fdafb3b1-43fc-47ed-bd2e-c0d334e2c10a")
 	)
+	(label "+BATT"
+		(at 147.32 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fef31631-9038-482b-90d6-d74b9d66101a")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 147.32 39.37 0)
@@ -3129,7 +3150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:SOIC127P599X175-8N"
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -3138,7 +3159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "UA741CDR"
 			(at 93.98 73.66 0)
 			(effects
 				(font
@@ -3217,7 +3238,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:RES_ERA6AEB1581V"
 			(at 63.754 166.116 90)
 			(effects
 				(font
@@ -3226,7 +3247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "ERA-6AEB1581V"
 			(at 64.77 166.37 0)
 			(effects
 				(font
@@ -3357,7 +3378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:SOT_45-M3&slash_I_VIS"
 			(at 121.92 120.65 0)
 			(effects
 				(font
@@ -3366,7 +3387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "V40DL45-M3/I"
 			(at 121.92 120.65 0)
 			(effects
 				(font
@@ -3507,7 +3528,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 148.59 27.94 0)
 			(effects
 				(font
@@ -3613,7 +3634,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:RES_ERA6AEB1581V"
 			(at 63.754 177.546 90)
 			(effects
 				(font
@@ -3622,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "ERA-6AEB1581V"
 			(at 64.77 177.8 0)
 			(effects
 				(font
@@ -3681,7 +3702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1607X60N"
 			(at 71.374 137.414 90)
 			(effects
 				(font
@@ -3690,7 +3711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "RC0603FR-072K4L"
 			(at 71.12 138.43 0)
 			(effects
 				(font
@@ -3748,7 +3769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 30.48 177.8 0)
 			(effects
 				(font
@@ -3854,7 +3875,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:RESC2012X65N"
 			(at 194.564 67.056 90)
 			(effects
 				(font
@@ -3863,7 +3884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "RMCF0805JT4K70"
 			(at 195.58 67.31 0)
 			(effects
 				(font
@@ -3988,7 +4009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AZ28502A12DE"
+		(property "Footprint" "AZ2850-2A-12DE:AZ28502A12DE"
 			(at 158.75 207.95 0)
 			(effects
 				(font
@@ -4206,7 +4227,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:SOT95P237X111-3N"
 			(at 152.4 138.43 0)
 			(effects
 				(font
@@ -4215,7 +4236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" "BCW65ALT1G"
 			(at 152.4 138.43 0)
 			(effects
 				(font
@@ -4440,7 +4461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 148.59 72.39 0)
 			(effects
 				(font
@@ -4544,7 +4565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:RESC1608X55N"
 			(at 43.434 29.464 90)
 			(effects
 				(font
@@ -4553,7 +4574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "RT0603BRC07500RL"
 			(at 43.18 30.48 0)
 			(effects
 				(font
@@ -4680,7 +4701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:CAPC2012X135N"
 			(at 196.5452 85.09 0)
 			(effects
 				(font
@@ -4689,7 +4710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "CL21A106KOQNNNE"
 			(at 195.58 81.28 0)
 			(effects
 				(font
@@ -4750,7 +4771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:CAPC2012X140N"
 			(at 60.6552 41.91 0)
 			(effects
 				(font
@@ -4759,7 +4780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "CL21A475KAQNNNE"
 			(at 59.69 38.1 0)
 			(effects
 				(font
@@ -4818,7 +4839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:RESC1608X55N"
 			(at 42.164 73.914 90)
 			(effects
 				(font
@@ -4827,7 +4848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "RT0603BRC07500RL"
 			(at 41.91 74.93 0)
 			(effects
 				(font
@@ -4888,7 +4909,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:RESC2012X65N"
 			(at 164.084 22.606 90)
 			(effects
 				(font
@@ -4897,7 +4918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "RMCF0805JT4K70"
 			(at 165.1 22.86 0)
 			(effects
 				(font
@@ -5091,7 +5112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 148.59 27.94 0)
 			(effects
 				(font
@@ -5194,7 +5215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 30.48 160.02 0)
 			(effects
 				(font
@@ -5300,7 +5321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:CAPC2012X140N"
 			(at 59.3852 86.36 0)
 			(effects
 				(font
@@ -5309,7 +5330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "CL21A475KAQNNNE"
 			(at 58.42 82.55 0)
 			(effects
 				(font
@@ -5368,7 +5389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:SOIC127P599X175-8N"
 			(at 92.71 31.75 0)
 			(effects
 				(font
@@ -5377,7 +5398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "UA741CDR"
 			(at 95.25 29.21 0)
 			(effects
 				(font
@@ -5521,7 +5542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PDC_Foot:CAPC2012X135N"
 			(at 166.0652 40.64 0)
 			(effects
 				(font
@@ -5530,7 +5551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "CL21A106KOQNNNE"
 			(at 165.1 36.83 0)
 			(effects
 				(font
