@@ -4484,7 +4484,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Cout")
+					(reference "Cout2")
 					(unit 1)
 				)
 			)
@@ -4650,7 +4650,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Cff")
+					(reference "Cff1")
 					(unit 1)
 				)
 			)
@@ -4665,7 +4665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2913e9d1-0eaa-48df-9751-a3fc3657df10")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout4"
 			(at 236.22 50.7999 90)
 			(effects
 				(font
@@ -4810,7 +4810,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Cout")
+					(reference "Cout4")
 					(unit 1)
 				)
 			)
@@ -4887,7 +4887,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Rfbb")
+					(reference "Rfbb2")
 					(unit 1)
 				)
 			)
@@ -4959,7 +4959,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "#PWR05")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -5115,7 +5115,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Cinx")
+					(reference "Cinx1")
 					(unit 1)
 				)
 			)
@@ -5192,7 +5192,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "CoLDO")
+					(reference "CoLDO1")
 					(unit 1)
 				)
 			)
@@ -5264,7 +5264,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "#PWR02")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -5430,7 +5430,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Cin")
+					(reference "Cin3")
 					(unit 1)
 				)
 			)
@@ -5581,7 +5581,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "#PWR03")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -5596,7 +5596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e2e2da9-1415-42bd-a29f-5e8fc29480c8")
-		(property "Reference" "Cin"
+		(property "Reference" "Cin2"
 			(at 45.72 52.0701 90)
 			(effects
 				(font
@@ -5741,7 +5741,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Cin")
+					(reference "Cin2")
 					(unit 1)
 				)
 			)
@@ -5907,7 +5907,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Rfbt")
+					(reference "Rfbt1")
 					(unit 1)
 				)
 			)
@@ -5979,7 +5979,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "#PWR01")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6224,7 +6224,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Rent")
+					(reference "Rent1")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6380,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Coutx")
+					(reference "Coutx1")
 					(unit 1)
 				)
 			)
@@ -6395,7 +6395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb4f8d4b-1105-461f-a70c-a1259f9597a2")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout3"
 			(at 224.79 50.7999 90)
 			(effects
 				(font
@@ -6540,7 +6540,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Cout")
+					(reference "Cout3")
 					(unit 1)
 				)
 			)
@@ -6617,7 +6617,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "CinLDO")
+					(reference "CinLDO1")
 					(unit 1)
 				)
 			)
@@ -6773,7 +6773,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Renb")
+					(reference "Renb1")
 					(unit 1)
 				)
 			)
@@ -6788,7 +6788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1d2e012-ab14-459e-b779-20ef306048aa")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout5"
 			(at 248.92 50.7999 90)
 			(effects
 				(font
@@ -6933,7 +6933,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "Cout")
+					(reference "Cout5")
 					(unit 1)
 				)
 			)
@@ -7005,7 +7005,7 @@
 			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "#PWR04")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)

@@ -5,164 +5,6 @@
 	(uuid "fe161d90-33d0-46b2-8a77-fbc6e1f4c63b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -764,6 +606,220 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EEHZA1V680XP:EEHZA1V680XP"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EEHZA1V680XP"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "EEHZA1V680XP:CAP_EEHZA1V680XP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "30-Sep-20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "7.7mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "EEHZA1V680XP_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 2.54)
+					(mid 1.4851 0)
+					(end 2.286 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1688,10 +1744,28 @@
 		)
 	)
 	(junction
+		(at 267.97 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00197fdb-5857-472c-8978-2a31dadc5430")
+	)
+	(junction
+		(at 53.34 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0030a21d-95ce-4a7d-838e-5f88d120b115")
+	)
+	(junction
 		(at 78.74 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03761814-553e-47a0-bd57-4bd26575bee0")
+	)
+	(junction
+		(at 233.68 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "089ab5e4-b002-4176-b229-3e0dd8a54201")
 	)
 	(junction
 		(at 156.21 120.65)
@@ -1700,22 +1774,16 @@
 		(uuid "0b2d174b-4737-4743-ac0b-493464013b6c")
 	)
 	(junction
-		(at 53.34 49.53)
+		(at 233.68 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10fae4e5-d88e-4f4d-84ac-89088379f668")
+		(uuid "0da1d83c-e8c8-4172-bc0d-cfb410ead745")
 	)
 	(junction
 		(at 129.54 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18083483-88e3-48e9-acfd-09fbc6c28e30")
-	)
-	(junction
-		(at 233.68 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18d0e8e7-d90c-4c08-b384-ece7cc535e61")
 	)
 	(junction
 		(at 195.58 87.63)
@@ -1772,12 +1840,6 @@
 		(uuid "673ee445-18b5-44e2-b5f4-4ed17c6aa8a6")
 	)
 	(junction
-		(at 233.68 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e9e8bfe-5d9e-468c-a42c-1c76753d0779")
-	)
-	(junction
 		(at 171.45 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1790,22 +1852,16 @@
 		(uuid "82e39863-01c1-43a2-b87a-97cfba1180bb")
 	)
 	(junction
-		(at 53.34 95.25)
+		(at 53.34 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "851e4557-3c60-49cd-8d51-6b4c6ef05958")
+		(uuid "89fa83bf-c7a8-4f1b-abdf-2755a0bfede4")
 	)
 	(junction
 		(at 121.92 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9016d134-b02f-4acf-bea9-1dd36db374e3")
-	)
-	(junction
-		(at 264.16 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9434118a-2410-49b1-a6d7-d1b645e14eef")
 	)
 	(junction
 		(at 53.34 120.65)
@@ -1915,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 49.53) (xy 67.31 49.53)
+			(xy 30.48 49.53) (xy 53.34 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1965,6 +2021,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 49.53) (xy 247.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cba4e37-33e7-456f-b71d-0bdcea8164eb")
+	)
+	(wire
+		(pts
 			(xy 247.65 49.53) (xy 247.65 78.74)
 		)
 		(stroke
@@ -1995,6 +2061,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 49.53) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215627dc-a3a0-47e9-87eb-c4c4c3d11021")
+	)
+	(wire
+		(pts
 			(xy 233.68 120.65) (xy 247.65 120.65)
 		)
 		(stroke
@@ -2005,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 49.53) (xy 264.16 49.53)
+			(xy 271.78 49.53) (xy 267.97 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2055,6 +2131,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 49.53) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db62d31-52db-44c0-b164-6104270e2aee")
+	)
+	(wire
+		(pts
 			(xy 100.33 76.2) (xy 100.33 74.93)
 		)
 		(stroke
@@ -2082,16 +2168,6 @@
 			(type default)
 		)
 		(uuid "39dc190a-080d-42f3-8a53-439729422d26")
-	)
-	(wire
-		(pts
-			(xy 233.68 67.31) (xy 233.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ec4064-7316-4407-98c3-181db972bdbd")
 	)
 	(wire
 		(pts
@@ -2175,6 +2251,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 73.66) (xy 53.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593d2978-af53-4e68-af2e-7c12cf37b542")
+	)
+	(wire
+		(pts
 			(xy 21.59 44.45) (xy 21.59 49.53)
 		)
 		(stroke
@@ -2255,16 +2341,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 82.55) (xy 53.34 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a6d43fe-114f-45ec-b0d2-a6d48906e73d")
-	)
-	(wire
-		(pts
 			(xy 185.42 96.52) (xy 185.42 106.68)
 		)
 		(stroke
@@ -2275,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 85.09) (xy 264.16 120.65)
+			(xy 267.97 85.09) (xy 267.97 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2295,7 +2371,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 49.53) (xy 193.04 49.53)
+			(xy 193.04 49.53) (xy 233.68 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 80.01) (xy 264.16 49.53)
+			(xy 267.97 80.01) (xy 267.97 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2595,16 +2671,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 49.53) (xy 53.34 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abe4b6fc-4fee-468b-b87a-eb6aad31cd43")
-	)
-	(wire
-		(pts
 			(xy 129.54 63.5) (xy 127 63.5)
 		)
 		(stroke
@@ -2685,13 +2751,13 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 49.53) (xy 264.16 49.53)
+			(xy 247.65 49.53) (xy 267.97 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd1943b7-c2c0-424e-85c7-f07928281397")
+		(uuid "bb9fbd41-57e9-4fba-8ab9-46edf9e406be")
 	)
 	(wire
 		(pts
@@ -2795,6 +2861,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 66.04) (xy 233.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea7471c-8038-4252-ac09-c0bd7a05d94f")
+	)
+	(wire
+		(pts
 			(xy 91.44 120.65) (xy 121.92 120.65)
 		)
 		(stroke
@@ -2815,13 +2891,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 74.93) (xy 53.34 49.53)
+			(xy 53.34 49.53) (xy 53.34 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e321eff0-d7a6-412f-b219-2a3a02f15b1d")
+		(uuid "e5c883f2-7f24-46e5-b497-8add8319d2a4")
 	)
 	(wire
 		(pts
@@ -2865,17 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 59.69) (xy 233.68 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a77488-a047-4cd3-820d-55ab459a4d16")
-	)
-	(wire
-		(pts
-			(xy 247.65 120.65) (xy 264.16 120.65)
+			(xy 247.65 120.65) (xy 267.97 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2892,16 +2958,6 @@
 			(type default)
 		)
 		(uuid "f83be6a0-22a1-479a-b30f-4b7a121b595f")
-	)
-	(wire
-		(pts
-			(xy 233.68 49.53) (xy 247.65 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ecfe69-6a08-4d3a-931a-21a5761f2971")
 	)
 	(wire
 		(pts
@@ -2946,86 +3002,16 @@
 		(uuid "b6a4bf93-fd40-4cc6-8805-9b0c534f11f2")
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 233.68 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cae3d21-7bff-4daa-8ec2-007db94af28b")
-		(property "Reference" "R40"
-			(at 236.22 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "39k"
-			(at 236.22 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.696 63.754 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 233.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98664188-d998-43b3-800f-45fc88883ea8")
-		)
-		(pin "1"
-			(uuid "e0b5ef5d-9e19-4073-8675-2c34fde1bc68")
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 264.16 82.55 0)
+		(at 267.97 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "27585fd9-1ec7-4e3e-8577-64a55715f772")
-		(property "Reference" "C9"
-			(at 270.256 81.28 0)
+		(property "Reference" "Cout1"
+			(at 274.066 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,15 +3019,15 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 270.256 83.82 0)
+			(at 274.066 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 264.16 82.55 0)
+		(property "Footprint" "Lidar_Foot:CAPC2012X145N"
+			(at 267.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,7 +3036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 82.55 0)
+			(at 267.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3045,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 264.16 82.55 0)
+			(at 267.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3062,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C9")
+					(reference "Cout1")
 					(unit 1)
 				)
 			)
@@ -3092,7 +3078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e8a8081-b2d4-4847-9dff-af759200fa3d")
-		(property "Reference" "R6"
+		(property "Reference" "Rt1"
 			(at 93.98 107.9499 0)
 			(effects
 				(font
@@ -3110,7 +3096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC0603X26N"
 			(at 92.456 109.474 90)
 			(effects
 				(font
@@ -3146,7 +3132,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R6")
+					(reference "Rt1")
 					(unit 1)
 				)
 			)
@@ -3162,7 +3148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a4b76c7-198f-420f-a434-a49ba8e54ca8")
-		(property "Reference" "C5"
+		(property "Reference" "Css1"
 			(at 168.91 109.2262 0)
 			(effects
 				(font
@@ -3180,7 +3166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC1005X55N"
 			(at 166.37 110.49 0)
 			(effects
 				(font
@@ -3216,7 +3202,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C5")
+					(reference "Css1")
 					(unit 1)
 				)
 			)
@@ -3232,7 +3218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fc29d41-ed54-4227-a1fd-b93f55dc850c")
-		(property "Reference" "R4"
+		(property "Reference" "Rslope1"
 			(at 81.28 107.9499 0)
 			(effects
 				(font
@@ -3250,7 +3236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 79.756 109.474 90)
 			(effects
 				(font
@@ -3286,7 +3272,188 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R4")
+					(reference "Rslope1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EEHZA1V680XP:EEHZA1V680XP")
+		(at 247.65 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "570628ba-bdbb-4bdd-9098-1f535b100daf")
+		(property "Reference" "C1"
+			(at 251.46 80.7065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68uF"
+			(at 251.46 83.2465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EEHZA1V680XP:CAP_EEHZA1V680XP"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "30-Sep-20"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "7.7mm"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19abc86d-b58b-41eb-acbc-05b4abe98453")
+		)
+		(pin "2"
+			(uuid "e2156881-355f-4f47-b03f-001f8313de15")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 233.68 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5913dc5f-7e7c-48c5-9d8d-61a15f534ebf")
+		(property "Reference" "39k1"
+			(at 236.22 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.05k"
+			(at 236.22 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Lidar_Foot:RESC1607X60N"
+			(at 234.696 62.484 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95b136f4-571e-456f-890a-b485da0e540b")
+		)
+		(pin "1"
+			(uuid "b722827e-6109-4ccd-87c7-922104606a57")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "39k1")
 					(unit 1)
 				)
 			)
@@ -3302,7 +3469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "672633b2-bf42-4607-aeb0-1db61855265d")
-		(property "Reference" "Q2"
+		(property "Reference" "M2"
 			(at 187.96 43.18 90)
 			(effects
 				(font
@@ -3384,7 +3551,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Q2")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -3400,7 +3567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677e366a-4c12-48a1-a8ae-50ca61b109cb")
-		(property "Reference" "C2"
+		(property "Reference" "Cvin1"
 			(at 69.85 85.0962 0)
 			(effects
 				(font
@@ -3418,7 +3585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC1608X90N"
 			(at 67.31 86.36 0)
 			(effects
 				(font
@@ -3454,7 +3621,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C2")
+					(reference "Cvin1")
 					(unit 1)
 				)
 			)
@@ -3597,7 +3764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70a73049-1c61-4d43-88ca-aa11c2a11b3c")
-		(property "Reference" "R7"
+		(property "Reference" "Rcomp1"
 			(at 203.2 81.28 90)
 			(effects
 				(font
@@ -3613,7 +3780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC0603X26N"
 			(at 202.946 88.646 90)
 			(effects
 				(font
@@ -3649,7 +3816,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R7")
+					(reference "Rcomp1")
 					(unit 1)
 				)
 			)
@@ -3730,7 +3897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8375a4dc-6fc8-42fb-b559-87dae1e0f0c6")
-		(property "Reference" "C1"
+		(property "Reference" "Cin1"
 			(at 33.02 91.4462 0)
 			(effects
 				(font
@@ -3748,7 +3915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC3216X180N"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -3784,7 +3951,77 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C1")
+					(reference "Cin1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 53.34 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8717516d-02c2-4e14-bd52-99ee86206c2f")
+		(property "Reference" "Ruvt1"
+			(at 55.88 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "49.9k"
+			(at 55.88 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
+			(at 54.356 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f03c8ea-29e2-46ae-a842-c454bfd25e05")
+		)
+		(pin "1"
+			(uuid "ab700c81-4c3d-4b22-bdc2-ef786f5eeba2")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
+					(reference "Ruvt1")
 					(unit 1)
 				)
 			)
@@ -3865,7 +4102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f35dc79-e52c-4cec-a705-203c5535f359")
-		(property "Reference" "C3"
+		(property "Reference" "Cvcc1"
 			(at 107.95 57.912 90)
 			(effects
 				(font
@@ -3881,7 +4118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X135N"
 			(at 107.95 63.5 0)
 			(effects
 				(font
@@ -3917,7 +4154,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C3")
+					(reference "Cvcc1")
 					(unit 1)
 				)
 			)
@@ -4132,7 +4369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcaf1047-fee9-4d56-9913-6492371e6c30")
-		(property "Reference" "R2"
+		(property "Reference" "Ruvb1"
 			(at 55.88 107.9499 0)
 			(effects
 				(font
@@ -4150,7 +4387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 54.356 109.474 90)
 			(effects
 				(font
@@ -4186,77 +4423,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 247.65 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0e5409e-1928-4420-bbf1-fc18df295988")
-		(property "Reference" "C8"
-			(at 251.46 80.3909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68uF"
-			(at 251.46 82.9309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.6152 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 247.65 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a44de455-9473-4442-9675-ec4677f30515")
-		)
-		(pin "2"
-			(uuid "31d86f4c-d07b-449e-a843-282481cfec87")
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C8")
+					(reference "Ruvb1")
 					(unit 1)
 				)
 			)
@@ -4271,7 +4438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c718e363-980f-4d19-8ffb-5189d7108491")
-		(property "Reference" "C4"
+		(property "Reference" "Cbst1"
 			(at 135.89 57.912 90)
 			(effects
 				(font
@@ -4287,7 +4454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X88N"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -4323,7 +4490,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C4")
+					(reference "Cbst1")
 					(unit 1)
 				)
 			)
@@ -4339,7 +4506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb423064-c2a4-4305-be7d-1aeda6bc2695")
-		(property "Reference" "R5"
+		(property "Reference" "Rsense1"
 			(at 91.44 43.18 90)
 			(effects
 				(font
@@ -4355,7 +4522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC3015X65N"
 			(at 91.694 48.514 90)
 			(effects
 				(font
@@ -4391,7 +4558,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R5")
+					(reference "Rsense1")
 					(unit 1)
 				)
 			)
@@ -4406,7 +4573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc3ca6d7-b0fe-4c8a-bead-1152fd824916")
-		(property "Reference" "R3"
+		(property "Reference" "Rvin1"
 			(at 69.85 67.31 0)
 			(effects
 				(font
@@ -4424,7 +4591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1508X50N"
 			(at 68.326 68.834 90)
 			(effects
 				(font
@@ -4460,7 +4627,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R3")
+					(reference "Rvin1")
 					(unit 1)
 				)
 			)
@@ -4476,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccee71c5-8234-4317-b0f1-b1d762fc5953")
-		(property "Reference" "R41"
+		(property "Reference" "Rfbb1"
 			(at 236.22 105.4099 0)
 			(effects
 				(font
@@ -4494,7 +4661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 234.696 106.934 90)
 			(effects
 				(font
@@ -4530,7 +4697,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R41")
+					(reference "Rfbb1")
 					(unit 1)
 				)
 			)
@@ -4546,7 +4713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd6c14b2-c96f-427a-98e9-e62e03073760")
-		(property "Reference" "C17"
+		(property "Reference" "Cres1"
 			(at 187.96 107.9562 0)
 			(effects
 				(font
@@ -4564,7 +4731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X95N"
 			(at 185.42 109.22 0)
 			(effects
 				(font
@@ -4600,7 +4767,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C17")
+					(reference "Cres1")
 					(unit 1)
 				)
 			)
@@ -4615,7 +4782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf2d700f-3542-4e49-87fc-56f63cac710f")
-		(property "Reference" "C6"
+		(property "Reference" "Ccomp2"
 			(at 208.28 71.882 90)
 			(effects
 				(font
@@ -4631,7 +4798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC0603X33N"
 			(at 208.28 77.47 0)
 			(effects
 				(font
@@ -4667,77 +4834,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 53.34 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2fa76a6-260d-4fa2-8d70-38e8f51e8e86")
-		(property "Reference" "R1"
-			(at 55.88 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "49.9k"
-			(at 55.88 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.356 78.994 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 53.34 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ede0e16c-22cc-4590-a44a-32bb5fa4890c")
-		)
-		(pin "1"
-			(uuid "930fbc9e-038a-44b4-9db0-0bd43b3c5f98")
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "R1")
+					(reference "Ccomp2")
 					(unit 1)
 				)
 			)
@@ -4753,7 +4850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2685309-270a-4984-a61a-00d510c0dc95")
-		(property "Reference" "D3"
+		(property "Reference" "Dbst1"
 			(at 123.5075 57.15 0)
 			(effects
 				(font
@@ -4769,7 +4866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:DIOM4325X250N"
 			(at 123.19 63.5 0)
 			(effects
 				(font
@@ -4805,7 +4902,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "D3")
+					(reference "Dbst1")
 					(unit 1)
 				)
 			)
@@ -4821,7 +4918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e72db0a8-be66-4d02-9d9f-406675151c64")
-		(property "Reference" "Q1"
+		(property "Reference" "M1"
 			(at 175.26 63.4999 0)
 			(effects
 				(font
@@ -4905,7 +5002,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Q1")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -4920,7 +5017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1cfe839-a1d2-4c67-b829-7af55ca66971")
-		(property "Reference" "C7"
+		(property "Reference" "Ccomp1"
 			(at 218.44 82.042 90)
 			(effects
 				(font
@@ -4936,7 +5033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X75N"
 			(at 218.44 87.63 0)
 			(effects
 				(font
@@ -4972,7 +5069,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C7")
+					(reference "Ccomp1")
 					(unit 1)
 				)
 			)
