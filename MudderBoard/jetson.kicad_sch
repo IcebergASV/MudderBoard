@@ -5,6 +5,220 @@
 	(uuid "4423e502-ceb6-4fcc-81b5-6eb58892cda1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "35SVPF82M:35SVPF82M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "35SVPF82M"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "35SVPF82M:CAP_35SVPF82M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "28-Jun-19"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Panasonic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "11.9mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "35SVPF82M_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 2.54)
+					(mid 1.4851 0)
+					(end 2.286 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -103,164 +317,6 @@
 				)
 			)
 			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1472,6 +1528,257 @@
 				)
 			)
 		)
+		(symbol "UUD1H221MNL1GS:UUD1H221MNL1GS"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "UUD1H221MNL1GS"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "U2-P_NCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "UUD1H221MNL1GS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "UUD1H221MNL1GS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "U2-P_NCH U2-P_NCH-M U2-P_NCH-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UUD1H221MNL1GS_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "UUD1H221MNL1GS_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
@@ -2285,16 +2592,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 50.8 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf514600-f16d-43eb-b082-c7ded189b887")
-	)
-	(wire
-		(pts
 			(xy 90.17 77.47) (xy 104.14 77.47)
 		)
 		(stroke
@@ -2342,6 +2639,16 @@
 			(type default)
 		)
 		(uuid "e133e724-4165-4fa5-b9dd-8fcd8eb8185f")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 50.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5834d7e-5228-4980-a789-e0d8264afb25")
 	)
 	(wire
 		(pts
@@ -2415,7 +2722,7 @@
 	)
 	(text "REVIEW: \nshould we seperate PGND and AGND?"
 		(exclude_from_sim no)
-		(at 143.256 96.266 0)
+		(at 146.304 96.012 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2423,9 +2730,39 @@
 		)
 		(uuid "10adeda6-6fe3-424f-8a82-d140dbfdbb42")
 	)
-	(text "REVIEW: \nREVIEW FOOTPRINT SIZES FOR CAPS AND RES\nMAKE SURE BOM MATCHES"
+	(text "Cfilt"
 		(exclude_from_sim no)
-		(at 177.8 140.97 0)
+		(at 203.454 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1779d45f-c03f-43f9-9ecb-698f423282a5")
+	)
+	(text "Rsense"
+		(exclude_from_sim no)
+		(at 216.662 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "295cc149-9adb-45c0-b8cd-015d173f3040")
+	)
+	(text "Ccomp2"
+		(exclude_from_sim no)
+		(at 95.504 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "29e9abbe-701a-4530-a7f8-e2d76b7e328a")
+	)
+	(text "REVIEW: \nREVIEW Rsense size"
+		(exclude_from_sim no)
+		(at 224.282 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2433,15 +2770,95 @@
 		)
 		(uuid "2cd7dea4-834f-497c-b3f3-1d806138f1de")
 	)
-	(text "REVIEW: \nPLACEHOLDER INDUCTOR, NEED TO MAKE FOOTPRINT"
+	(text "Ccomp1"
 		(exclude_from_sim no)
-		(at 98.044 46.482 0)
+		(at 109.474 80.772 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "a5cf60df-fbdd-43e2-aea1-f44404ebf771")
+		(uuid "319d274f-d967-45d4-a8ea-55f6ba054f34")
+	)
+	(text "Rcomp"
+		(exclude_from_sim no)
+		(at 110.236 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66b42a62-631f-4efb-9f6c-3d89721b2831")
+	)
+	(text "Cin"
+		(exclude_from_sim no)
+		(at 56.134 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e088ae9-2818-48f3-9321-53e4f3a84e0e")
+	)
+	(text "Rfb1"
+		(exclude_from_sim no)
+		(at 187.706 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "794d3865-07af-4959-9f8f-280b391fac1c")
+	)
+	(text "Rfilt"
+		(exclude_from_sim no)
+		(at 202.946 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8359c77d-d6bb-484b-8504-f4bb27ea2152")
+	)
+	(text "Rfb2"
+		(exclude_from_sim no)
+		(at 188.214 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cb76769-dc4b-410d-a676-fecc617f8797")
+	)
+	(text "Cout"
+		(exclude_from_sim no)
+		(at 249.936 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4c1bce2-4f77-4866-8a15-2eaa0dfa2929")
+	)
+	(text "Cbyp"
+		(exclude_from_sim no)
+		(at 75.946 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b87190cd-5700-4d6f-8f97-01014e8ee972")
+	)
+	(text "Rsync"
+		(exclude_from_sim no)
+		(at 187.452 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfe0bcd6-7d7f-46d9-9a71-ad82f0c7e45b")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2471,7 +2888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 196.342 93.98 90)
 			(effects
 				(font
@@ -2541,7 +2958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 70.8152 88.9 0)
 			(effects
 				(font
@@ -2611,7 +3028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.312 113.03 90)
 			(effects
 				(font
@@ -2680,7 +3097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 199.0852 116.84 0)
 			(effects
 				(font
@@ -2816,7 +3233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.362 95.25 90)
 			(effects
 				(font
@@ -2853,6 +3270,117 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/674dd553-7765-4ece-a996-68b5361f64e2"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "35SVPF82M:35SVPF82M")
+		(at 243.84 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48cc89c7-a926-473a-b08a-93df586c6c44")
+		(property "Reference" "C11"
+			(at 247.65 94.6765 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220u"
+			(at 247.65 97.2165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jetson_lib:CAP_35SVPF82M"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "35SVPF82M"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "28-Jun-19"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11.9mm"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90699fc5-b651-411b-853b-38d4badb7d39")
+		)
+		(pin "2"
+			(uuid "c8dd8cbf-a9b4-4749-92dd-c9f76fcd95ab")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/674dd553-7765-4ece-a996-68b5361f64e2"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2949,7 +3477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DGK8"
+		(property "Footprint" "Jetson_lib:DGK8"
 			(at 158.75 46.99 0)
 			(effects
 				(font
@@ -3039,7 +3567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0603"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.1352 88.9 0)
 			(effects
 				(font
@@ -3082,76 +3610,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 243.84 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94626ed5-a42e-4b84-a1c3-8afddb74dff5")
-		(property "Reference" "C66"
-			(at 247.65 94.3609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "82uF"
-			(at 247.65 96.9009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 244.8052 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 243.84 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72133a4f-fa8a-4043-8f4e-2adf43053b83")
-		)
-		(pin "2"
-			(uuid "7384a2b6-abb1-4b00-874e-5220f7475b78")
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/674dd553-7765-4ece-a996-68b5361f64e2"
-					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 187.96 25.4 270)
 		(unit 1)
@@ -3177,7 +3635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.96 23.622 90)
 			(effects
 				(font
@@ -3311,7 +3769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 187.96 38.862 90)
 			(effects
 				(font
@@ -3463,7 +3921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 105.1052 88.9 0)
 			(effects
 				(font
@@ -3506,70 +3964,72 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 50.8 85.09 0)
+		(lib_id "UUD1H221MNL1GS:UUD1H221MNL1GS")
+		(at 50.8 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f701819c-51b8-43d5-85ee-e5515b0aebc6")
-		(property "Reference" "C60"
-			(at 54.61 82.9309 0)
+		(uuid "f4618efe-5b89-400e-ab6e-cabb6c575150")
+		(property "Reference" "C10"
+			(at 54.61 83.8199 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
-			(at 54.61 85.4709 0)
+		(property "Value" "220u"
+			(at 54.61 86.3599 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 51.7652 88.9 0)
+		(property "Footprint" "Jetson_lib:U2-P_NCH"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "UUD1H221MNL1GS"
+			(at 50.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "UUD1H221MNL1GS"
+			(at 50.8 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 50.8 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e56ac146-5117-4f67-8608-eed3f36a7c5d")
 		)
 		(pin "2"
-			(uuid "511b56d7-7f33-4281-8cc2-4c87c2fe9f87")
+			(uuid "3b8ab72a-9368-4022-b666-b0cf219bdbff")
+		)
+		(pin "1"
+			(uuid "665826b9-4f3b-44a0-aa28-fc9fe7b4bf61")
 		)
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/674dd553-7765-4ece-a996-68b5361f64e2"
-					(reference "C60")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3601,7 +4061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D2PAK_STM"
+		(property "Footprint" "Jetson_lib:D2PAK_STM"
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -3666,7 +4126,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "4.7u"
 			(at 96.52 52.07 90)
 			(effects
 				(font
@@ -3674,7 +4134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jetson_lib:PA2240"
 			(at 96.52 54.61 0)
 			(effects
 				(font
@@ -3692,7 +4152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "PA2243.472NLT 4.7 µH Unshielded Molded Inductor 14 A 10.72mOhm Max Nonstandard"
 			(at 96.52 54.61 0)
 			(effects
 				(font
@@ -3735,7 +4195,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40K"
+		(property "Value" "46.4k"
 			(at 185.42 104.1399 0)
 			(effects
 				(font
@@ -3744,7 +4204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.102 102.87 90)
 			(effects
 				(font

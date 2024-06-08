@@ -1,0 +1,137 @@
+(footprint "PA2240"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e7dee14b-f7bf-4ef6-997d-49909ea2e9b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PA2240"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "69c3b87b-3a7b-4472-be7f-28e689f3ccbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddce8cfe-c177-435a-8b57-9ba15e7b6aa0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3330218f-78a3-4ab3-80f3-44cf37c057e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5bb752e-5f96-4367-b9c9-80bfb875c6bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "*"
+		(at -0.8 -6.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8b915a00-2031-4bbe-8a3c-c72c4ee931e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6bd8cd81-c3c5-4435-bead-c409eb89629c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.2 -3.3)
+		(size 2.5 6.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "0dffbf55-d492-44d8-80e0-8351d0747094")
+	)
+	(pad "2" smd rect
+		(at 6.5 -3.3)
+		(size 2.5 6.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(clearance 0.2)
+		(uuid "005e97e9-3542-42be-a94f-4b63fd63cf0e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "a7e7fa30-c46f-4fdd-8239-be56c7c78a4d")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.75 -7.5) (xy -0.75 0.75) (xy 8.5 0.75) (xy 8.5 -7.5)
+			)
+		)
+	)
+)
