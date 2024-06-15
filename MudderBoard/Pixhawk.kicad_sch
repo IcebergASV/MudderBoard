@@ -4224,7 +4224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XAL5030"
+		(property "Footprint" "PH_Foot:XAL5030222MEC"
 			(at 167.64 140.64 0)
 			(effects
 				(font
@@ -4351,7 +4351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LMK212BJ226MG-T:CAPC2012X135N"
+		(property "Footprint" "PH_Foot:CAPC2012X135N"
 			(at 208.28 49.53 0)
 			(effects
 				(font
@@ -4517,7 +4517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM1555C1E330JA01D:CAPC1005X55N"
+		(property "Footprint" "PH_Foot:CAPC1005X55N"
 			(at 176.53 50.8 0)
 			(effects
 				(font
@@ -4683,7 +4683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LMK212BJ226MG-T:CAPC2012X135N"
+		(property "Footprint" "PH_Foot:CAPC2012X135N"
 			(at 232.41 49.53 0)
 			(effects
 				(font
@@ -4843,7 +4843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RES_RC0603_YAG"
+		(property "Footprint" "PH_Foot:R0603"
 			(at 190.5 62.23 0)
 			(effects
 				(font
@@ -4992,7 +4992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM188R71H104KA93D:CAPC1608X90N"
+		(property "Footprint" "PH_Foot:CAPC1608X90N"
 			(at 83.82 49.53 0)
 			(effects
 				(font
@@ -5148,7 +5148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC17595_90N_KEM"
+		(property "Footprint" "PH_Foot:CAPC1608X90N"
 			(at 185.42 130.81 0)
 			(effects
 				(font
@@ -5297,7 +5297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM21BR61E106MA73L:CAPC2012X140N"
+		(property "Footprint" "PH_Foot:CAPC2012X140N"
 			(at 62.23 49.53 0)
 			(effects
 				(font
@@ -5462,7 +5462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TD03B"
+		(property "Footprint" "PH_Foot:TO228P1042X238-3N"
 			(at 182.88 128.27 0)
 			(effects
 				(font
@@ -5614,7 +5614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "GRM21BR61E106MA73L:CAPC2012X140N"
+		(property "Footprint" "PH_Foot:CAPC2012X140N"
 			(at 49.53 49.53 0)
 			(effects
 				(font
@@ -5774,7 +5774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RC0603FR-07220KL:RESC1607X60N"
+		(property "Footprint" "PH_Foot:RESC1607X60N"
 			(at 190.5 52.07 0)
 			(effects
 				(font
@@ -6011,7 +6011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT5x3_DRL_TEX"
+		(property "Footprint" "PH_Foot:SOT5x3_DRL_TEX"
 			(at 104.648 35.814 0)
 			(effects
 				(font
@@ -6101,7 +6101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRCW0402100KFKED:RESC1005X40N"
+		(property "Footprint" "PH_Foot:RESC1005X40N"
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -6257,7 +6257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GRM188R71E104KA01D:CAPC1608X90N"
+		(property "Footprint" "PH_Foot:CAPC1608X90N"
 			(at 259.08 49.53 0)
 			(effects
 				(font
@@ -6413,7 +6413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LMK212BJ226MG-T:CAPC2012X135N"
+		(property "Footprint" "PH_Foot:CAPC2012X135N"
 			(at 220.98 49.53 0)
 			(effects
 				(font
@@ -6573,7 +6573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC17595_90N_KEM"
+		(property "Footprint" "PH_Foot:CAPC1608X90N"
 			(at 130.81 129.54 0)
 			(effects
 				(font
@@ -6650,7 +6650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CRCW040214K3FKED:RESC1005X40N"
+		(property "Footprint" "PH_Foot:RESC1005X40N"
 			(at 40.64 143.51 0)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LMK212BJ226MG-T:CAPC2012X135N"
+		(property "Footprint" "PH_Foot:CAPC2012X135N"
 			(at 245.11 49.53 0)
 			(effects
 				(font
