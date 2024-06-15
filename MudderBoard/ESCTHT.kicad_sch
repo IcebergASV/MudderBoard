@@ -5784,7 +5784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 61.468 142.24 90)
 			(effects
 				(font
@@ -5918,7 +5918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 127 158.242 90)
 			(effects
 				(font
@@ -5988,7 +5988,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "Lidar_Foot:LED_DRD1204W-TR"
 			(at 251.46 128.27 0)
 			(effects
 				(font
@@ -6058,7 +6058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAP_EEHZA1V271P"
 			(at 240.9952 133.35 0)
 			(effects
 				(font
@@ -6458,7 +6458,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC6432X110N"
 			(at 86.36 102.108 90)
 			(effects
 				(font
@@ -6593,7 +6593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X95N"
 			(at 190.1952 139.7 0)
 			(effects
 				(font
@@ -6661,7 +6661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC6432X110N"
 			(at 85.09 28.448 90)
 			(effects
 				(font
@@ -6731,7 +6731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 60.198 71.12 90)
 			(effects
 				(font
@@ -6868,7 +6868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X75N"
 			(at 178.7652 92.71 0)
 			(effects
 				(font
@@ -6938,7 +6938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X75N"
 			(at 180.0352 163.83 0)
 			(effects
 				(font
@@ -7006,7 +7006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:TRANS_CSD17308Q3"
 			(at 237.236 81.788 0)
 			(effects
 				(font
@@ -7351,7 +7351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 74.168 41.91 90)
 			(effects
 				(font
@@ -7421,7 +7421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC1005X55N"
 			(at 92.4052 140.97 0)
 			(effects
 				(font
@@ -8015,7 +8015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X135N"
 			(at 167.3352 160.02 0)
 			(effects
 				(font
@@ -8085,7 +8085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X135N"
 			(at 166.0652 88.9 0)
 			(effects
 				(font
@@ -8155,7 +8155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC1005X55N"
 			(at 91.1352 69.85 0)
 			(effects
 				(font
@@ -8357,7 +8357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CR_DO-214ACSMA_TWS"
 			(at 200.66 49.53 0)
 			(effects
 				(font
@@ -8427,7 +8427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X95N"
 			(at 188.9252 68.58 0)
 			(effects
 				(font
@@ -8497,7 +8497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:TRANS_CSD17308Q3"
 			(at 239.522 121.666 0)
 			(effects
 				(font
@@ -8579,7 +8579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAP_25SVPF180M"
 			(at 45.4152 133.35 0)
 			(effects
 				(font
@@ -8649,7 +8649,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC0603X28N"
 			(at 180.848 152.4 90)
 			(effects
 				(font
@@ -8719,13 +8719,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAP_25SVPF180M"
 			(at 44.1452 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -8789,7 +8788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:TRANS_CSD17308Q3"
 			(at 236.982 44.196 0)
 			(effects
 				(font
@@ -9069,7 +9068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 103.378 66.04 90)
 			(effects
 				(font
@@ -9138,7 +9137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 125.73 87.122 90)
 			(effects
 				(font
@@ -9274,7 +9273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC1608X90N"
 			(at 73.3552 62.23 0)
 			(effects
 				(font
@@ -9344,7 +9343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC3216X70N"
 			(at 249.682 115.57 90)
 			(effects
 				(font
@@ -9482,7 +9481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X135N"
 			(at 201.6252 68.58 0)
 			(effects
 				(font
@@ -9618,7 +9617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CR_DO-214ACSMA_TWS"
 			(at 201.93 120.65 0)
 			(effects
 				(font
@@ -9754,7 +9753,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 75.438 114.3 90)
 			(effects
 				(font
@@ -9824,7 +9823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC2012X135N"
 			(at 202.8952 139.7 0)
 			(effects
 				(font
@@ -9894,7 +9893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC3216X180N"
 			(at 261.3152 134.62 0)
 			(effects
 				(font
@@ -9964,7 +9963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "Lidar_Foot:LED_DRD1204W-TR"
 			(at 248.92 54.61 0)
 			(effects
 				(font
@@ -10099,7 +10098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 177.038 69.85 90)
 			(effects
 				(font
@@ -10302,7 +10301,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 61.468 113.03 90)
 			(effects
 				(font
@@ -10371,7 +10370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X35N"
 			(at 109.22 87.122 90)
 			(effects
 				(font
@@ -10782,7 +10781,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X35N"
 			(at 110.49 158.242 90)
 			(effects
 				(font
@@ -10852,7 +10851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC3216X180N"
 			(at 261.3152 59.69 0)
 			(effects
 				(font
@@ -10989,7 +10988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAP_EEHZA1V271P"
 			(at 238.4552 59.69 0)
 			(effects
 				(font
@@ -11191,7 +11190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 60.198 41.91 90)
 			(effects
 				(font
@@ -11453,7 +11452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:TRANS_CSD17308Q3"
 			(at 235.966 8.128 0)
 			(effects
 				(font
@@ -11736,7 +11735,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 104.648 137.16 90)
 			(effects
 				(font
@@ -11806,7 +11805,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC0603X28N"
 			(at 179.578 81.28 90)
 			(effects
 				(font
@@ -11876,7 +11875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC3216X70N"
 			(at 247.142 40.64 90)
 			(effects
 				(font
@@ -12077,7 +12076,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
 			(at 178.308 140.97 90)
 			(effects
 				(font
@@ -12279,7 +12278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lidar_Foot:CAPC1608X90N"
 			(at 74.6252 133.35 0)
 			(effects
 				(font
