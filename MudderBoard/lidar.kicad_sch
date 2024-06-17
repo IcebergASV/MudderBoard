@@ -3010,7 +3010,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27585fd9-1ec7-4e3e-8577-64a55715f772")
-		(property "Reference" "Cout1"
+		(property "Reference" "C10"
 			(at 274.066 81.28 0)
 			(effects
 				(font
@@ -3062,7 +3062,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Cout1")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3078,7 +3078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e8a8081-b2d4-4847-9dff-af759200fa3d")
-		(property "Reference" "Rt1"
+		(property "Reference" "R6"
 			(at 93.98 107.9499 0)
 			(effects
 				(font
@@ -3132,7 +3132,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Rt1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3148,7 +3148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a4b76c7-198f-420f-a434-a49ba8e54ca8")
-		(property "Reference" "Css1"
+		(property "Reference" "C5"
 			(at 168.91 109.2262 0)
 			(effects
 				(font
@@ -3202,7 +3202,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Css1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3218,7 +3218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fc29d41-ed54-4227-a1fd-b93f55dc850c")
-		(property "Reference" "Rslope1"
+		(property "Reference" "R4"
 			(at 81.28 107.9499 0)
 			(effects
 				(font
@@ -3272,7 +3272,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Rslope1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3288,7 +3288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "570628ba-bdbb-4bdd-9098-1f535b100daf")
-		(property "Reference" "C1"
+		(property "Reference" "C9"
 			(at 251.46 80.7065 90)
 			(effects
 				(font
@@ -3306,7 +3306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EEHZA1V680XP:CAP_EEHZA1V680XP"
+		(property "Footprint" "Lidar_Foot:CAP_EEHZA1V680XP"
 			(at 247.65 81.28 0)
 			(effects
 				(font
@@ -3383,7 +3383,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "C1")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3399,7 +3399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5913dc5f-7e7c-48c5-9d8d-61a15f534ebf")
-		(property "Reference" "39k1"
+		(property "Reference" "R8"
 			(at 236.22 60.9599 0)
 			(effects
 				(font
@@ -3453,7 +3453,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "39k1")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3567,7 +3567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677e366a-4c12-48a1-a8ae-50ca61b109cb")
-		(property "Reference" "Cvin1"
+		(property "Reference" "C2"
 			(at 69.85 85.0962 0)
 			(effects
 				(font
@@ -3621,7 +3621,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Cvin1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3764,7 +3764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70a73049-1c61-4d43-88ca-aa11c2a11b3c")
-		(property "Reference" "Rcomp1"
+		(property "Reference" "R7"
 			(at 203.2 81.28 90)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Rcomp1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3897,7 +3897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8375a4dc-6fc8-42fb-b559-87dae1e0f0c6")
-		(property "Reference" "Cin1"
+		(property "Reference" "C1"
 			(at 33.02 91.4462 0)
 			(effects
 				(font
@@ -3951,7 +3951,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Cin1")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3967,7 +3967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8717516d-02c2-4e14-bd52-99ee86206c2f")
-		(property "Reference" "Ruvt1"
+		(property "Reference" "R1"
 			(at 55.88 68.5799 0)
 			(effects
 				(font
@@ -4021,7 +4021,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Ruvt1")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4102,7 +4102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f35dc79-e52c-4cec-a705-203c5535f359")
-		(property "Reference" "Cvcc1"
+		(property "Reference" "C3"
 			(at 107.95 57.912 90)
 			(effects
 				(font
@@ -4154,7 +4154,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Cvcc1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4369,7 +4369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcaf1047-fee9-4d56-9913-6492371e6c30")
-		(property "Reference" "Ruvb1"
+		(property "Reference" "R2"
 			(at 55.88 107.9499 0)
 			(effects
 				(font
@@ -4423,7 +4423,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Ruvb1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c718e363-980f-4d19-8ffb-5189d7108491")
-		(property "Reference" "Cbst1"
+		(property "Reference" "C4"
 			(at 135.89 57.912 90)
 			(effects
 				(font
@@ -4490,7 +4490,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Cbst1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb423064-c2a4-4305-be7d-1aeda6bc2695")
-		(property "Reference" "Rsense1"
+		(property "Reference" "R5"
 			(at 91.44 43.18 90)
 			(effects
 				(font
@@ -4558,7 +4558,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Rsense1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4573,7 +4573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc3ca6d7-b0fe-4c8a-bead-1152fd824916")
-		(property "Reference" "Rvin1"
+		(property "Reference" "R3"
 			(at 69.85 67.31 0)
 			(effects
 				(font
@@ -4627,7 +4627,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Rvin1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4643,7 +4643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccee71c5-8234-4317-b0f1-b1d762fc5953")
-		(property "Reference" "Rfbb1"
+		(property "Reference" "R9"
 			(at 236.22 105.4099 0)
 			(effects
 				(font
@@ -4697,7 +4697,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Rfbb1")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4713,7 +4713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd6c14b2-c96f-427a-98e9-e62e03073760")
-		(property "Reference" "Cres1"
+		(property "Reference" "C6"
 			(at 187.96 107.9562 0)
 			(effects
 				(font
@@ -4767,7 +4767,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Cres1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4782,7 +4782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf2d700f-3542-4e49-87fc-56f63cac710f")
-		(property "Reference" "Ccomp2"
+		(property "Reference" "C7"
 			(at 208.28 71.882 90)
 			(effects
 				(font
@@ -4834,7 +4834,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Ccomp2")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4850,7 +4850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2685309-270a-4984-a61a-00d510c0dc95")
-		(property "Reference" "Dbst1"
+		(property "Reference" "D1"
 			(at 123.5075 57.15 0)
 			(effects
 				(font
@@ -4902,7 +4902,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Dbst1")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5017,7 +5017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1cfe839-a1d2-4c67-b829-7af55ca66971")
-		(property "Reference" "Ccomp1"
+		(property "Reference" "C8"
 			(at 218.44 82.042 90)
 			(effects
 				(font
@@ -5069,7 +5069,7 @@
 		(instances
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/86bd7edb-9c3d-421e-84f7-984954447f61"
-					(reference "Ccomp1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
