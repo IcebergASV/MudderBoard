@@ -2169,12 +2169,6 @@
 		(uuid "24883350-497d-4c2b-bf10-4d39932a5441")
 	)
 	(junction
-		(at 176.53 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "255f2da0-b68e-410f-8643-68e5ba3ee142")
-	)
-	(junction
 		(at 240.03 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2203,6 +2197,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34793f9f-baf0-4740-963a-c8188d57a1b2")
+	)
+	(junction
+		(at 176.53 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35b48352-a053-4b72-8266-04370ca985c8")
 	)
 	(junction
 		(at 248.92 26.67)
@@ -8976,6 +8976,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 176.53 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bee2c13-41fd-4128-a412-beaea3f8dcaf")
+		(property "Reference" "R39"
+			(at 179.07 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "165kOhm"
+			(at 179.07 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Lidar_Foot:RESC1005X40N"
+			(at 178.308 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e9a56af-a73c-490b-b2d8-2a8111b9ee4b")
+		)
+		(pin "2"
+			(uuid "12fd858f-48ea-4fda-8259-0b7118426ced")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 58.42 128.27 90)
 		(unit 1)
@@ -12043,76 +12113,6 @@
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 176.53 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0ba5b83-9927-4167-9d25-99aa8f675df2")
-		(property "Reference" "R39"
-			(at 179.07 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "205kOhm"
-			(at 179.07 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Lidar_Foot:RESC1005X40N"
-			(at 178.308 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 176.53 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdbd5bd6-2a6b-4dde-9638-b7a3bde18792")
-		)
-		(pin "2"
-			(uuid "7cc223c3-58fe-4cc3-8817-3929d2bef043")
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/156878a8-0263-42d4-a037-3f42ee3dc0ef"
-					(reference "R39")
 					(unit 1)
 				)
 			)
