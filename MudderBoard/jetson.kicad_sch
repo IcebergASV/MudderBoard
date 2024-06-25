@@ -2780,16 +2780,6 @@
 		)
 		(uuid "319d274f-d967-45d4-a8ea-55f6ba054f34")
 	)
-	(text "REVIEW: \nshould we seperate PGND and AGND?"
-		(exclude_from_sim no)
-		(at 147.32 103.124 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "484cc39c-8578-46e2-a8ab-83869ed6246d")
-	)
 	(text "Rcomp"
 		(exclude_from_sim no)
 		(at 110.236 91.44 0)
