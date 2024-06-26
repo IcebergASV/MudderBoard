@@ -36108,6 +36108,7 @@
 		(uuid "e79f7b8a-d91a-4895-ad91-3121b9e8500b")
 	)
 <<<<<<< HEAD
+<<<<<<< HEAD
 	(segment
 <<<<<<< Updated upstream
 		(start 123.191 52.0825)
@@ -36416,6 +36417,9 @@
 	)
 )
 >>>>>>> Stashed changes
+=======
+)
+>>>>>>> parent of 6d69347 (PixHawk Layout Updates)
 =======
 )
 >>>>>>> parent of 6d69347 (PixHawk Layout Updates)
