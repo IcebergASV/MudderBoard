@@ -5516,7 +5516,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 36.83 0)
+		(at 165.1 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5530,7 +5530,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10uF"
@@ -5539,11 +5539,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PDC_Foot:CAPC2012X135N"
-			(at 166.0652 40.64 0)
+			(at 164.1348 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
