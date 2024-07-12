@@ -695,7 +695,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "0aae6732-3f0f-4468-a29f-a8405992b2eb")
-		(at -31.15 105.05)
+		(at -43.35 103.55)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP15"
@@ -2353,7 +2353,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "151df337-3d87-400e-84f1-07035bcd89e8")
-		(at -26.8 122.45)
+		(at -39 120.95)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP26"
@@ -2532,7 +2532,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "156edfe5-3ab3-45fc-b3e2-04ad5723444e")
-		(at -39.85 131.15)
+		(at -52.05 129.65)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP7"
@@ -2711,7 +2711,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "174fa2c7-98df-4e56-92b6-3b436d878baa")
-		(at -35.5 105.05)
+		(at -47.7 103.55)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP8"
@@ -3447,7 +3447,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "18a62e1c-cccc-4b07-946f-120405cdb494")
-		(at -31.15 122.45)
+		(at -43.35 120.95)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP19"
@@ -5443,7 +5443,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "212e8a83-eb45-4863-9c82-c2e30fe342af")
-		(at -20.75 114.35)
+		(at -32.95 112.85)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP31"
@@ -6424,7 +6424,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "247776af-3596-4ae4-96fa-2834352e022e")
-		(at -39.85 118.1)
+		(at -52.05 116.6)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP4"
@@ -6776,7 +6776,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "27c22ae0-64d0-4f66-b512-ffa1b0ddf737")
-		(at -35.5 122.45)
+		(at -47.7 120.95)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP12"
@@ -7124,7 +7124,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "2bf1c380-3a53-44ea-a986-89865ddbdfef")
-		(at -26.8 131.15)
+		(at -39 129.65)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP28"
@@ -12054,7 +12054,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "4eb333fd-bde7-486c-9789-5931b175c38f")
-		(at -39.85 109.4)
+		(at -52.05 107.9)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP2"
@@ -12233,7 +12233,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "52652d7b-e20f-4558-9ca3-3e03562278ff")
-		(at -39.85 113.75)
+		(at -52.05 112.25)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3"
@@ -14268,7 +14268,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "5c40372f-7128-4cc3-863a-4931548440e0")
-		(at -35.5 109.4)
+		(at -47.7 107.9)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP9"
@@ -16007,7 +16007,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "6c690816-44f5-4c9f-ae11-e03759de33c2")
-		(at -35.5 126.8)
+		(at -47.7 125.3)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP13"
@@ -16186,7 +16186,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "6f95d754-11cc-4268-9a04-a34be4903201")
-		(at -31.15 118.1)
+		(at -43.35 116.6)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP18"
@@ -16534,7 +16534,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "71a287a6-beeb-4b98-ae92-cf80d60de6c0")
-		(at -35.5 118.1)
+		(at -47.7 116.6)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP11"
@@ -20390,7 +20390,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "89ed2050-2404-4b37-bfd6-ec32b3dc8150")
-		(at -26.8 113.75)
+		(at -39 112.25)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP24"
@@ -20738,7 +20738,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "8e7e36e6-66b2-44b8-a71b-ee34aeec59ef")
-		(at -26.8 118.1)
+		(at -39 116.6)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP25"
@@ -21725,7 +21725,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "96675e01-654e-4de2-be1a-bf03841eed3d")
-		(at -31.15 113.75)
+		(at -43.35 112.25)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP17"
@@ -21904,7 +21904,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "99219e79-256c-41c2-8bf6-445cb00f0421")
-		(at -31.15 126.8)
+		(at -43.35 125.3)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP20"
@@ -22533,7 +22533,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "9c1982c5-fe5d-4de7-9313-1d2f33c9512c")
-		(at -20.75 105.65)
+		(at -32.95 104.15)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP29"
@@ -24479,7 +24479,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "a9b5b937-41d5-4f94-93e2-aa5888496a39")
-		(at -20.75 110)
+		(at -32.95 108.5)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP30"
@@ -25927,7 +25927,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "ad3a93f8-ffd3-4d3a-93db-d1889cd57289")
-		(at -39.85 122.45)
+		(at -52.05 120.95)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP5"
@@ -27036,7 +27036,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "b8641c82-76e0-4af1-9937-db5bf55658aa")
-		(at -31.15 109.4)
+		(at -43.35 107.9)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP16"
@@ -28649,7 +28649,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "c71e0175-d8af-482f-83b2-de8908a4a22d")
-		(at -26.8 105.05)
+		(at -39 103.55)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP22"
@@ -29355,7 +29355,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "cb904453-6f87-4fc8-a7dc-88987d6e0c90")
-		(at -20.75 118.7)
+		(at -32.95 117.2)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP32"
@@ -31696,7 +31696,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "d32f425d-d03b-46b6-9b1c-8cbaf7fab1f1")
-		(at -35.5 113.75)
+		(at -47.7 112.25)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP10"
@@ -32972,7 +32972,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "da96bcb2-6890-443a-8495-ba7c8c0c06cd")
-		(at -26.8 126.8)
+		(at -39 125.3)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP27"
@@ -34803,7 +34803,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "e0f80085-1902-4bd9-852b-8f004de05f69")
-		(at -26.8 109.4)
+		(at -39 107.9)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP23"
@@ -34982,7 +34982,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "e136398a-1d62-4fba-9928-63d25d62f0f4")
-		(at -39.85 126.8)
+		(at -52.05 125.3)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP6"
@@ -37619,7 +37619,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "f023036c-11ca-4bd2-a552-a0a175ca1dfd")
-		(at -35.5 131.15)
+		(at -47.7 129.65)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP14"
@@ -37967,7 +37967,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "f2786ee0-dcc2-411b-b8a9-2e7d3e5a71de")
-		(at -31.15 131.15)
+		(at -43.35 129.65)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP21"
@@ -38367,7 +38367,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "f3d64725-87ef-47f8-bb48-0ca318f6eac3")
-		(at -39.85 105.05)
+		(at -52.05 103.55)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP1"
