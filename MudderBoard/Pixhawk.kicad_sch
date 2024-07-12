@@ -2441,12 +2441,6 @@
 		(uuid "8b0a3bbc-c6f7-44de-a85a-0ba65bf30b66")
 	)
 	(junction
-		(at 255.27 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f53abf4-9ba9-4c6f-8c47-f888fe89d0b8")
-	)
-	(junction
 		(at 200.66 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2616,7 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 95.25) (xy 261.62 95.25)
+			(xy 251.46 95.25) (xy 261.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2963,16 +2957,6 @@
 			(type default)
 		)
 		(uuid "973768d6-2599-4388-99c6-a981239e51f9")
-	)
-	(wire
-		(pts
-			(xy 251.46 95.25) (xy 255.27 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9738ee35-12c6-4f02-8f74-d7792a94e7d3")
 	)
 	(wire
 		(pts
@@ -3341,73 +3325,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 255.27 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "079d9a8c-7596-4fe1-a212-478b5349e710")
-		(property "Reference" "TP34"
-			(at 257.81 90.6779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 257.81 93.2179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 260.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 255.27 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2114d49c-fba3-4a4e-9abc-8afde7324bd2")
-		)
-		(instances
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "TP34")
-					(unit 1)
-				)
 			)
 		)
 	)

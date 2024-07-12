@@ -2908,16 +2908,6 @@
 		)
 		(uuid "319d274f-d967-45d4-a8ea-55f6ba054f34")
 	)
-	(text "replace Vo with voltage level\n"
-		(exclude_from_sim no)
-		(at 268.224 55.626 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4fcea68e-5aa6-45fd-a7b1-fb7f6b551dbb")
-	)
 	(text "Rcomp"
 		(exclude_from_sim no)
 		(at 110.236 91.44 0)
@@ -2998,7 +2988,7 @@
 		)
 		(uuid "bfe0bcd6-7d7f-46d9-9a71-ad82f0c7e45b")
 	)
-	(global_label "Vo?"
+	(global_label "+19V"
 		(shape input)
 		(at 259.08 59.69 0)
 		(fields_autoplaced yes)
@@ -3010,7 +3000,7 @@
 		)
 		(uuid "46337f6e-a7e3-4e69-8c10-d07e2bdea6a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.3914 59.69 0)
+			(at 267.1452 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
