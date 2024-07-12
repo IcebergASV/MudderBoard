@@ -1929,6 +1929,10 @@
 		(color 0 0 0 0)
 		(uuid "fbe0b376-0c63-4305-a140-c64d1c84b0a9")
 	)
+	(no_connect
+		(at 102.87 102.87)
+		(uuid "09aee7ea-1b1f-44dd-b3e2-fd68c519c974")
+	)
 	(wire
 		(pts
 			(xy 271.78 43.18) (xy 271.78 49.53)
@@ -4522,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Lidar_Foot:RESC3015X65N"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 91.694 48.514 90)
 			(effects
 				(font

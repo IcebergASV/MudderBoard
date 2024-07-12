@@ -1256,6 +1256,176 @@
 				)
 			)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "L1:XAL5030-222MEB"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1429,1179 +1599,6 @@
 					(at 20.32 0 180)
 					(length 5.08)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "R1:CRCW040214K3FKED"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -7.6244 2.5415 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "CRCW040214K3FKED"
-				(at -7.63 -5.0866 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CRCW040214K3FKED:RESC1005X40N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Vishay Dale"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nResistor;Thick Film;14.3 Kilohms;0.063 W;1%;SMT;0402;TCR 37 ppm/DegC;TR | Vishay Dale CRCW040214K3FKED\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "1005 Panasonic Electronic Components"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW040214K3FKED/Vishay+Dale/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "CRCW040214K3FKED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CRCW040214K3FKED/Vishay+Dale/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "CRCW040214K3FKED_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -4.445 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 1.905) (xy -3.175 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.905) (xy -1.905 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.905) (xy -0.635 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.905) (xy 3.175 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.905) (xy 4.445 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.905) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "R2:CRCW0402100KFKED"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -7.6244 2.5415 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "CRCW0402100KFKED"
-				(at -7.63 -5.0866 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CRCW0402100KFKED:RESC1005X40N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey_Part_Number" "541-100KLTR-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12597&manufacturer=Vishay&part_name=CRCW0402100KFKED&search_term=crcw0402100kfked"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "1005 Panasonic Electronic Components"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0402100KFKED/Vishay+Dale/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "CRCW0402100KFKED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\nResistor, Thick Film, 100 Kilohms, 0.063 W, 1%, SMT, 0402, TCR 37 ppm/DegC, TR | Vishay Dale CRCW0402100KFKED\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/CRCW0402100KFKED/Vishay+Dale/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "CRCW0402100KFKED_0_0"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -4.445 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 1.905) (xy -3.175 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.905) (xy -1.905 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.905) (xy -0.635 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.905) (xy 3.175 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.905) (xy 4.445 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.905) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Rfb1:RC0603FR-07220KL"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "RC0603FR-07220KL"
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "RC0603FR-07220KL:RESC1607X60N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Yageo"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n220 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "0603 Yageo"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-07220KL/Yageo/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "RC0603FR-07220KL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=53553&manufacturer=Yageo&part_name=RC0603FR-07220KL&search_term=rc0603fr-07220kl"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-07220KL/Yageo/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "RC0603FR-07220KL_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Rfb2:RC0603FR-0730KL"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 5.715 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "RC0603FR-0730KL"
-				(at 6.35 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "RES_RC0603_YAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "RC0603FR-0730KL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "RC0603FR-0730KL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RES_RC0603_YAG RES_RC0603_YAG-M RES_RC0603_YAG-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RC0603FR-0730KL_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.175 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.27) (xy 4.445 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -1.27) (xy 5.715 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 1.27) (xy 6.985 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -1.27) (xy 8.255 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 1.27) (xy 9.525 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -1.27) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "RC0603FR-0730KL_1_2"
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy 1.27 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.715) (xy 1.27 6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 8.255) (xy 1.27 9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 4.445) (xy -1.27 5.715)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.985) (xy -1.27 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 9.525) (xy 0 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 12.7 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3160,7 +2157,7 @@
 				)
 			)
 		)
-		(symbol "power:GND1"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -3177,7 +2174,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND1"
+			(property "Value" "GND"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -3203,7 +2200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3221,7 +2218,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND1_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -3235,7 +2232,7 @@
 					)
 				)
 			)
-			(symbol "GND1_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -3258,170 +2255,174 @@
 		)
 	)
 	(junction
-		(at 176.53 59.69)
+		(at 168.91 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "123ae50b-aa4c-4b75-9ac7-5f8002fc6346")
 	)
 	(junction
-		(at 83.82 39.37)
+		(at 76.2 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17e9ecc4-7484-4667-80cc-24d73c5259d7")
 	)
 	(junction
-		(at 62.23 80.01)
+		(at 54.61 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d559266-c304-4dba-8576-c02bbb50bf1c")
 	)
 	(junction
-		(at 176.53 44.45)
+		(at 168.91 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f94a432-e54a-492a-9144-90ad01222e18")
 	)
 	(junction
-		(at 259.08 44.45)
+		(at 251.46 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21ed6fb0-83ba-47be-b440-5721fd4c5d04")
 	)
 	(junction
-		(at 190.5 80.01)
+		(at 182.88 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "477c6878-3240-4842-9ec6-97061db5de9e")
 	)
 	(junction
-		(at 232.41 80.01)
+		(at 224.79 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48663525-5b05-4157-84af-e8b4ce9be25d")
 	)
 	(junction
-		(at 62.23 39.37)
+		(at 182.88 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "538e5f0f-6fa1-4b47-8cae-8984fee7b33c")
+	)
+	(junction
+		(at 207.01 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5493948d-aa89-428c-a714-8262c669d1b7")
+	)
+	(junction
+		(at 54.61 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "577785c4-0e5f-41e5-a7a8-bbacfee5fa95")
 	)
 	(junction
-		(at 83.82 80.01)
+		(at 76.2 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68405ab5-44fb-4df3-82ae-c8e2f44e8894")
 	)
 	(junction
-		(at 127 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b3bf225-76d3-40ab-9c74-917ec1fee4f6")
-	)
-	(junction
-		(at 220.98 44.45)
+		(at 213.36 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e797ab7-f933-4a1f-a371-256b3209e7f2")
 	)
 	(junction
-		(at 142.24 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "764544d7-8fcf-4a1d-93aa-391902bf3aec")
-	)
-	(junction
-		(at 232.41 44.45)
+		(at 224.79 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f8e186d-d69d-4fb2-8010-a6bf04f8fd35")
 	)
 	(junction
-		(at 147.32 80.01)
+		(at 139.7 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b0a3bbc-c6f7-44de-a85a-0ba65bf30b66")
 	)
 	(junction
-		(at 161.29 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92144a54-d0f9-4014-8372-6a34cd1c751b")
-	)
-	(junction
-		(at 208.28 44.45)
+		(at 200.66 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "923608a4-8819-4016-b5f9-e2f688f81530")
 	)
 	(junction
-		(at 245.11 80.01)
+		(at 182.88 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dfea491-91f4-435d-9c75-4a87a0fadf2a")
+	)
+	(junction
+		(at 237.49 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6f6cc32-64ca-4731-b3c5-81ad93c41049")
 	)
 	(junction
-		(at 208.28 80.01)
+		(at 200.66 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4b29c07-030d-437f-a860-1cfed6ef9289")
 	)
 	(junction
-		(at 190.5 59.69)
+		(at 187.96 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b75f93d5-8848-4bfa-ae05-896077a5f139")
+		(uuid "cff25aca-eda3-4152-9e3f-d075c8f0b1ea")
 	)
 	(junction
-		(at 106.68 80.01)
+		(at 99.06 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d99402df-22a2-45ca-9306-3d421f1066b2")
 	)
 	(junction
-		(at 185.42 128.27)
+		(at 231.14 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da038f14-eeba-42b4-87d0-f32430b1847d")
 	)
 	(junction
-		(at 130.81 125.73)
+		(at 176.53 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da9f49c6-d07f-4657-9544-4c986175c8d2")
 	)
 	(junction
-		(at 190.5 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "daf64361-9629-4786-a189-75e14aafca34")
-	)
-	(junction
-		(at 245.11 44.45)
+		(at 237.49 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebe82fe4-69c1-4e74-9fe1-ad88157d0c91")
 	)
 	(junction
-		(at 49.53 39.37)
+		(at 41.91 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0f75c67-2f3f-4f33-aad9-7878d2a51e8d")
 	)
 	(junction
-		(at 220.98 80.01)
+		(at 213.36 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5912280-5fc2-4e3a-9c4a-0a2fa15b6a71")
 	)
 	(junction
-		(at 40.64 128.27)
+		(at 43.18 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "feed28b1-892c-41bb-9c07-fcacae921603")
 	)
 	(wire
 		(pts
-			(xy 106.68 39.37) (xy 106.68 44.45)
+			(xy 43.18 55.88) (xy 43.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0417f1f2-9f9a-41ed-bb72-3e980e32f805")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3431,7 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 80.01) (xy 245.11 80.01)
+			(xy 224.79 130.81) (xy 237.49 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3441,7 +2442,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 54.61) (xy 208.28 80.01)
+			(xy 200.66 105.41) (xy 200.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3451,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 44.45) (xy 151.13 44.45)
+			(xy 139.7 95.25) (xy 143.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3461,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 80.01) (xy 208.28 80.01)
+			(xy 213.36 130.81) (xy 200.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3471,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 44.45) (xy 232.41 44.45)
+			(xy 213.36 95.25) (xy 224.79 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3481,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 106.68 80.01)
+			(xy 99.06 100.33) (xy 99.06 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3491,7 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 129.54) (xy 130.81 125.73)
+			(xy 176.53 46.99) (xy 176.53 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3501,17 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 139.7) (xy 161.29 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "249b284f-3f89-40ec-985f-0ffe3f248388")
-	)
-	(wire
-		(pts
-			(xy 190.5 80.01) (xy 208.28 80.01)
+			(xy 182.88 130.81) (xy 200.66 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3521,7 +2512,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 128.27) (xy 40.64 133.35)
+			(xy 43.18 45.72) (xy 43.18 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3531,7 +2522,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 59.69) (xy 151.13 46.99)
+			(xy 143.51 110.49) (xy 143.51 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3541,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 128.27) (xy 142.24 139.7)
+			(xy 187.96 45.72) (xy 187.96 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3551,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 44.45) (xy 259.08 44.45)
+			(xy 237.49 95.25) (xy 251.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3561,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 46.99) (xy 147.32 46.99)
+			(xy 143.51 97.79) (xy 139.7 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3571,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 44.45) (xy 259.08 46.99)
+			(xy 251.46 95.25) (xy 251.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3581,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 46.99) (xy 220.98 44.45)
+			(xy 213.36 97.79) (xy 213.36 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3591,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 138.43) (xy 185.42 139.7)
+			(xy 231.14 55.88) (xy 231.14 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3601,7 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 147.32 49.53)
+			(xy 139.7 130.81) (xy 139.7 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3611,7 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 128.27) (xy 182.88 128.27)
+			(xy 231.14 45.72) (xy 228.6 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3621,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 39.37) (xy 62.23 46.99)
+			(xy 54.61 90.17) (xy 54.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3631,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 44.45) (xy 176.53 44.45)
+			(xy 163.83 95.25) (xy 168.91 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3641,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 39.37) (xy 83.82 39.37)
+			(xy 54.61 90.17) (xy 76.2 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3651,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 39.37) (xy 106.68 39.37)
+			(xy 76.2 90.17) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3661,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 44.45) (xy 245.11 44.45)
+			(xy 224.79 95.25) (xy 237.49 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3671,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 39.37) (xy 62.23 39.37)
+			(xy 41.91 90.17) (xy 54.61 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3681,7 +2672,17 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 59.69) (xy 190.5 59.69)
+			(xy 176.53 57.15) (xy 187.96 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c65c25-7259-4ac1-a6b0-34962476da4a")
+	)
+	(wire
+		(pts
+			(xy 168.91 110.49) (xy 182.88 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3691,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 54.61) (xy 259.08 80.01)
+			(xy 251.46 105.41) (xy 251.46 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3701,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 46.99) (xy 232.41 44.45)
+			(xy 224.79 97.79) (xy 224.79 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3711,7 +2712,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 54.61) (xy 232.41 80.01)
+			(xy 224.79 105.41) (xy 224.79 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3721,7 +2722,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 127 80.01)
+			(xy 99.06 130.81) (xy 139.7 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3731,7 +2732,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 44.45) (xy 220.98 44.45)
+			(xy 200.66 95.25) (xy 213.36 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3741,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 54.61) (xy 49.53 80.01)
+			(xy 41.91 105.41) (xy 41.91 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3751,17 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 80.01) (xy 147.32 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "764113e8-9926-491e-99b7-7b101a8168c4")
-	)
-	(wire
-		(pts
-			(xy 176.53 44.45) (xy 176.53 48.26)
+			(xy 168.91 95.25) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3771,7 +2762,27 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 39.37) (xy 49.53 46.99)
+			(xy 187.96 57.15) (xy 207.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775f4774-d2a6-43f1-afe2-f3e89f4fbac3")
+	)
+	(wire
+		(pts
+			(xy 182.88 120.65) (xy 182.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a0a968-4ce1-4582-8832-5944c53d5412")
+	)
+	(wire
+		(pts
+			(xy 41.91 90.17) (xy 41.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 44.45) (xy 190.5 44.45)
+			(xy 168.91 95.25) (xy 182.88 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3791,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 139.7) (xy 130.81 137.16)
+			(xy 176.53 57.15) (xy 176.53 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3801,17 +2812,17 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 74.93) (xy 190.5 80.01)
+			(xy 182.88 95.25) (xy 182.88 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "966f878b-d984-44c3-b5e1-d7e854960d43")
+		(uuid "9624f069-8fcf-45b4-9247-c4e556715fb0")
 	)
 	(wire
 		(pts
-			(xy 245.11 80.01) (xy 259.08 80.01)
+			(xy 237.49 130.81) (xy 251.46 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3821,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 44.45) (xy 269.24 44.45)
+			(xy 251.46 95.25) (xy 261.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3831,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 128.27) (xy 189.23 128.27)
+			(xy 231.14 45.72) (xy 234.95 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3841,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 59.69) (xy 190.5 62.23)
+			(xy 182.88 110.49) (xy 182.88 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3851,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 80.01) (xy 220.98 80.01)
+			(xy 224.79 130.81) (xy 213.36 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3861,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 80.01) (xy 62.23 80.01)
+			(xy 41.91 130.81) (xy 54.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 96.52) (xy 40.64 102.87)
+			(xy 43.18 30.48) (xy 43.18 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3881,7 +2892,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 54.61) (xy 220.98 80.01)
+			(xy 213.36 105.41) (xy 213.36 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3891,7 +2902,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 123.19) (xy 40.64 128.27)
+			(xy 207.01 57.15) (xy 231.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2870f09-11af-4733-97ea-8afe97e7f160")
+	)
+	(wire
+		(pts
+			(xy 43.18 43.18) (xy 43.18 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3901,7 +2922,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 125.73) (xy 130.81 125.73)
+			(xy 168.91 43.18) (xy 176.53 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3911,17 +2932,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 44.45) (xy 208.28 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae4a2375-2f92-4011-8df2-b2b33f506199")
-	)
-	(wire
-		(pts
-			(xy 40.64 128.27) (xy 50.8 128.27)
+			(xy 43.18 45.72) (xy 53.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3931,7 +2942,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 55.88) (xy 176.53 59.69)
+			(xy 168.91 106.68) (xy 168.91 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3941,7 +2952,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 125.73) (xy 142.24 125.73)
+			(xy 182.88 107.95) (xy 182.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf59aa28-859a-4e44-9983-a6073df92710")
+	)
+	(wire
+		(pts
+			(xy 176.53 43.18) (xy 187.96 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3951,7 +2972,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 54.61) (xy 245.11 80.01)
+			(xy 237.49 105.41) (xy 237.49 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3961,7 +2982,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 59.69) (xy 151.13 59.69)
+			(xy 168.91 110.49) (xy 143.51 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3971,7 +2992,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 190.5 80.01)
+			(xy 139.7 130.81) (xy 182.88 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3981,27 +3002,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 139.7) (xy 142.24 139.7)
+			(xy 182.88 95.25) (xy 200.66 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1d24a73-6c92-450c-9cf4-db49345aa254")
+		(uuid "d5f847c8-8124-4da1-871d-d67732d1ecfe")
 	)
 	(wire
 		(pts
-			(xy 142.24 139.7) (xy 130.81 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8561930-1891-47b3-81ef-36744544c6ec")
-	)
-	(wire
-		(pts
-			(xy 83.82 46.99) (xy 83.82 39.37)
+			(xy 76.2 97.79) (xy 76.2 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4011,7 +3022,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 83.82 80.01)
+			(xy 76.2 105.41) (xy 76.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4021,7 +3032,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 130.81) (xy 185.42 128.27)
+			(xy 231.14 48.26) (xy 231.14 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4031,7 +3042,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 39.37) (xy 49.53 39.37)
+			(xy 31.75 90.17) (xy 41.91 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4041,7 +3052,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 46.99) (xy 245.11 44.45)
+			(xy 237.49 97.79) (xy 237.49 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4051,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 54.61) (xy 62.23 80.01)
+			(xy 54.61 105.41) (xy 54.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4061,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 44.45) (xy 208.28 46.99)
+			(xy 200.66 95.25) (xy 200.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4071,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 80.01) (xy 106.68 80.01)
+			(xy 76.2 130.81) (xy 99.06 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4081,7 +3092,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 80.01) (xy 83.82 80.01)
+			(xy 54.61 130.81) (xy 76.2 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4089,20 +3100,9 @@
 		)
 		(uuid "f7f1b249-0d16-490e-8107-53e06cf6025b")
 	)
-	(label "5V"
-		(at 269.24 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4163487-5c07-4a5b-b155-d93f7c228cce")
-	)
 	(global_label "5V"
 		(shape input)
-		(at 123.19 125.73 180)
+		(at 168.91 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4112,7 +3112,7 @@
 		)
 		(uuid "2d240d21-0d1b-4e96-a9a7-d5c2b2402343")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.9067 125.73 0)
+			(at 163.6267 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,9 +3122,31 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 261.62 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4715c5b5-26b5-42dd-aa70-a0b427b2a8c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.9033 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape input)
-		(at 50.8 128.27 0)
+		(at 53.34 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4134,7 +3156,7 @@
 		)
 		(uuid "80187597-8579-4dd1-bb43-839e66cb9bb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.2647 128.27 0)
+			(at 58.8047 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +3168,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 189.23 128.27 0)
+		(at 234.95 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4156,7 +3178,7 @@
 		)
 		(uuid "ab188f36-5eff-4910-acd5-efa697125b5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7228 128.27 0)
+			(at 241.4428 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +3190,7 @@
 	)
 	(global_label "EN"
 		(shape input)
-		(at 106.68 46.99 180)
+		(at 99.06 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4178,7 +3200,7 @@
 		)
 		(uuid "b8a18d58-56e3-44e4-9426-0ea7735928a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.2153 46.99 0)
+			(at 93.5953 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +3212,7 @@
 	)
 	(symbol
 		(lib_id "L1:XAL5030-222MEB")
-		(at 151.13 44.45 0)
+		(at 143.51 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4198,7 +3220,7 @@
 		(dnp no)
 		(uuid "119ee655-26c8-42f4-b437-56afa159e0dc")
 		(property "Reference" "L1"
-			(at 161.29 38.1 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +3228,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 161.29 40.64 0)
+			(at 153.67 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +3236,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:XAL5030222MEC"
-			(at 167.64 140.64 0)
+			(at 160.02 191.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +3246,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.coilcraft.com/pdfs/xal50xx.pdf"
-			(at 167.64 240.64 0)
+			(at 160.02 291.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +3256,7 @@
 			)
 		)
 		(property "Description" "Fixed Inductors 2.2uH 20% 9.7A 14.5mOhms AEC-Q200"
-			(at 151.13 44.45 0)
+			(at 143.51 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +3265,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 167.64 440.64 0)
+			(at 160.02 491.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +3275,7 @@
 			)
 		)
 		(property "Mouser Part Number" "994-XAL5030-222MEB"
-			(at 167.64 540.64 0)
+			(at 160.02 591.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +3285,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Coilcraft/XAL5030-222MEB?qs=VJjuEbE9QBMC5tG7aGluNw%3D%3D"
-			(at 167.64 640.64 0)
+			(at 160.02 691.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +3295,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "COILCRAFT"
-			(at 167.64 740.64 0)
+			(at 160.02 791.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +3305,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "XAL5030-222MEB"
-			(at 167.64 840.64 0)
+			(at 160.02 891.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +3337,7 @@
 	)
 	(symbol
 		(lib_id "Cout:LMK212BJ226MG-T")
-		(at 208.28 49.53 270)
+		(at 200.66 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4323,7 +3345,7 @@
 		(dnp no)
 		(uuid "15a37775-6325-4379-a302-549fa01e7419")
 		(property "Reference" "Cout"
-			(at 212.09 50.7999 90)
+			(at 204.47 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +3354,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 212.598 53.086 90)
+			(at 204.978 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +3363,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC2012X135N"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +3373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +3382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +3391,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +3401,7 @@
 			)
 		)
 		(property "Description_1" "\n22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +3411,7 @@
 			)
 		)
 		(property "Package" "2012 Taiyo Yuden"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +3421,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4409,7 +3431,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=snap"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,7 +3441,7 @@
 			)
 		)
 		(property "MP" "LMK212BJ226MG-T"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +3451,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225286&manufacturer=Taiyo Yuden&part_name=LMK212BJ226MG-T&search_term=lmk212bj226mg-t"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +3461,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +3471,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=eda"
-			(at 208.28 49.53 0)
+			(at 200.66 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +3503,7 @@
 	)
 	(symbol
 		(lib_id "Cff:GRM1555C1E330JA01D")
-		(at 176.53 50.8 270)
+		(at 168.91 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4489,7 +3511,7 @@
 		(dnp no)
 		(uuid "2438af55-62af-44b0-8b5a-6811bfc32abd")
 		(property "Reference" "Cff"
-			(at 180.34 50.7999 90)
+			(at 172.72 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +3520,7 @@
 			)
 		)
 		(property "Value" "33p"
-			(at 180.34 53.3399 90)
+			(at 172.72 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +3529,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC1005X55N"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +3539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +3548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +3557,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +3567,7 @@
 			)
 		)
 		(property "Description_1" "\nSMD Capacitor C0G(EIA) with Capacitance: 33pF Tol. 5%. Rated Voltage: 25Vdc\n"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +3577,7 @@
 			)
 		)
 		(property "Package" "1005 Taiyo Yuden"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +3587,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +3597,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM1555C1E330JA01D/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +3607,7 @@
 			)
 		)
 		(property "MP" "GRM1555C1E330JA01D"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +3617,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=524136&manufacturer=Murata&part_name=GRM1555C1E330JA01D&search_term=grm1555c1e330ja01d"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +3627,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +3637,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM1555C1E330JA01D/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 176.53 50.8 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4647,7 +3669,7 @@
 	)
 	(symbol
 		(lib_id "Cout:LMK212BJ226MG-T")
-		(at 232.41 49.53 270)
+		(at 224.79 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4655,7 +3677,7 @@
 		(dnp no)
 		(uuid "2913e9d1-0eaa-48df-9751-a3fc3657df10")
 		(property "Reference" "Cout3"
-			(at 236.22 50.7999 90)
+			(at 228.6 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +3686,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 236.728 53.086 90)
+			(at 229.108 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +3695,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC2012X135N"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +3705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +3714,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +3723,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +3733,7 @@
 			)
 		)
 		(property "Description_1" "\n22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +3743,7 @@
 			)
 		)
 		(property "Package" "2012 Taiyo Yuden"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +3753,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +3763,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=snap"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,7 +3773,7 @@
 			)
 		)
 		(property "MP" "LMK212BJ226MG-T"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +3783,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225286&manufacturer=Taiyo Yuden&part_name=LMK212BJ226MG-T&search_term=lmk212bj226mg-t"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +3793,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +3803,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=eda"
-			(at 232.41 49.53 0)
+			(at 224.79 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,8 +3828,74 @@
 		)
 	)
 	(symbol
-		(lib_id "Rfb2:RC0603FR-0730KL")
-		(at 190.5 62.23 270)
+		(lib_id "power:GND")
+		(at 43.18 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42860c01-b8c7-4a75-af0b-90a14560e766")
+		(property "Reference" "#PWR08"
+			(at 43.18 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fe64e1c-4341-42a5-9309-b42edd16c144")
+		)
+		(instances
+			(project ""
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 182.88 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4815,7 +3903,7 @@
 		(dnp no)
 		(uuid "43047f5c-eed5-4614-a045-eca08e29c0f6")
 		(property "Reference" "Rfbb"
-			(at 193.04 67.3099 90)
+			(at 184.912 115.316 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4823,8 +3911,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30K"
-			(at 193.294 70.104 90)
+		(property "Value" "30k"
+			(at 185.166 118.1101 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4832,28 +3920,26 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PH_Foot:R0603"
-			(at 190.5 62.23 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 183.896 117.094 90)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "RC0603FR-0730KL"
-			(at 190.5 62.23 0)
+		(property "Datasheet" "~"
+			(at 182.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 62.23 0)
+		(property "Description" "Resistor, US symbol"
+			(at 182.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,80 +3969,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 161.29 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55a4a325-4074-4ca4-849b-4c320e97b395")
-		(property "Reference" "#PWR05"
-			(at 161.29 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 161.29 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 161.29 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "696d3322-5938-4166-8ddb-4c7ee4219aa2")
-		)
-		(instances
-			(project "Pixhawk"
-				(path "/308047b5-bedf-4d5d-b7c2-4cae432cf77b"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Cinx:GRM188R71H104KA93D")
-		(at 83.82 49.53 270)
+		(at 76.2 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4964,7 +3978,7 @@
 		(dnp no)
 		(uuid "57adff31-3032-445c-911a-6608dbb475fe")
 		(property "Reference" "Cinx"
-			(at 87.63 50.7999 90)
+			(at 80.01 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +3987,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 87.63 53.848 90)
+			(at 80.01 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +3996,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC1608X90N"
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +4006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +4015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +4024,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +4034,7 @@
 			)
 		)
 		(property "Description_1" "\nSMD Capacitor X7R(EIA) with Capacitance: 0.10uF Tol. 10%. Rated Voltage: 50Vdc\n"
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +4044,7 @@
 			)
 		)
 		(property "Package" "1608 Murata"
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +4054,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +4064,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM188R71H104KA93D/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +4074,7 @@
 			)
 		)
 		(property "MP" "GRM188R71H104KA93D"
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +4084,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +4094,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM188R71H104KA93D/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 83.82 49.53 0)
+			(at 76.2 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +4126,7 @@
 	)
 	(symbol
 		(lib_id "CfLDO:C0603C105K8RACTU")
-		(at 185.42 130.81 270)
+		(at 231.14 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5120,7 +4134,7 @@
 		(dnp no)
 		(uuid "713161cf-303c-4776-950f-ece5ba8c9d1c")
 		(property "Reference" "CoLDO"
-			(at 189.23 134.6199 90)
+			(at 234.95 52.0699 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5129,7 +4143,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 191.262 136.906 90)
+			(at 236.982 54.356 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5138,7 +4152,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC1608X90N"
-			(at 185.42 130.81 0)
+			(at 231.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +4162,7 @@
 			)
 		)
 		(property "Datasheet" "C0603C105K8RACTU"
-			(at 185.42 130.81 0)
+			(at 231.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +4172,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 130.81 0)
+			(at 231.14 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,80 +4202,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 40.64 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73f456b1-ccd2-496d-bcc2-6aaa94919ffc")
-		(property "Reference" "#PWR02"
-			(at 40.64 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 40.64 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 40.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5511b854-0919-4822-9f2c-1878f677ee56")
-		)
-		(instances
-			(project "Pixhawk"
-				(path "/308047b5-bedf-4d5d-b7c2-4cae432cf77b"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project "MudderBoard"
-				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Cin:GRM21BR61E106MA73L")
-		(at 62.23 49.53 270)
+		(at 54.61 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5269,7 +4211,7 @@
 		(dnp no)
 		(uuid "777150a2-c9c5-4032-a782-f35490ca5d44")
 		(property "Reference" "Cin"
-			(at 58.42 52.0701 90)
+			(at 50.8 102.8701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +4220,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 58.42 54.356 90)
+			(at 50.8 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +4229,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC2012X140N"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +4239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +4248,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +4257,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +4267,7 @@
 			)
 		)
 		(property "Description_1" "\n10 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +4277,7 @@
 			)
 		)
 		(property "Package" "2012 Murata"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +4287,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +4297,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM21BR61E106MA73L/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +4307,7 @@
 			)
 		)
 		(property "MP" "GRM21BR61E106MA73L"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +4317,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1356584&manufacturer=Murata&part_name=GRM21BR61E106MA73L&search_term=grm21br61e106ma73l"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +4327,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +4337,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM21BR61E106MA73L/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 62.23 49.53 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +4369,7 @@
 	)
 	(symbol
 		(lib_id "U2:LP38691DTX-3.3_NOPB")
-		(at 182.88 128.27 180)
+		(at 228.6 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5436,7 +4378,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fcceebe-7ded-40f4-b5b0-f86fa3550b9c")
 		(property "Reference" "U2"
-			(at 162.56 115.57 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5444,7 +4386,7 @@
 			)
 		)
 		(property "Value" "LP38691DTX-3.3/NOPB"
-			(at 162.56 118.11 0)
+			(at 208.28 35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5452,7 +4394,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:TO228P1042X238-3N"
-			(at 182.88 128.27 0)
+			(at 228.6 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +4404,7 @@
 			)
 		)
 		(property "Datasheet" "LP38691DTX-3.3/NOPB"
-			(at 182.88 128.27 0)
+			(at 228.6 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +4414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 128.27 0)
+			(at 228.6 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +4448,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 39.37 39.37 0)
+		(at 31.75 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5514,7 +4456,7 @@
 		(dnp no)
 		(uuid "945d5675-f7e9-4cce-9cd3-294642f9b494")
 		(property "Reference" "#PWR03"
-			(at 39.37 43.18 0)
+			(at 31.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,7 +4465,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 37.592 35.56 0)
+			(at 29.972 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +4474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 39.37 0)
+			(at 31.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +4483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 39.37 0)
+			(at 31.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +4492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 39.37 39.37 0)
+			(at 31.75 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +4520,7 @@
 	)
 	(symbol
 		(lib_id "Cin:GRM21BR61E106MA73L")
-		(at 49.53 49.53 270)
+		(at 41.91 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5586,7 +4528,7 @@
 		(dnp no)
 		(uuid "9e2e2da9-1415-42bd-a29f-5e8fc29480c8")
 		(property "Reference" "Cin1"
-			(at 45.72 52.0701 90)
+			(at 38.1 102.8701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,7 +4537,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 45.72 54.356 90)
+			(at 38.1 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +4546,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC2012X140N"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +4556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +4565,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +4574,7 @@
 			)
 		)
 		(property "MF" "Murata"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +4584,7 @@
 			)
 		)
 		(property "Description_1" "\n10 µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +4594,7 @@
 			)
 		)
 		(property "Package" "2012 Murata"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +4604,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +4614,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM21BR61E106MA73L/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +4624,7 @@
 			)
 		)
 		(property "MP" "GRM21BR61E106MA73L"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +4634,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1356584&manufacturer=Murata&part_name=GRM21BR61E106MA73L&search_term=grm21br61e106ma73l"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5702,7 +4644,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +4654,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM21BR61E106MA73L/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 49.53 49.53 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,8 +4679,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Rfb1:RC0603FR-07220KL")
-		(at 190.5 52.07 270)
+		(lib_id "Device:R_US")
+		(at 182.88 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5746,7 +4688,7 @@
 		(dnp no)
 		(uuid "a0785e9b-8938-4164-a358-bcb91b4ab4bd")
 		(property "Reference" "Rfbt"
-			(at 193.04 52.0699 90)
+			(at 185.674 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,8 +4696,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220K"
-			(at 192.786 53.848 90)
+		(property "Value" "220k"
+			(at 185.42 105.1561 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,18 +4705,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PH_Foot:RESC1607X60N"
-			(at 190.5 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 52.07 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 183.896 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,8 +4714,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 52.07 0)
+		(property "Datasheet" "~"
+			(at 182.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +4733,7 @@
 			)
 		)
 		(property "MF" "Yageo"
-			(at 190.5 52.07 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +4743,7 @@
 			)
 		)
 		(property "Description_1" "\n220 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film\n"
-			(at 190.5 52.07 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +4753,7 @@
 			)
 		)
 		(property "Package" "0603 Yageo"
-			(at 190.5 52.07 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,7 +4763,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 190.5 52.07 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +4773,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC0603FR-07220KL/Yageo/view-part/?ref=snap"
-			(at 190.5 52.07 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +4783,7 @@
 			)
 		)
 		(property "MP" "RC0603FR-07220KL"
-			(at 190.5 52.07 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +4793,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=53553&manufacturer=Yageo&part_name=RC0603FR-07220KL&search_term=rc0603fr-07220kl"
-			(at 190.5 52.07 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +4803,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 190.5 52.07 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +4813,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RC0603FR-07220KL/Yageo/view-part/?ref=eda"
-			(at 190.5 52.07 0)
+			(at 182.88 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +4845,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 40.64 96.52 0)
+		(at 43.18 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5913,7 +4854,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3d080de-2da9-4097-abe5-b0886d6dd4dc")
 		(property "Reference" "#PWR01"
-			(at 40.64 100.33 0)
+			(at 43.18 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +4863,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 40.64 91.44 0)
+			(at 43.18 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +4871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 96.52 0)
+			(at 43.18 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +4880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 96.52 0)
+			(at 43.18 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +4889,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 40.64 96.52 0)
+			(at 43.18 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +4917,7 @@
 	)
 	(symbol
 		(lib_id "U1:TPS566242DRLR")
-		(at 59.69 17.78 0)
+		(at 52.07 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5985,7 +4926,7 @@
 		(fields_autoplaced yes)
 		(uuid "bff2450b-d360-4238-81af-a4a7b11748ad")
 		(property "Reference" "U1"
-			(at 127 34.29 0)
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5993,7 +4934,7 @@
 			)
 		)
 		(property "Value" "TPS566242DRLR"
-			(at 127 36.83 0)
+			(at 119.38 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6001,7 +4942,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:SOT5x3_DRL_TEX"
-			(at 104.648 35.814 0)
+			(at 97.028 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +4952,7 @@
 			)
 		)
 		(property "Datasheet" "TPS566242DRLR"
-			(at 104.394 32.004 0)
+			(at 96.774 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +4962,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 44.45 0)
+			(at 99.06 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,8 +5004,8 @@
 		)
 	)
 	(symbol
-		(lib_id "R2:CRCW0402100KFKED")
-		(at 40.64 113.03 270)
+		(lib_id "Device:R_US")
+		(at 43.18 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6073,7 +5014,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9d889e4-9cc3-49d1-b2b3-306c58af6f96")
 		(property "Reference" "Rent"
-			(at 44.45 111.7599 90)
+			(at 45.72 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,8 +5022,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 44.45 114.2999 90)
+		(property "Value" "100k"
+			(at 45.72 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,18 +5031,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PH_Foot:RESC1005X40N"
-			(at 40.64 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 113.03 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 44.196 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,8 +5040,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 40.64 113.03 0)
+		(property "Datasheet" "~"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6119,7 +5059,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "541-100KLTR-ND"
-			(at 40.64 113.03 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6129,7 +5069,7 @@
 			)
 		)
 		(property "MF" "Vishay"
-			(at 40.64 113.03 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +5079,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12597&manufacturer=Vishay&part_name=CRCW0402100KFKED&search_term=crcw0402100kfked"
-			(at 40.64 113.03 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +5089,7 @@
 			)
 		)
 		(property "Package" "1005 Panasonic Electronic Components"
-			(at 40.64 113.03 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +5099,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW0402100KFKED/Vishay+Dale/view-part/?ref=snap"
-			(at 40.64 113.03 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +5109,7 @@
 			)
 		)
 		(property "MP" "CRCW0402100KFKED"
-			(at 40.64 113.03 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6179,7 +5119,7 @@
 			)
 		)
 		(property "Description_1" "\nResistor, Thick Film, 100 Kilohms, 0.063 W, 1%, SMT, 0402, TCR 37 ppm/DegC, TR | Vishay Dale CRCW0402100KFKED\n"
-			(at 40.64 113.03 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +5129,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CRCW0402100KFKED/Vishay+Dale/view-part/?ref=eda"
-			(at 40.64 113.03 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +5161,7 @@
 	)
 	(symbol
 		(lib_id "Coutx:GRM188R71E104KA01D")
-		(at 259.08 49.53 270)
+		(at 251.46 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6229,7 +5169,7 @@
 		(dnp no)
 		(uuid "cb075611-0f51-416b-8ce5-b2f96d7c5b2f")
 		(property "Reference" "Coutx"
-			(at 262.89 50.7999 90)
+			(at 255.27 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +5178,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 263.144 53.594 90)
+			(at 255.524 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +5187,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC1608X90N"
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +5197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +5206,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +5215,7 @@
 			)
 		)
 		(property "MF" "Murata Electronics"
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +5225,7 @@
 			)
 		)
 		(property "Description_1" "\nSMD Capacitor X7R(EIA) with Capacitance: 0.10uF Tol. 10%. Rated Voltage: 25Vdc\n"
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +5235,7 @@
 			)
 		)
 		(property "Package" "1608 Murata"
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +5245,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +5255,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/GRM188R71E104KA01D/Murata+Electronics+North+America/view-part/?ref=snap"
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6325,7 +5265,7 @@
 			)
 		)
 		(property "MP" "GRM188R71E104KA01D"
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +5275,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +5285,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/GRM188R71E104KA01D/Murata+Electronics+North+America/view-part/?ref=eda"
-			(at 259.08 49.53 0)
+			(at 251.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +5317,7 @@
 	)
 	(symbol
 		(lib_id "Cout:LMK212BJ226MG-T")
-		(at 220.98 49.53 270)
+		(at 213.36 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6385,7 +5325,7 @@
 		(dnp no)
 		(uuid "cb4f8d4b-1105-461f-a70c-a1259f9597a2")
 		(property "Reference" "Cout2"
-			(at 224.79 50.7999 90)
+			(at 217.17 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6394,7 +5334,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 225.298 53.086 90)
+			(at 217.678 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6403,7 +5343,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC2012X135N"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +5353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +5362,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +5371,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +5381,7 @@
 			)
 		)
 		(property "Description_1" "\n22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +5391,7 @@
 			)
 		)
 		(property "Package" "2012 Taiyo Yuden"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +5401,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +5411,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=snap"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +5421,7 @@
 			)
 		)
 		(property "MP" "LMK212BJ226MG-T"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +5431,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225286&manufacturer=Taiyo Yuden&part_name=LMK212BJ226MG-T&search_term=lmk212bj226mg-t"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +5441,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +5451,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=eda"
-			(at 220.98 49.53 0)
+			(at 213.36 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +5477,7 @@
 	)
 	(symbol
 		(lib_id "CfLDO:C0603C105K8RACTU")
-		(at 130.81 129.54 270)
+		(at 176.53 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6545,7 +5485,7 @@
 		(dnp no)
 		(uuid "d3eb8836-661e-41b2-b996-5f5701256711")
 		(property "Reference" "CinLDO"
-			(at 133.35 133.35 90)
+			(at 179.07 50.8 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6554,7 +5494,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 134.62 136.144 90)
+			(at 180.34 53.594 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6563,7 +5503,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC1608X90N"
-			(at 130.81 129.54 0)
+			(at 176.53 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +5513,7 @@
 			)
 		)
 		(property "Datasheet" "C0603C105K8RACTU"
-			(at 130.81 129.54 0)
+			(at 176.53 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +5523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 129.54 0)
+			(at 176.53 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,8 +5553,74 @@
 		)
 	)
 	(symbol
-		(lib_id "R1:CRCW040214K3FKED")
-		(at 40.64 143.51 270)
+		(lib_id "power:GND")
+		(at 139.7 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3dba235-8c84-41ce-a9e2-4f52ec7629a5")
+		(property "Reference" "#PWR010"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d98b8f43-e021-4904-b8ac-d58967575115")
+		)
+		(instances
+			(project "MudderBoard"
+				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 43.18 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6622,7 +5628,7 @@
 		(dnp no)
 		(uuid "efd708c8-b5f8-4757-abf6-ab96e605e84c")
 		(property "Reference" "Renb"
-			(at 44.45 142.748 90)
+			(at 48.514 50.5461 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,8 +5636,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "14K3"
-			(at 44.45 144.7799 90)
+		(property "Value" "14k3"
+			(at 48.514 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,17 +5646,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:RESC1005X40N"
-			(at 40.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 143.51 0)
+			(at 44.196 52.324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,8 +5654,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 40.64 143.51 0)
+		(property "Datasheet" "~"
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,7 +5673,7 @@
 			)
 		)
 		(property "MF" "Vishay Dale"
-			(at 40.64 143.51 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +5683,7 @@
 			)
 		)
 		(property "Description_1" "\nResistor;Thick Film;14.3 Kilohms;0.063 W;1%;SMT;0402;TCR 37 ppm/DegC;TR | Vishay Dale CRCW040214K3FKED\n"
-			(at 40.64 143.51 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +5693,7 @@
 			)
 		)
 		(property "Package" "1005 Panasonic Electronic Components"
-			(at 40.64 143.51 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +5703,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 40.64 143.51 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +5713,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW040214K3FKED/Vishay+Dale/view-part/?ref=snap"
-			(at 40.64 143.51 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6718,7 +5723,7 @@
 			)
 		)
 		(property "MP" "CRCW040214K3FKED"
-			(at 40.64 143.51 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +5733,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 40.64 143.51 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +5743,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CRCW040214K3FKED/Vishay+Dale/view-part/?ref=eda"
-			(at 40.64 143.51 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +5775,7 @@
 	)
 	(symbol
 		(lib_id "Cout:LMK212BJ226MG-T")
-		(at 245.11 49.53 270)
+		(at 237.49 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6778,7 +5783,7 @@
 		(dnp no)
 		(uuid "f1d2e012-ab14-459e-b779-20ef306048aa")
 		(property "Reference" "Cout4"
-			(at 248.92 50.7999 90)
+			(at 241.3 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +5792,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 249.428 53.086 90)
+			(at 241.808 103.886 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +5801,7 @@
 			)
 		)
 		(property "Footprint" "PH_Foot:CAPC2012X135N"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +5811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +5820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +5829,7 @@
 			)
 		)
 		(property "MF" "Taiyo Yuden"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +5839,7 @@
 			)
 		)
 		(property "Description_1" "\n22 µF ±20% 10V Ceramic Capacitor X5R 0805 (2012 Metric)\n"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +5849,7 @@
 			)
 		)
 		(property "Package" "2012 Taiyo Yuden"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +5859,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +5869,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=snap"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +5879,7 @@
 			)
 		)
 		(property "MP" "LMK212BJ226MG-T"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +5889,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=225286&manufacturer=Taiyo Yuden&part_name=LMK212BJ226MG-T&search_term=lmk212bj226mg-t"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +5899,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +5909,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LMK212BJ226MG-T/Taiyo+Yuden/view-part/?ref=eda"
-			(at 245.11 49.53 0)
+			(at 237.49 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,17 +5934,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND1")
-		(at 127 80.01 0)
+		(lib_id "power:GND")
+		(at 207.01 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fe21dd97-e607-4f34-b9f5-69d2e7df29b3")
-		(property "Reference" "#PWR04"
-			(at 127 86.36 0)
+		(uuid "fda6a366-dc61-4e3d-8d4b-e90df48efd0d")
+		(property "Reference" "#PWR09"
+			(at 207.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,8 +5952,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND1"
-			(at 127 85.09 0)
+		(property "Value" "GND"
+			(at 207.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +5961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 80.01 0)
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6965,7 +5970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 80.01 0)
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,8 +5978,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 127 80.01 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,15 +5988,9 @@
 			)
 		)
 		(pin "1"
-			(uuid "581d22dd-b3cf-41f5-b0b4-db9cfa345697")
+			(uuid "a727f48d-0181-4fbf-8aed-7876fe5e8878")
 		)
 		(instances
-			(project "Pixhawk"
-				(path "/308047b5-bedf-4d5d-b7c2-4cae432cf77b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
 			(project "MudderBoard"
 				(path "/cdf98bf7-80ce-4b13-b655-e6c7c589c122/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c"
 					(reference "#PWR09")
