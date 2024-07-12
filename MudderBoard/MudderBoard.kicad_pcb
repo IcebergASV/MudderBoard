@@ -185,7 +185,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "03cd1ccf-92a7-46b9-9bfa-41d20b88a0c4")
-		(at 48.68 134.85)
+		(at -33.275 144.55)
 		(property "Reference" "R36"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -523,7 +523,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "0aae6732-3f0f-4468-a29f-a8405992b2eb")
-		(at 47.8 105.5)
+		(at -31.15 105.05)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP15"
@@ -2181,7 +2181,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "151df337-3d87-400e-84f1-07035bcd89e8")
-		(at 52.15 122.9)
+		(at -26.8 122.45)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP26"
@@ -2360,7 +2360,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "156edfe5-3ab3-45fc-b3e2-04ad5723444e")
-		(at 39.1 131.6)
+		(at -39.85 131.15)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP7"
@@ -2539,7 +2539,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "174fa2c7-98df-4e56-92b6-3b436d878baa")
-		(at 43.45 105.5)
+		(at -35.5 105.05)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP8"
@@ -3048,7 +3048,7 @@
 	(footprint "Lidar_Foot:LED_DRD1204W-TR"
 		(layer "F.Cu")
 		(uuid "187fc1be-4d41-4855-b48c-c8762b907a29")
-		(at 79.6 133.4)
+		(at -58.65 142.675)
 		(property "Reference" "D8"
 			(at 0.925 -2.385 0)
 			(layer "F.SilkS")
@@ -3275,7 +3275,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "18a62e1c-cccc-4b07-946f-120405cdb494")
-		(at 47.8 122.9)
+		(at -31.15 122.45)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP19"
@@ -4929,7 +4929,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "1fbaec3c-90ee-4e09-95e4-7572fcc583f8")
-		(at 45.73 139.15)
+		(at -36.225 148.85)
 		(property "Reference" "R29"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -5098,7 +5098,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "212e8a83-eb45-4863-9c82-c2e30fe342af")
-		(at 56.5 114.2)
+		(at -20.75 114.35)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP31"
@@ -5630,7 +5630,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "2286a3ea-fe38-4421-8b77-93f092dd69ad")
-		(at 42.78 143.45)
+		(at -39.175 153.15)
 		(property "Reference" "R26"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -6079,7 +6079,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "247776af-3596-4ae4-96fa-2834352e022e")
-		(at 39.1 118.55)
+		(at -39.85 118.1)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP4"
@@ -6258,7 +6258,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "27c22ae0-64d0-4f66-b512-ffa1b0ddf737")
-		(at 43.45 122.9)
+		(at -35.5 122.45)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP12"
@@ -6437,7 +6437,7 @@
 	(footprint "Lidar_Foot:CAPC2012X75N"
 		(layer "F.Cu")
 		(uuid "28deb9f2-ca64-462c-b6aa-dc231997615a")
-		(at 65.478 144.653)
+		(at -72.772 153.928)
 		(property "Reference" "C29"
 			(at -0.46 -1.32 0)
 			(layer "F.SilkS")
@@ -6606,7 +6606,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "2bf1c380-3a53-44ea-a986-89865ddbdfef")
-		(at 52.15 131.6)
+		(at -26.8 131.15)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP28"
@@ -6787,7 +6787,7 @@
 		(uuid "30c890a4-3a44-4631-b3e0-370c6dc979c4")
 		(at 222.75 78)
 		(property "Reference" "C4"
-			(at -0.46 -1.32 360)
+			(at -0.46 -1.32 0)
 			(layer "F.SilkS")
 			(uuid "41b895d3-3078-43e2-985a-c633baf86bc2")
 			(effects
@@ -6798,7 +6798,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 3.15 0.8275 360)
+			(at 3.15 0.8275 0)
 			(layer "F.Fab")
 			(uuid "43986253-a9df-4817-a0a9-f10ed4b3911c")
 			(effects
@@ -6954,7 +6954,7 @@
 	(footprint "Lidar_Foot:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "352a15c6-41da-4292-86c1-e2740da0be49")
-		(at 78.615 136.765)
+		(at -59.635 146.04)
 		(property "Reference" "C23"
 			(at -0.21 -1.05 0)
 			(layer "F.SilkS")
@@ -7123,7 +7123,7 @@
 	(footprint "Inductor_SMD:L_Neosid_SM-PIC0512H"
 		(layer "F.Cu")
 		(uuid "355b49be-358f-4701-a0dd-58fb4573271e")
-		(at 72.35 137.15)
+		(at -65.9 146.425)
 		(descr "Neosid, Inductor, PIC0512H, Power Inductor, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_SMPIC0512H.pdf")
 		(tags "Neosid Inductor PIC0512H Power Inductor Fixed inductor SMD")
 		(property "Reference" "L5"
@@ -7591,7 +7591,7 @@
 		(uuid "3757b3d5-53a7-4fa6-8d2a-72e23bc60519")
 		(at 219.75 89.5 180)
 		(property "Reference" "C9"
-			(at 0.475 -4.685 360)
+			(at 0.475 -4.685 0)
 			(layer "F.SilkS")
 			(uuid "8b8907fe-2638-46c5-8846-d166a602c025")
 			(effects
@@ -7602,7 +7602,7 @@
 			)
 		)
 		(property "Value" "68uF"
-			(at 7.46 4.685 360)
+			(at 7.46 4.685 0)
 			(layer "F.Fab")
 			(uuid "7a854b5b-742e-4cf5-9303-8b910438f523")
 			(effects
@@ -8506,7 +8506,7 @@
 	(footprint "Lidar_Foot:SOP65P640X110-21N"
 		(layer "F.Cu")
 		(uuid "3ce5721a-28ae-4c4d-9ed4-6e61f6ff158c")
-		(at 63.7 139.12)
+		(at -74.55 148.395)
 		(property "Reference" "U9"
 			(at -0.465 -4.262 0)
 			(layer "F.SilkS")
@@ -8941,7 +8941,7 @@
 	(footprint "Lidar_Foot:CAP_25SVPF180M"
 		(layer "F.Cu")
 		(uuid "3db7cb5b-e6ed-4937-a0f0-3141cb2c58b4")
-		(at 79.35 118.1)
+		(at -27 182.75)
 		(property "Reference" "C22"
 			(at 0.525 -5.492 0)
 			(layer "F.SilkS")
@@ -9334,7 +9334,7 @@
 		(uuid "3e215853-e7ac-4f67-89c2-de8cb1613ead")
 		(at 211.25 71.75)
 		(property "Reference" "R7"
-			(at 0 1 360)
+			(at 0 1 0)
 			(layer "F.SilkS")
 			(uuid "b81b8b78-9e54-4156-a857-a63dd9444b69")
 			(effects
@@ -9345,7 +9345,7 @@
 			)
 		)
 		(property "Value" "18.7k"
-			(at 1.25 -0.25 360)
+			(at 1.25 -0.25 0)
 			(layer "F.Fab")
 			(uuid "79ac5711-6c9d-4a2c-b05e-ee7df7a89d0f")
 			(effects
@@ -9501,7 +9501,7 @@
 	(footprint "Lidar_Foot:RESC3216X70N"
 		(layer "F.Cu")
 		(uuid "3e67d92b-7eef-45c4-91d3-d9f2fb08ca1f")
-		(at 44.161 149.505)
+		(at -37.794 159.205)
 		(property "Reference" "R43"
 			(at -1.08 -1.48 0)
 			(layer "F.SilkS")
@@ -10164,7 +10164,7 @@
 	(footprint "Footprints:CAP_CC0805_YAG"
 		(layer "F.Cu")
 		(uuid "48e349aa-5172-45bc-b0d7-43c07d6e880c")
-		(at 60.9608 144.6991)
+		(at -77.2892 153.9741)
 		(tags "CC0805JRNPO9BN821 ")
 		(property "Reference" "C30"
 			(at 0 0 0)
@@ -10457,7 +10457,7 @@
 			)
 			(polygon
 				(pts
-					(xy 60.6736 144.026) (xy 61.248 144.026) (xy 61.248 145.3722) (xy 60.6736 145.3722)
+					(xy -77.5764 153.301) (xy -77.002 153.301) (xy -77.002 154.6472) (xy -77.5764 154.6472)
 				)
 			)
 		)
@@ -10465,9 +10465,9 @@
 	(footprint "Lidar_Foot:LED_DRD1204W-TR"
 		(layer "F.Cu")
 		(uuid "4b470750-2fdf-443c-a602-906c6bea9aee")
-		(at 79.6 129.15)
+		(at -58.65 138.425)
 		(property "Reference" "D7"
-			(at 0.925 -2.385 0)
+			(at -26.1 15.075 0)
 			(layer "F.SilkS")
 			(uuid "dfcb0927-6b6f-4675-bc17-cb4642ef0b01")
 			(effects
@@ -11191,7 +11191,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "4eb333fd-bde7-486c-9789-5931b175c38f")
-		(at 39.1 109.85)
+		(at -39.85 109.4)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP2"
@@ -11370,7 +11370,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "52652d7b-e20f-4558-9ca3-3e03562278ff")
-		(at 39.1 114.2)
+		(at -39.85 113.75)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3"
@@ -11757,7 +11757,7 @@
 			(roundrect_rratio 0.125)
 			(net 90 "unconnected-(U1-SYNCOUT-Pad1)")
 			(pinfunction "SYNCOUT")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "8676887b-4c1e-4f2d-8d73-11bd6e3e49b8")
 		)
@@ -12673,7 +12673,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "58d6a184-3eca-4c55-93de-1e089b93ac2c")
-		(at 42.78 139.15)
+		(at -39.175 148.85)
 		(property "Reference" "R24"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -12842,7 +12842,7 @@
 	(footprint "Lidar_Foot:CR_DO-214ACSMA_TWS"
 		(layer "F.Cu")
 		(uuid "5a188940-593a-4ee6-b780-a160a3a0492b")
-		(at 81.689 147.2447)
+		(at -56.561 156.5197)
 		(tags "SK215A R3G ")
 		(property "Reference" "D6"
 			(at 0 0 0)
@@ -13228,7 +13228,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4952 145.8858) (xy 82.8828 145.8858) (xy 82.8828 148.6036) (xy 80.4952 148.6036)
+					(xy -57.7548 155.1608) (xy -55.3672 155.1608) (xy -55.3672 157.8786) (xy -57.7548 157.8786)
 				)
 			)
 		)
@@ -13236,7 +13236,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "5bc97e5e-7830-4cf5-9085-2b4b66645f4c")
-		(at 45.73 137)
+		(at -36.225 146.7)
 		(property "Reference" "R28"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -13405,7 +13405,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "5c40372f-7128-4cc3-863a-4931548440e0")
-		(at 43.45 109.85)
+		(at -35.5 109.4)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP9"
@@ -13584,7 +13584,7 @@
 	(footprint "Lidar_Foot:CAPC2012X135N"
 		(layer "F.Cu")
 		(uuid "5c408fb8-2634-4d63-a24e-81e1138d3096")
-		(at 39.115 138.17)
+		(at -42.84 147.87)
 		(property "Reference" "C28"
 			(at -0.41 -1.27 0)
 			(layer "F.SilkS")
@@ -13922,7 +13922,7 @@
 	(footprint "Footprints:CAP_CC0805_YAG"
 		(layer "F.Cu")
 		(uuid "60ee45d8-0f52-454d-aa64-b5d064c9cad9")
-		(at 60.9608 147.8073)
+		(at -77.2892 157.0823)
 		(tags "CC0805JRNPO9BN821 ")
 		(property "Reference" "C32"
 			(at 0 0 0)
@@ -14215,7 +14215,7 @@
 			)
 			(polygon
 				(pts
-					(xy 60.6736 147.1342) (xy 61.248 147.1342) (xy 61.248 148.4804) (xy 60.6736 148.4804)
+					(xy -77.5764 156.4092) (xy -77.002 156.4092) (xy -77.002 157.7554) (xy -77.5764 157.7554)
 				)
 			)
 		)
@@ -14223,7 +14223,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "67cbf145-ff83-4c38-b250-7c091713cfd4")
-		(at 48.68 141.3)
+		(at -33.275 151)
 		(property "Reference" "R39"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -15144,7 +15144,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "6c690816-44f5-4c9f-ae11-e03759de33c2")
-		(at 43.45 127.25)
+		(at -35.5 126.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP13"
@@ -15323,7 +15323,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "6f95d754-11cc-4268-9a04-a34be4903201")
-		(at 47.8 118.55)
+		(at -31.15 118.1)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP18"
@@ -15502,7 +15502,7 @@
 	(footprint "Lidar_Foot:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "712253e7-b3f0-4835-809d-6757a1cb92aa")
-		(at 78.615 139.245)
+		(at -59.635 148.52)
 		(property "Reference" "C24"
 			(at -0.21 -1.05 0)
 			(layer "F.SilkS")
@@ -15671,7 +15671,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "71a287a6-beeb-4b98-ae92-cf80d60de6c0")
-		(at 43.45 118.55)
+		(at -35.5 118.1)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP11"
@@ -15850,7 +15850,7 @@
 	(footprint "Lidar_Foot:CAPC2012X95N"
 		(layer "F.Cu")
 		(uuid "736f1039-7ec1-47f3-bb94-94f4ba071fd5")
-		(at 39.115 141.1)
+		(at -42.84 150.8)
 		(property "Reference" "C33"
 			(at -0.41 -1.27 0)
 			(layer "F.SilkS")
@@ -16361,7 +16361,7 @@
 		(uuid "76e2251e-0fdb-4669-9c12-50a0aae65618")
 		(at 225 80.75)
 		(property "Reference" "M1"
-			(at 0.124 -1.6548 360)
+			(at 0.124 -1.6548 0)
 			(layer "F.SilkS")
 			(uuid "b63fc4fc-a504-45c6-8838-fb70f669fb08")
 			(effects
@@ -16372,7 +16372,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 2.5775 1.35 360)
+			(at 2.5775 1.35 0)
 			(layer "F.Fab")
 			(uuid "ad2b6d9b-2214-4fbe-98ff-c4c9a1ff2c1a")
 			(effects
@@ -16854,7 +16854,7 @@
 	(footprint "Lidar_Foot:CAPC2012X135N"
 		(layer "F.Cu")
 		(uuid "7931853e-2e29-4bb7-b885-70e27410ae3e")
-		(at 39.115 149.89)
+		(at -42.84 159.59)
 		(property "Reference" "C36"
 			(at -0.41 -1.27 0)
 			(layer "F.SilkS")
@@ -17512,7 +17512,7 @@
 		(uuid "7b3ad032-aeae-44eb-a6a0-f9c13c04f184")
 		(at 219.5 84 180)
 		(property "Reference" "C10"
-			(at -0.46 -1.32 360)
+			(at -0.46 -1.32 0)
 			(layer "F.SilkS")
 			(uuid "93394268-a302-4d68-b2b9-d5578f7077de")
 			(effects
@@ -17523,7 +17523,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 1.54 1.32 360)
+			(at 1.54 1.32 0)
 			(layer "F.Fab")
 			(uuid "8fefc179-8f12-4eb7-b2dc-4741c1984423")
 			(effects
@@ -17681,7 +17681,7 @@
 		(uuid "7cdb2ebc-3e07-4d6d-93d0-9e50619ef509")
 		(at 212 70)
 		(property "Reference" "C8"
-			(at -2.25 0 360)
+			(at -2.25 0 0)
 			(layer "F.SilkS")
 			(uuid "396ee651-3d45-431e-8d3e-e148cbbdb015")
 			(effects
@@ -17692,7 +17692,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 1.29 1.32 360)
+			(at 1.29 1.32 0)
 			(layer "F.Fab")
 			(uuid "7b1c4090-47a4-4776-b284-d8f1ce07491f")
 			(effects
@@ -18017,7 +18017,7 @@
 	(footprint "Lidar_Foot:CAPC2012X135N"
 		(layer "F.Cu")
 		(uuid "8130cbda-5f6b-49db-8635-1bfc6766cebe")
-		(at 39.115 135.24)
+		(at -42.84 144.94)
 		(property "Reference" "C27"
 			(at -0.41 -1.27 0)
 			(layer "F.SilkS")
@@ -18186,9 +18186,9 @@
 	(footprint "Lidar_Foot:SOP65P640X110-21N"
 		(layer "F.Cu")
 		(uuid "82c94417-d9d0-4e8f-9511-5d868b907a41")
-		(at 63.7 131.06)
+		(at -74.55 140.335)
 		(property "Reference" "U8"
-			(at -0.465 -4.262 0)
+			(at -27.49 13.198 0)
 			(layer "F.SilkS")
 			(uuid "c614781f-9e74-4d35-8912-cc1e69cecfbc")
 			(effects
@@ -18621,7 +18621,7 @@
 	(footprint "Lidar_Foot:CAP_25SVPF180M"
 		(layer "F.Cu")
 		(uuid "85ed16a2-8fe0-4712-ba87-fb60e8c53801")
-		(at 79.35 108.25)
+		(at -27 172.9)
 		(property "Reference" "C21"
 			(at 0.525 -5.492 0)
 			(layer "F.SilkS")
@@ -19012,7 +19012,7 @@
 	(footprint "Lidar_Foot:CAPC2012X135N"
 		(layer "F.Cu")
 		(uuid "85f76dc0-8a00-49f6-a68d-5b396aae1ad4")
-		(at 39.115 146.96)
+		(at -42.84 156.66)
 		(property "Reference" "C35"
 			(at -0.41 -1.27 0)
 			(layer "F.SilkS")
@@ -19181,7 +19181,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "89ed2050-2404-4b37-bfd6-ec32b3dc8150")
-		(at 52.15 114.2)
+		(at -26.8 113.75)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP24"
@@ -19360,7 +19360,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "8e7a9176-83b1-4ade-a2aa-0c52b06f7873")
-		(at 42.78 141.3)
+		(at -39.175 151)
 		(property "Reference" "R25"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -19529,7 +19529,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "8e7e36e6-66b2-44b8-a71b-ee34aeec59ef")
-		(at 52.15 118.55)
+		(at -26.8 118.1)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP25"
@@ -20138,7 +20138,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "Rfbb1"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "637c09d5-ab0d-4083-b714-1b4124072c1a")
 			(effects
@@ -20149,7 +20149,7 @@
 			)
 		)
 		(property "Value" "30k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "3e9b7353-e6fc-4564-912c-b64513d9bbfd")
 			(effects
@@ -20304,7 +20304,7 @@
 			(uuid "ead6c325-814f-4f2b-8d2c-7d5e16f3c718")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cd158d72-9320-430c-bb3e-f3843c57f490")
 			(effects
@@ -20347,7 +20347,7 @@
 	(footprint "Lidar_Foot:CAPC2012X95N"
 		(layer "F.Cu")
 		(uuid "9225bdd9-e81b-40a7-b016-25d1c5f2eff5")
-		(at 39.115 144.03)
+		(at -42.84 153.73)
 		(property "Reference" "C34"
 			(at -0.41 -1.27 0)
 			(layer "F.SilkS")
@@ -20516,7 +20516,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "96675e01-654e-4de2-be1a-bf03841eed3d")
-		(at 47.8 114.2)
+		(at -31.15 113.75)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP17"
@@ -20695,7 +20695,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "99219e79-256c-41c2-8bf6-445cb00f0421")
-		(at 47.8 127.25)
+		(at -31.15 126.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP20"
@@ -21155,7 +21155,7 @@
 	(footprint "Lidar_Foot:RESC0603X28N"
 		(layer "F.Cu")
 		(uuid "9b615cc2-8487-4b92-8fdf-f6d360655643")
-		(at 48.26 145.5)
+		(at -33.695 155.2)
 		(property "Reference" "R40"
 			(at 0.53 -0.77 0)
 			(layer "F.SilkS")
@@ -21324,7 +21324,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "9c1982c5-fe5d-4de7-9313-1d2f33c9512c")
-		(at 56.5 105.5)
+		(at -20.75 105.65)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP29"
@@ -21503,7 +21503,7 @@
 	(footprint "Lidar_Foot:CAPC3216X180N"
 		(layer "F.Cu")
 		(uuid "9c840b3a-42cd-4bec-be43-3e92ae687a90")
-		(at 52.988 145.158)
+		(at -28.967 154.858)
 		(property "Reference" "C39"
 			(at -1.06 -1.5 0)
 			(layer "F.SilkS")
@@ -21692,11 +21692,11 @@
 	(footprint "Inductor_SMD:L_Neosid_SM-PIC0512H"
 		(layer "F.Cu")
 		(uuid "9e8e04fc-3b98-45e2-9fd2-db4d65643a34")
-		(at 72.35 130.4)
+		(at -65.9 139.675)
 		(descr "Neosid, Inductor, PIC0512H, Power Inductor, Fixed inductor, SMD, https://neosid.de/import-data/product-pdf/neoFestind_SMPIC0512H.pdf")
 		(tags "Neosid Inductor PIC0512H Power Inductor Fixed inductor SMD")
 		(property "Reference" "L4"
-			(at 0 -3.6 0)
+			(at -27.025 13.86 0)
 			(layer "F.SilkS")
 			(uuid "43d4299a-a927-4dc3-a1e9-e69ac5d9e4b8")
 			(effects
@@ -21945,7 +21945,7 @@
 	(footprint "Lidar_Foot:RESC1005X35N"
 		(layer "F.Cu")
 		(uuid "a0752e7b-248f-4bf2-aaf2-1c52367dc263")
-		(at 82.095 138.75)
+		(at -56.155 148.025)
 		(property "Reference" "R35"
 			(at 0.29 -0.88 0)
 			(layer "F.SilkS")
@@ -22369,7 +22369,7 @@
 		(uuid "a6c268ff-0bdc-435b-8131-78bdf4edcdd4")
 		(at 214.5 79.5 -90)
 		(property "Reference" "R4"
-			(at -0.75 1.25 360)
+			(at -0.75 1.25 0)
 			(layer "F.SilkS")
 			(uuid "ad2b3c4e-088a-4d66-b48c-24a8c37cdf20")
 			(effects
@@ -22536,9 +22536,9 @@
 	(footprint "PH_Foot:CAPC1608X90N"
 		(layer "F.Cu")
 		(uuid "a76d91e7-12d2-42e3-b7e4-5065950ae304")
-		(at 150.5 43.5 180)
+		(at 150.5 43.75 180)
 		(property "Reference" "CinLDO1"
-			(at -0.75 -1.05 360)
+			(at -0.75 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "9e738bf0-4028-48fe-ade5-6daf1a17e807")
 			(effects
@@ -22549,7 +22549,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 1.54 1.05 360)
+			(at 1.54 1.05 0)
 			(layer "F.Fab")
 			(uuid "24c44481-06c4-4469-b1df-d37f987cf6d1")
 			(effects
@@ -22705,7 +22705,7 @@
 	(footprint "Lidar_Foot:CAPC3216X180N"
 		(layer "F.Cu")
 		(uuid "a87deb2d-31ea-40fe-8552-ca65fba7c5c8")
-		(at 52.988 148.524)
+		(at -28.967 158.224)
 		(property "Reference" "C40"
 			(at -1.06 -1.5 0)
 			(layer "F.SilkS")
@@ -23097,7 +23097,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "a9b5b937-41d5-4f94-93e2-aa5888496a39")
-		(at 56.5 109.85)
+		(at -20.75 110)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP30"
@@ -23276,7 +23276,7 @@
 	(footprint "Lidar_Foot:CAP_EEHZA1V271P"
 		(layer "F.Cu")
 		(uuid "aa87f9d6-14b7-4133-a9bd-d3c8b4803134")
-		(at 65.85 109.25)
+		(at -40.5 173.9)
 		(property "Reference" "C37"
 			(at -0.375 -6.535 0)
 			(layer "F.SilkS")
@@ -23669,7 +23669,7 @@
 		(uuid "ab32e26a-0f5d-4c1c-9b6d-2ffb1be35a35")
 		(at 215.5 84 180)
 		(property "Reference" "R8"
-			(at -0.75 -1.25 360)
+			(at -0.75 -1.25 0)
 			(layer "F.SilkS")
 			(uuid "923681fa-914a-402c-9f93-87f14b038afa")
 			(effects
@@ -23680,7 +23680,7 @@
 			)
 		)
 		(property "Value" "2.05k"
-			(at 1.49 1.1 360)
+			(at 1.49 1.1 0)
 			(layer "F.Fab")
 			(uuid "22272e37-4e93-45dd-a223-d2a1dbe7a26d")
 			(effects
@@ -23838,7 +23838,7 @@
 		(uuid "ac0c1743-e848-486d-98ce-493d996dbe85")
 		(at 221.075 80.75 180)
 		(property "Reference" "M2"
-			(at 0.124 -1.6548 360)
+			(at 0.124 -1.6548 0)
 			(layer "F.SilkS")
 			(uuid "0bd33ac1-d30b-4efd-a9aa-21eacb502a24")
 			(effects
@@ -23849,7 +23849,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 2.75 -1 360)
+			(at 2.75 -1 0)
 			(layer "F.Fab")
 			(uuid "72bcd02f-5cb9-43fd-8c5a-de71e0ab0d27")
 			(effects
@@ -24545,7 +24545,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "ad3a93f8-ffd3-4d3a-93db-d1889cd57289")
-		(at 39.1 122.9)
+		(at -39.85 122.45)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP5"
@@ -24726,7 +24726,7 @@
 		(uuid "adedb55f-50b8-4015-b4fd-8518a20b105a")
 		(at 212.75 84 180)
 		(property "Reference" "R9"
-			(at 0.3 -0.88 360)
+			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
 			(uuid "3463bd22-ea82-4c0c-9a1d-25f34d5c61b4")
 			(effects
@@ -24737,7 +24737,7 @@
 			)
 		)
 		(property "Value" "2.05k"
-			(at 2.05 0.88 360)
+			(at 2.05 0.88 0)
 			(layer "F.Fab")
 			(uuid "b574bda2-b7e7-437b-8f41-1fb326a5d0f8")
 			(effects
@@ -24893,7 +24893,7 @@
 	(footprint "Lidar_Foot:RESC3216X70N"
 		(layer "F.Cu")
 		(uuid "b018450f-599a-4dca-9701-061f838ec5d2")
-		(at 44.161 146.185)
+		(at -37.794 155.885)
 		(property "Reference" "R42"
 			(at -1.08 -1.48 0)
 			(layer "F.SilkS")
@@ -25084,7 +25084,7 @@
 		(uuid "b40ae594-5944-49ce-a1d3-ea9214f70079")
 		(at 219.75 67.945 90)
 		(property "Reference" "R1"
-			(at 0.3 0.37 360)
+			(at 0.3 0.37 0)
 			(layer "F.SilkS")
 			(uuid "652d7a2e-0bf0-47f4-adc1-80dbf1b67c69")
 			(effects
@@ -25654,7 +25654,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "b8641c82-76e0-4af1-9937-db5bf55658aa")
-		(at 47.8 109.85)
+		(at -31.15 109.4)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP16"
@@ -26150,7 +26150,7 @@
 	(footprint "Lidar_Foot:CR_DO-214ACSMA_TWS"
 		(layer "F.Cu")
 		(uuid "b9364ed2-97a7-4b13-b159-f8604e0033c4")
-		(at 81.689 142.7649)
+		(at -56.561 152.0399)
 		(tags "SK215A R3G ")
 		(property "Reference" "D5"
 			(at 0 0 0)
@@ -26536,7 +26536,7 @@
 			)
 			(polygon
 				(pts
-					(xy 80.4952 141.406) (xy 82.8828 141.406) (xy 82.8828 144.1238) (xy 80.4952 144.1238)
+					(xy -57.7548 150.681) (xy -55.3672 150.681) (xy -55.3672 153.3988) (xy -57.7548 153.3988)
 				)
 			)
 		)
@@ -26909,7 +26909,7 @@
 	(footprint "Lidar_Foot:RESC6432X110N"
 		(layer "F.Cu")
 		(uuid "c1381de6-f22c-4da8-a86f-078f0c05ee00")
-		(at 72.604 148.043)
+		(at -65.646 157.318)
 		(property "Reference" "R31"
 			(at -2.75 -2.33 0)
 			(layer "F.SilkS")
@@ -27100,7 +27100,7 @@
 		(uuid "c41798bf-73f8-4dc9-ad40-5d894725e409")
 		(at 220 66 180)
 		(property "Reference" "R3"
-			(at -0.75 -1.5 360)
+			(at -0.75 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "f2cd17d3-b1c4-4dee-938c-54b2af9252a3")
 			(effects
@@ -27111,7 +27111,7 @@
 			)
 		)
 		(property "Value" "3.01"
-			(at 1.56 1.07 360)
+			(at 1.56 1.07 0)
 			(layer "F.Fab")
 			(uuid "5b0e0ddd-62a0-4767-b8fa-49dbe25a4fb0")
 			(effects
@@ -27267,7 +27267,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "c71e0175-d8af-482f-83b2-de8908a4a22d")
-		(at 52.15 105.5)
+		(at -26.8 105.05)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP22"
@@ -27446,7 +27446,7 @@
 	(footprint "Lidar_Foot:CAPC1005X55N"
 		(layer "F.Cu")
 		(uuid "c83d4ea9-f3b3-4b97-b3ff-a426ae288be7")
-		(at 42.78 137)
+		(at -39.175 146.7)
 		(property "Reference" "C26"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -27617,7 +27617,7 @@
 		(uuid "c8e9fdb1-2a84-4445-9b70-2e193e78f284")
 		(at 216.25 80 -90)
 		(property "Reference" "C6"
-			(at -0.1 -1.4 360)
+			(at -0.1 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "050ee0a5-86e6-400c-91c8-ab0cae227741")
 			(effects
@@ -27973,7 +27973,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "cb904453-6f87-4fc8-a7dc-88987d6e0c90")
-		(at 56.5 118.55)
+		(at -20.75 118.7)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP32"
@@ -28321,7 +28321,7 @@
 	(footprint "Lidar_Foot:TRANS_CSD17308Q3"
 		(layer "F.Cu")
 		(uuid "cbd53365-3ab5-4bc8-b5fb-21d279e37f29")
-		(at 53.205 136.2)
+		(at -28.75 145.9)
 		(property "Reference" "M3"
 			(at 0.14 -2.808 0)
 			(layer "F.SilkS")
@@ -30125,7 +30125,7 @@
 	(footprint "Lidar_Foot:RESC6432X110N"
 		(layer "F.Cu")
 		(uuid "cde42c78-5f13-4e34-9e65-cdf2abd9c0e8")
-		(at 72.604 143.031)
+		(at -65.646 152.306)
 		(property "Reference" "R30"
 			(at -2.75 -2.33 0)
 			(layer "F.SilkS")
@@ -30314,7 +30314,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "d32f425d-d03b-46b6-9b1c-8cbaf7fab1f1")
-		(at 43.45 114.2)
+		(at -35.5 113.75)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP10"
@@ -31063,7 +31063,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "d5cdc3ae-cc0a-4b6a-be35-660e6d0c6bd3")
-		(at 48.68 137)
+		(at -33.275 146.7)
 		(property "Reference" "R37"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -31232,7 +31232,7 @@
 	(footprint "Lidar_Foot:CAPC2012X75N"
 		(layer "F.Cu")
 		(uuid "d8482826-5624-4b31-a989-ae3a37893bf9")
-		(at 65.478 147.669)
+		(at -72.772 156.944)
 		(property "Reference" "C31"
 			(at -0.46 -1.32 0)
 			(layer "F.SilkS")
@@ -31590,7 +31590,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "da96bcb2-6890-443a-8495-ba7c8c0c06cd")
-		(at 52.15 127.25)
+		(at -26.8 126.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP27"
@@ -31769,7 +31769,7 @@
 	(footprint "Lidar_Foot:CAPC1005X55N"
 		(layer "F.Cu")
 		(uuid "db845395-efe6-42c8-846a-2973b0ee5886")
-		(at 42.78 134.85)
+		(at -39.175 144.55)
 		(property "Reference" "C25"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -31938,7 +31938,7 @@
 	(footprint "Lidar_Foot:CAP_EEHZA1V271P"
 		(layer "F.Cu")
 		(uuid "dbd2af89-eb8e-4cfe-bc23-df28062efbe2")
-		(at 65.85 121.1)
+		(at -40.5 185.75)
 		(property "Reference" "C38"
 			(at -0.375 -6.535 0)
 			(layer "F.SilkS")
@@ -32329,7 +32329,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "dcb7742d-cf32-4201-8a5d-a9eeb714242a")
-		(at 48.68 139.15)
+		(at -33.275 148.85)
 		(property "Reference" "R38"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -33421,7 +33421,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "e0f80085-1902-4bd9-852b-8f004de05f69")
-		(at 52.15 109.85)
+		(at -26.8 109.4)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP23"
@@ -33600,7 +33600,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "e136398a-1d62-4fba-9928-63d25d62f0f4")
-		(at 39.1 127.25)
+		(at -39.85 126.8)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP6"
@@ -33781,7 +33781,7 @@
 		(uuid "e21830c6-66dc-45c1-9149-07614fb33c2c")
 		(at 229.25 85 180)
 		(property "Reference" "C1"
-			(at -1.06 -1.5 360)
+			(at -1.06 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "4bd5a278-0ffa-4cf7-b9be-5a70ea861971")
 			(effects
@@ -33792,7 +33792,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0.94 1.5 360)
+			(at 0.94 1.5 0)
 			(layer "F.Fab")
 			(uuid "366b2e0d-743f-4961-9e22-f51808083abc")
 			(effects
@@ -34439,10 +34439,298 @@
 			(uuid "1de9beb4-bec6-43fa-90fc-491fa8a62b6a")
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(layer "F.Cu")
+		(uuid "e6bfcecf-7e60-4412-8ff1-2bec5f2f1f2c")
+		(at 191 57.75)
+		(descr "SMD rectangular pad as test Point, square 1.5mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "TP37"
+			(at 0 -1.648 0)
+			(layer "F.SilkS")
+			(uuid "e81e145b-b3e7-49e8-b721-f0b32803315f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "3b3305d3-19fd-4303-bf4c-1761319816cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ac62df4-40ce-4fb2-96f8-bebf43276a43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ed6bf19-0a9c-461e-912d-9c86a7c6af0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "347e726e-1222-44af-8e7c-28400de56e64")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c/ec96bc1f-b903-4fb5-8891-2751b4e6c334")
+		(sheetname "Pixhawk")
+		(sheetfile "pixhawk.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -0.95 -0.95)
+			(end 0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c9f57585-045b-49e3-b947-602fd5fffd1e")
+		)
+		(fp_line
+			(start -0.95 0.95)
+			(end -0.95 -0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "72f2ef16-c8da-46b6-a0c3-b05adaab62df")
+		)
+		(fp_line
+			(start 0.95 -0.95)
+			(end 0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8c20095d-bead-4bb1-8651-bf738f920bee")
+		)
+		(fp_line
+			(start 0.95 0.95)
+			(end -0.95 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "78c69a27-ebbb-4b9e-9071-40e962387e97")
+		)
+		(fp_line
+			(start -1.25 -1.25)
+			(end -1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2542fb6e-7ce4-45af-953e-0ba39a991487")
+		)
+		(fp_line
+			(start -1.25 -1.25)
+			(end 1.25 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "191e3f4c-dbda-4a98-b7e7-aa050e97f412")
+		)
+		(fp_line
+			(start 1.25 1.25)
+			(end -1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "abc8dcb9-45d3-4db1-8937-932391024571")
+		)
+		(fp_line
+			(start 1.25 1.25)
+			(end 1.25 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ee3f1752-00e0-4086-9fcd-9927ee2924e7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "af275008-028d-4d03-9123-87709c8b7cf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 1.5 1.5)
+			(layers "F.Cu" "F.Mask")
+			(net 44 "3V3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "30ef1152-e640-42f2-b1fd-81c4dcf3e407")
+		)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "F.Cu")
+		(uuid "e6ca4153-6474-4b8d-8b56-4e7590a4ad9c")
+		(at 181.5 45)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "TP38"
+			(at 0 -1.448 0)
+			(layer "F.SilkS")
+			(uuid "a05be38e-ce0e-4c45-84fa-57680e8f7fca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(uuid "37eeaf96-b056-4cb2-a39b-ba0f29323b87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e04729cf-592c-4255-86ef-c7f36e55c105")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49587dce-7dd8-48af-abc4-940c8240cfaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49e015eb-a29b-4fd7-9b51-93e3c2de7be0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c/e220b98e-7543-433d-b678-c450c4a9e91b")
+		(sheetname "Pixhawk")
+		(sheetfile "pixhawk.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "b249e8ca-6744-419d-8abc-010ae177f208")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "1d9f66cc-c382-417c-9b00-a575c9656751")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.45 0)
+			(layer "F.Fab")
+			(uuid "3f6c2769-a481-4806-95d3-ef831b5a1f16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net 88 "EN")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e8bc1d7f-4ce5-400d-84cc-a98ec789bda7")
+		)
+	)
 	(footprint "Lidar_Foot:TRANS_CSD17308Q3"
 		(layer "F.Cu")
 		(uuid "e9207e6e-ffa4-4643-81c1-aa322364bb49")
-		(at 53.205 141.05)
+		(at -28.75 150.75)
 		(property "Reference" "M4"
 			(at 0.14 -2.808 0)
 			(layer "F.SilkS")
@@ -34873,7 +35161,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "eba53413-806b-4d0c-bef3-01f31c122e7f")
-		(at 45.73 143.45)
+		(at -36.225 153.15)
 		(property "Reference" "R33"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -35042,7 +35330,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "ed60de76-b8c5-4635-9599-5180d008e100")
-		(at 45.73 134.85)
+		(at -36.225 144.55)
 		(property "Reference" "R27"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -35211,7 +35499,7 @@
 	(footprint "Lidar_Foot:RESC1005X35N"
 		(layer "F.Cu")
 		(uuid "ee54d25d-a107-4c28-87c3-f113d98cab80")
-		(at 82.095 136.6)
+		(at -56.155 145.875)
 		(property "Reference" "R34"
 			(at 0.29 -0.88 0)
 			(layer "F.SilkS")
@@ -35380,7 +35668,7 @@
 	(footprint "Lidar_Foot:RESC0603X28N"
 		(layer "F.Cu")
 		(uuid "efa7dd7a-7183-4c21-805e-544b4e6ac745")
-		(at 48.26 147.45)
+		(at -33.695 157.15)
 		(property "Reference" "R41"
 			(at 0.53 -0.77 0)
 			(layer "F.SilkS")
@@ -35718,7 +36006,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "f023036c-11ca-4bd2-a552-a0a175ca1dfd")
-		(at 43.45 131.6)
+		(at -35.5 131.15)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP14"
@@ -35897,7 +36185,7 @@
 	(footprint "Lidar_Foot:RESC1005X40N"
 		(layer "F.Cu")
 		(uuid "f0e0d78b-6e47-4cec-a382-393726b7c69a")
-		(at 45.73 141.3)
+		(at -36.225 151)
 		(property "Reference" "R32"
 			(at 0.3 -0.88 0)
 			(layer "F.SilkS")
@@ -36066,7 +36354,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "f2786ee0-dcc2-411b-b8a9-2e7d3e5a71de")
-		(at 47.8 131.6)
+		(at -31.15 131.15)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP21"
@@ -36466,7 +36754,7 @@
 	(footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
 		(layer "F.Cu")
 		(uuid "f3d64725-87ef-47f8-bb48-0ca318f6eac3")
-		(at 39.1 105.5)
+		(at -39.85 105.05)
 		(descr "Keystone Miniature THM Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP1"
@@ -36854,6 +37142,179 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(layer "F.Cu")
+		(uuid "fd23db3f-7f5a-4b8d-b881-2a278bd01394")
+		(at 183 79.5)
+		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "TP36"
+			(at 0 -1.448 0)
+			(layer "F.SilkS")
+			(uuid "d7dd50cd-b406-4395-815c-29aa0de219ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(uuid "67e10d6d-768b-4ad3-a681-beec81e1d6d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d99447b-5ba2-4119-8a98-6da1402faa02")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89c4dddc-8fe6-4941-98ca-fc72226fe9e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0edd0046-4ebc-435b-a723-fbc53bcf4fb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0627c6a6-a63c-4c7b-88fc-6e03d8d4f91c/2b17c44d-77dc-4616-8447-9edffa20c4bd")
+		(sheetname "Pixhawk")
+		(sheetfile "pixhawk.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -0.7 -0.7)
+			(end 0.7 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39182ab5-7edf-47d2-bfae-3a4c02c6a61b")
+		)
+		(fp_line
+			(start -0.7 0.7)
+			(end -0.7 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2f6d254b-f887-4d69-bba8-b14eea51d5bf")
+		)
+		(fp_line
+			(start 0.7 -0.7)
+			(end 0.7 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c146982b-155a-42b1-9d4c-63ab230c626e")
+		)
+		(fp_line
+			(start 0.7 0.7)
+			(end -0.7 0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c634bbb2-2a8b-4908-82b1-78ac1c6fb91b")
+		)
+		(fp_line
+			(start -1 -1)
+			(end -1 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c7835a97-bff8-4f97-be59-e84a7be9364e")
+		)
+		(fp_line
+			(start -1 -1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "be330d27-7f7b-4ae2-bc3a-cd5db788995b")
+		)
+		(fp_line
+			(start 1 1)
+			(end -1 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "06a0aba6-6278-461d-9d27-a121876b4e45")
+		)
+		(fp_line
+			(start 1 1)
+			(end 1 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9a7734c1-6f2b-43c9-a8ff-071cd1595f27")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.45 0)
+			(layer "F.Fab")
+			(uuid "20b470da-20ba-4fb0-a648-ed4039cc7b11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask")
+			(net 43 "5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "606b6113-06a2-4cdf-87e5-4a24c58dc07a")
 		)
 	)
 	(gr_rect
