@@ -5,4 +5,6 @@
   (lib (name "FDS4470")(type "KiCad")(uri "${KIPRJMOD}/Components/MOSFETs/FDS4470.pretty")(options "")(descr ""))
   (lib (name "Jetson_lib")(type "KiCad")(uri "${KIPRJMOD}/Jetson_lib.pretty")(options "")(descr ""))
   (lib (name "ESC_Foot")(type "KiCad")(uri "${KIPRJMOD}/ESC Components/ESC_Foot.pretty")(options "")(descr ""))
+  (lib (name "ColinFET")(type "KiCad")(uri "${KIPRJMOD}/ESC Components/ul_CSD16323Q3/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ColinFET1")(type "KiCad")(uri "${KIPRJMOD}/ESC Components/CSD16340Q3")(options "")(descr ""))
 )

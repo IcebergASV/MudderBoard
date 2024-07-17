@@ -33,4 +33,6 @@
   (lib (name "PMR18EZPFV3L00")(type "KiCad")(uri "${KIPRJMOD}/Components/Resistors/PMR18EZPFV3L00/PMR18EZPFV3L00.kicad_sym")(options "")(descr ""))
   (lib (name "CRCW04023R01FKED")(type "KiCad")(uri "${KIPRJMOD}/Components/Resistors/CRCW04023R01FKED/CRCW04023R01FKED.kicad_sym")(options "")(descr ""))
   (lib (name "GRM188R71E474KA12D")(type "KiCad")(uri "${KIPRJMOD}/Components/Resistors/GRM188R71E474KA12D/GRM188R71E474KA12D.kicad_sym")(options "")(descr ""))
+  (lib (name "ColinFET")(type "KiCad")(uri "${KIPRJMOD}/ESC Components/ul_CSD16323Q3/KiCADv6/2024-06-15_15-20-54.kicad_sym")(options "")(descr ""))
+  (lib (name "ColinFET1")(type "KiCad")(uri "${KIPRJMOD}/ESC Components/CSD16340Q3/CSD16340Q3.kicad_sym")(options "")(descr ""))
 )
